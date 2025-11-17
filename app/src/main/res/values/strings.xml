@@ -5,7 +5,7 @@
 
     // Pagina inicial
     <string name="txt_img_fundo_neutro">Fundo da página com uma cidade em um pôr do sol</string>
-    <string name="txt_bvnome">Bem Vindo à Missão Socorro</string>
+    <string name="txt_bvnome">Seja Bem-Vindo à Missão Socorro</string>
     <string name="btn_iniciar">Iniciar</string>
     <string name="btn_voltar">></string>
 
