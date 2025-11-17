@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MissaoSocorroAPP">
         <activity
-            android:name=".MainActivity"
+            android:name=".ATelaInicial"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
