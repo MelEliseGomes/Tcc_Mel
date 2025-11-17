@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MissaoSocorroAPP">
         <activity
+            android:name=".D2TelaNivelAdolescente"
+            android:exported="false" />
+        <activity
+            android:name=".D1TelaNivelCrianca"
+            android:exported="false" />
+        <activity
             android:name=".C2TelaAdolescente"
             android:exported="false" />
         <activity

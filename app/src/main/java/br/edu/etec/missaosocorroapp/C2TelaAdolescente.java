@@ -13,6 +13,8 @@ import androidx.core.view.WindowInsetsCompat;
 public class C2TelaAdolescente extends AppCompatActivity {
 
     Button botao_voltar;
+    Button botao_comecar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,10 +28,18 @@ public class C2TelaAdolescente extends AppCompatActivity {
         });
 
         botao_voltar = findViewById(R.id.btn_voltar);
+        botao_comecar = findViewById(R.id.btn_comecar);
 
         botao_voltar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
                     C2TelaAdolescente.this, BTelaIdade.class
+            );
+            startActivity(nova_tela);
+        });
+
+        botao_comecar.setOnClickListener(v -> {
+            Intent nova_tela = new Intent(
+                    C2TelaAdolescente.this, D2TelaNivelAdolescente.class
             );
             startActivity(nova_tela);
         });
