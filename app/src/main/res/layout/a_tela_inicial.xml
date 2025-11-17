@@ -32,7 +32,7 @@
             android:layout_marginBottom="188dp"
             android:background="@color/cor_preta_2"
 
-            android:text="@string/txt_bvnome"
+            android:text="@string/texto_bvnome"
             android:textAlignment="center"
             android:textColor="@color/cor_branca_1"
             android:textSize="40sp"
@@ -43,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/forma_botao_retangular_final"
-            android:text="@string/btn_iniciar"
+            android:text="@string/texto_iniciar"
             android:textAlignment="center"
             android:textColor="@color/cor_preta_1"
             android:textSize="30sp"

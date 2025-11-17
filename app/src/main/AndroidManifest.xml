@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MissaoSocorroAPP">
         <activity
+            android:name=".BTelaIdade"
+            android:exported="false" />
+        <activity
             android:name=".ATelaInicial"
             android:exported="true">
             <intent-filter>

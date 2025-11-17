@@ -4,89 +4,90 @@
 
 
     // Pagina inicial
-    <string name="txt_img_fundo_neutro">Fundo da página com uma cidade em um pôr do sol</string>
-    <string name="txt_bvnome">Seja Bem-Vindo à Missão Socorro</string>
-    <string name="btn_iniciar">Iniciar</string>
-    <string name="btn_voltar">></string>
+    <string name="texto_img_fundo_neutro">Fundo da página com uma cidade em um pôr do sol</string>
+    <string name="texto_bvnome">Seja Bem-Vindo à Missão Socorro</string>
+    <string name="texto_iniciar">Iniciar</string>
+    <string name="texto_voltar">></string>
 
     // Pagina escolher idade
-    // txt_img_fundo_neutro
-    <string name="txt_nomeapp">Missão Socorro</string>
-    <string name="txt_bemvindo">Bem Vindo</string>
-    <string name="txt_idade">Escolha sua idade</string>
-    <string name="btn_criança">5 - 11</string>
-    <string name="btn_adolescente">12 - 15</string>
+    // texto_img_fundo_neutro
+    <string name="texto_nomeapp">Missão Socorro</string>
+    <string name="texto_bemvindo">Bem Vindo</string>
+    <string name="texto_idade">Escolha sua idade</string>
+    <string name="texto_crianca">5 - 11</string>
+    <string name="texto_adolescente">12 - 15</string>
+    <string name="texto_seta">ᐊ</string>
 
     // Pagina inicial - adolescente/criança
-    // txt_nomeapp
-    <string name="btn_continuar">Continuar</string>
-    <string name="btn_começar">Começar</string>
+    // texto_nomeapp
+    <string name="texto_continuar">Continuar</string>
+    <string name="texto_começar">Começar</string>
 
     //Niveis
-    <string name="txt_niveis">Níveis</string>
-    <string name="txt_nivel1">Nível 1</string>
-    <string name="txt_nivel2">Nível 2</string>
-    <string name="txt_nivel3">Nível 3</string>
+    <string name="texto_niveis">Níveis</string>
+    <string name="texto_nivel1">Nível 1</string>
+    <string name="texto_nivel2">Nível 2</string>
+    <string name="texto_nivel3">Nível 3</string>
 
     // Adolescente
 
     //Nivel 1
-    // txt_nivel1
+    // texto_nivel1
     <string name="his_niv1_in">Vocês são quatro amigos inseparáveis — Clara, João, Mariana e Lucas. Em um certo dia decidem visitar um hospital onde sua fama na cidade causa arrepios entre os cidadãos. Ao entrar no hospital sombrio logo se deparam com um corredor onde as luzes piscam estranhamente, a falta de luz do sol dentro do ambiente os deixam um tanto curiosos para explorar. Um silêncio desconfortável toma conta do corredor vazio. De repente, Lucas cai no chão, desacordado. O coração dispara, a adrenalina sobe, e o pior acontece: somente Clara está com seu celular, embora prestes a descarregar. Ela liga para o resgate, mas sem previsão de chegada dos profissionais. Diante dessa situação, vocês precisam agir rápido, com apenas o que sabem. </string>
     <string name="his_niv1_fim">O hospital parece um labirinto escuro, os passos ao longe soam como ecos, e o tempo está contra vocês. Cada decisão pode salvar Lucas — ou piorar a situação. O medo tenta tomar conta, mas a coragem fala mais alto. </string>
 
     // Nivel 1 - Pagina 1
-    // txt_nivel1
-    <string name="txt_adlct_titulo_1">Lucas está desacordado no chão. O que você faz primeiro?</string>
+    // texto_nivel1
+    <string name="texto_adlct_titulo_1">Lucas está desacordado no chão. O que você faz primeiro?</string>
     <string name="op_adlct_certa_1">Checar a respiração de Lucas e colocar ele numa posição lateral.</string>
     <string name="op_adlct_aceitavel_1">Tentar acordá-lo chamando pelo nome, sem verificar se ele está respirando.</string>
     <string name="op_adlct_errada_1"> Levantar Lucas rapidamente para levá-lo até uma cadeira ou outro lugar.</string>
 
     // Nivel 1 - Certa1
-    // txt_nivel1
-    <string name="txt_his_certa1_1">Você se aproxima devagar, sente o pulso, observa o movimento do peito e percebe que Lucas ainda respira, mas está inconsciente. O ambiente parece ficar ainda mais pesado. As luzes continuam piscando, e o silêncio é interrompido apenas pelo som fraco da respiração dele.</string>
-    <string name="txt_adlct_titulo_1_certa1">Qual é o próximo passo?</string>
+    // texto_nivel1
+    <string name="texto_his_certa1_1">Você se aproxima devagar, sente o pulso, observa o movimento do peito e percebe que Lucas ainda respira, mas está inconsciente. O ambiente parece ficar ainda mais pesado. As luzes continuam piscando, e o silêncio é interrompido apenas pelo som fraco da respiração dele.</string>
+    <string name="texto_adlct_titulo_1_certa1">Qual é o próximo passo?</string>
     <string name="op_adlct_certa_1_certa1">Ficar ao lado dele, observando se a respiração continua, enquanto um dos amigos procura ajuda.</string>
     <string name="op_adlct_aceitavel_1_certa1">Continuar tentando acordá-lo, mexendo nele para ver se responde.</string>
     <string name="op_adlct_errada_1_certa1">Deixar Lucas sozinho para ir buscar ajuda.</string>
 
 
     // Nivel 1 - Errada1
-    // txt_nivel1
-    <string name="txt_his_errada1_1">No desespero, você tenta levantar Lucas às pressas, sentindo seu corpo mole e pesado. De repente, ele começa a tossir e gemer, indicando que algo pior pode acontecer. O medo começa a invadir seu peito.</string>
-    <string name="txt_adlct_titulo_1_errada1">Qual o risco dessa atitude e o que fazer para corrigir?</string>
+    // texto_nivel1
+    <string name="texto_his_errada1_1">No desespero, você tenta levantar Lucas às pressas, sentindo seu corpo mole e pesado. De repente, ele começa a tossir e gemer, indicando que algo pior pode acontecer. O medo começa a invadir seu peito.</string>
+    <string name="texto_adlct_titulo_1_errada1">Qual o risco dessa atitude e o que fazer para corrigir?</string>
     <string name="op_adlct_certa_1_errada1">Deitar Lucas de novo, tentando colocá-lo de lado e evitando que se machuque.</string>
     <string name="op_adlct_aceitavel_1_errada1">Deitar Lucas de novo e mandar os amigos procurarem ajuda.</string>
     <string name="op_adlct_errada_1_errada1">Deitar Lucas de novo e sair com os amigos para procurar ajuda.</string>
 
     // Nivel 1 - Aceitavel1
-    // txt_nivel1
-    <string name="txt_his_aceitavel1_1">Você sacode Lucas com calma, chama seu nome repetidamente, tentando tirá-lo do desmaio. O coração acelera, e você nota que ele ainda não responde direito, mas ao menos a respiração parece estável. A tensão no ar é palpável, e vocês sabem que não podem esperar muito.</string>
-    <string name="txt_adlct_titulo_1_aceitavel1">O que fazer enquanto espera ajuda?</string>
+    // texto_nivel1
+    <string name="texto_his_aceitavel1_1">Você sacode Lucas com calma, chama seu nome repetidamente, tentando tirá-lo do desmaio. O coração acelera, e você nota que ele ainda não responde direito, mas ao menos a respiração parece estável. A tensão no ar é palpável, e vocês sabem que não podem esperar muito.</string>
+    <string name="texto_adlct_titulo_1_aceitavel1">O que fazer enquanto espera ajuda?</string>
     <string name="op_adlct_certa_1_aceitavel1">Colocar Lucas de lado para não engasgar e pedir para um dos amigos procurar ajuda.</string>
     <string name="op_adlct_aceitavel_1_aceitavel1">Ficar chamando ele e chacoalha-lo suavemente para acorda-lo.</string>
     <string name="op_adlct_errada_1_aceitavel1">Levar os amigos para procurar ajuda e deixa-lo sozinho.</string>
 
     // Nivel 1 - Certa2
-    // txt_nivel1
-    <string name="txt_his_certa1_2">Vocês decidem que alguém deve ir atrás de ajuda imediatamente — as portas do hospital parecem distantes, mas não há tempo a perder. Enquanto isso, vocês ficam ao lado de Lucas, atentos a cada suspiro. O silêncio volta a reinar, só interrompido pelo som da respiração e a luz oscilante.</string>
-    <string name="txt_adlct_titulo_1_certa2">Por que é importante ficar com ele e o que deve observar?</string>
+    // texto_nivel1
+    <string name="texto_his_certa1_2">Vocês decidem que alguém deve ir atrás de ajuda imediatamente — as portas do hospital parecem distantes, mas não há tempo a perder. Enquanto isso, vocês ficam ao lado de Lucas, atentos a cada suspiro. O silêncio volta a reinar, só interrompido pelo som da respiração e a luz oscilante.</string>
+    <string name="texto_adlct_titulo_1_certa2">Por que é importante ficar com ele e o que deve observar?</string>
     <string name="op_adlct_certa_1_certa2">Porque ele pode parar de respirar a qualquer momento, então devo observar a respiração e pulso.</string>
     <string name="op_adlct_aceitavel_1_certa2">Por que você pode precisar carrega-lo, devo observar se ele acordar.</string>
     <string name="op_adlct_errada_1_certa2">Não é necessário, é melhor ir buscar ajuda.</string>
 
     // Nivel 1 - Errada2
-    // txt_nivel1
-    <string name="txt_his_errada1_2">Você deixa Lucas sozinho no chão naquela situação e parte para buscar ajuda junto aos amigos — mas a sensação de culpa corrói vocês. O silêncio do hospital parece esmagador, e cada segundo sem cuidado piora a situação.</string>
-    <string name="txt_adlct_titulo_1_errada2">O que é melhor fazer agora?</string>
+    // texto_nivel1
+    <string name="texto_his_errada1_2">Você deixa Lucas sozinho no chão naquela situação e parte para buscar ajuda junto aos amigos — mas a sensação de culpa corrói vocês. O silêncio do hospital parece esmagador, e cada segundo sem cuidado piora a situação.</string>
+    <string name="texto_adlct_titulo_1_errada2">O que é melhor fazer agora?</string>
     <string name="op_adlct_certa_1_errada2">Parar de mexer muito, colocar ele de lado para que ele possa respirar melhor.</string>
     <string name="op_adlct_aceitavel_1_errada2">Vira-lo de lado e bater de leve nas costas.</string>
     <string name="op_adlct_errada_1_errada2">Deixar ele deitado e esperar.</string>
 
     // Nivel 1 - Aceitavel2
-    // txt_nivel1
-    <string name="txt_his_aceitavel1_2">Você continua tentando acordar Lucas, mas o ambiente parece pesado e você sente o cansaço chegar. Ele fica mais fraco, e um frio na espinha toma conta do grupo.</string>
-    <string name="txt_adlct_titulo_1_aceitavel2">Como corrigir?</string>
+    // texto_nivel1
+    <string name="texto_his_aceitavel1_2">Você continua tentando acordar Lucas, mas o ambiente parece pesado e você sente o cansaço chegar. Ele fica mais fraco, e um frio na espinha toma conta do grupo.</string>
+    <string name="texto_adlct_titulo_1_aceitavel2">Como corrigir?</string>
     <string name="op_adlct_certa_1_aceitavel2">Voltar e colocar Lucas na posição lateral de segurança.</string>
     <string name="op_adlct_aceitavel_1_aceitavel2">Pedir para outro amigo cuidar, mas não participar.</string>
     <string name="op_adlct_errada_1_aceitavel2">Sair do hospital.</string>
@@ -97,57 +98,57 @@
     <string name="his_niv2_fim">A multidão parece distante, o silencio continua a ecoar e o foco é apenas em Mariana. Algo está bloqueando a respiração dela.</string>
 
     // Nivel 2 - Pagina 1
-    // txt_nivel2
-    <string name="txt_adlct_titulo_2">O que fazer para ajudar Mariana a desengasgar?</string>
+    // texto_nivel2
+    <string name="texto_adlct_titulo_2">O que fazer para ajudar Mariana a desengasgar?</string>
     <string name="op_adlct_certa_2">Incentivar Mariana a tossir forte, e se não conseguir, realizar a manobra de Heimlich (apertar o abdômen) com cuidado.</string>
     <string name="op_adlct_aceitavel_2">Ficar ao lado dela, tentando acalmá-la, sem mexer nela.</string>
     <string name="op_adlct_errada_2">Dar tapas nas costas dela com força.</string>
 
 
     // Nivel 2 - Certa1
-    // txt_nive2
-    <string name="txt_his_certa2_1">Você explica calmamente o que vai fazer, posiciona as mãos logo acima do umbigo, e com cuidado, aplica pressão para cima. Mariana tosse forte, o objeto parece sair, e a respiração dela começa a normalizar. Um suspiro de alívio atravessa o grupo.</string>
-    <string name="txt_adlct_titulo_2_certa1">Por que essa manobra é eficaz?</string>
+    // texto_nive2
+    <string name="texto_his_certa2_1">Você explica calmamente o que vai fazer, posiciona as mãos logo acima do umbigo, e com cuidado, aplica pressão para cima. Mariana tosse forte, o objeto parece sair, e a respiração dela começa a normalizar. Um suspiro de alívio atravessa o grupo.</string>
+    <string name="texto_adlct_titulo_2_certa1">Por que essa manobra é eficaz?</string>
     <string name="op_adlct_certa_2_certa1">Porque ajuda a expulsar o objeto que está preso nas vias aéreas, liberando a respiração.</string>
     <string name="op_adlct_aceitavel_2_certa1">Porque dói e assusta, então ajuda.</string>
     <string name="op_adlct_errada_2_certa1">Porque é uma técnica perigosa, mas deve-se evitar.</string>
 
     // Nivel 2 - Errada1
-    // txt_nivel2
-    <string name="txt_his_errada2_1">No desespero, você tenta levantar Lucas às pressas, sentindo seu corpo mole e pesado. De repente, ele começa a tossir e gemer, indicando que algo pior pode acontecer. O medo começa a invadir seu peito.</string>
-    <string name="txt_adlct_titulo_2_errada1">O que é melhor fazer agora?</string>
+    // texto_nivel2
+    <string name="texto_his_errada2_1">No desespero, você tenta levantar Lucas às pressas, sentindo seu corpo mole e pesado. De repente, ele começa a tossir e gemer, indicando que algo pior pode acontecer. O medo começa a invadir seu peito.</string>
+    <string name="texto_adlct_titulo_2_errada1">O que é melhor fazer agora?</string>
     <string name="op_adlct_certa_2_errada1">Parar e aplicar a manobra de Heimlich.</string>
     <string name="op_adlct_aceitavel_2_errada1">Continuar batendo nas costas, mais fracamente.</string>
     <string name="op_adlct_errada_2_errada1">Parar de ajudar e se afastar.</string>
 
     // Nivel 2 - Aceitavel1
-    // txt_nivel2
-    <string name="txt_his_aceitavel2_1">Você sacode Lucas com calma, chama seu nome repetidamente, tentando tirá-lo do desmaio. O coração acelera, e você nota que ele ainda não responde direito, mas ao menos a respiração parece estável. A tensão no ar é palpável, e vocês sabem que não podem esperar muito.</string>
-    <string name="txt_adlct_titulo_2_aceitavel1">O que você deve fazer?</string>
+    // texto_nivel2
+    <string name="texto_his_aceitavel2_1">Você sacode Lucas com calma, chama seu nome repetidamente, tentando tirá-lo do desmaio. O coração acelera, e você nota que ele ainda não responde direito, mas ao menos a respiração parece estável. A tensão no ar é palpável, e vocês sabem que não podem esperar muito.</string>
+    <string name="texto_adlct_titulo_2_aceitavel1">O que você deve fazer?</string>
     <string name="op_adlct_certa_2_aceitavel1">Manter a calma, incentivar a respirar devagar, e ficar atento a qualquer sinal de piora.</string>
     <string name="op_adlct_aceitavel_2_aceitavel1">Perguntar se ela quer água ou sair para tomar ar.</string>
     <string name="op_adlct_errada_2_aceitavel1">Esperar até ela estar melhor.</string>
 
     // Nivel 2 - Certa2
-    // txt_nive2
-    <string name="txt_his_certa2_2">Vocês decidem que alguém deve ir atrás de ajuda imediatamente — as portas do hospital parecem distantes, mas não há tempo a perder. Enquanto isso, vocês ficam ao lado de Lucas, atentos a cada suspiro. O silêncio volta a reinar, só interrompido pelo som da respiração e a luz oscilante.</string>
-    <string name="txt_adlct_titulo_2_certa2">Por que é importante ficar com ele e o que deve observar?</string>
+    // texto_nive2
+    <string name="texto_his_certa2_2">Vocês decidem que alguém deve ir atrás de ajuda imediatamente — as portas do hospital parecem distantes, mas não há tempo a perder. Enquanto isso, vocês ficam ao lado de Lucas, atentos a cada suspiro. O silêncio volta a reinar, só interrompido pelo som da respiração e a luz oscilante.</string>
+    <string name="texto_adlct_titulo_2_certa2">Por que é importante ficar com ele e o que deve observar?</string>
     <string name="op_adlct_certa_2_certa2">Porque ele pode parar de respirar a qualquer momento; observe o peito se movimentando e o pulso na garganta ou no pulso.</string>
     <string name="op_adlct_aceitavel_2_certa2">Porque alguém pode precisar de você para carregar; observe se ele pisca os olhos.</string>
     <string name="op_adlct_errada_2_certa2">Porque ele pode não acordar nunca mais; melhor ir buscar ajuda sozinho.</string>
 
     // Nivel 2 - Errada2
-    // txt_nivel2
-    <string name="txt_his_errada2_2">Você deixa Lucas sozinho no chão naquela situação e parte para buscar ajuda junto aos amigos — mas a sensação de culpa corrói vocês. O silêncio do hospital parece esmagador, e cada segundo sem cuidado piora a situação.</string>
-    <string name="txt_adlct_titulo_2_errada2">Como corrigir?</string>
+    // texto_nivel2
+    <string name="texto_his_errada2_2">Você deixa Lucas sozinho no chão naquela situação e parte para buscar ajuda junto aos amigos — mas a sensação de culpa corrói vocês. O silêncio do hospital parece esmagador, e cada segundo sem cuidado piora a situação.</string>
+    <string name="texto_adlct_titulo_2_errada2">Como corrigir?</string>
     <string name="op_adlct_certa_2_errada2">Voltar imediatamente e colocar Lucas na posição lateral de segurança.</string>
     <string name="op_adlct_aceitavel_2_errada2">Pedir para outro amigo cuidar, mas não participar.</string>
     <string name="op_adlct_errada_2_errada2">Sair do hospital.</string>
 
     // Nivel 2 - Aceitavel2
-    // txt_nivel2
-    <string name="txt_his_aceitavel2_2">Você continua tentando acordar Lucas, mas o ambiente parece pesado e você sente o cansaço chegar. Ele fica mais fraco, e um frio na espinha toma conta do grupo.</string>
-    <string name="txt_adlct_titulo_2_aceitavel2">O que é melhor fazer agora?</string>
+    // texto_nivel2
+    <string name="texto_his_aceitavel2_2">Você continua tentando acordar Lucas, mas o ambiente parece pesado e você sente o cansaço chegar. Ele fica mais fraco, e um frio na espinha toma conta do grupo.</string>
+    <string name="texto_adlct_titulo_2_aceitavel2">O que é melhor fazer agora?</string>
     <string name="op_adlct_certa_2_aceitavel2"> Parar de mexer muito, colocar na lateral de segurança para que ele possa respirar melhor.</string>
     <string name="op_adlct_aceitavel_2_aceitavel2">vira-lo de lado e bater de leve nas costas.</string>
     <string name="op_adlct_errada_2_aceitavel2">Desistir e ir embora.</string>
@@ -158,56 +159,56 @@
     <string name="his_niv3_fim">Vocês são a única ajuda de Lucas novamente naquele momento, e não há previsão para a chegada dos profissionais. É hora de agir.</string>
 
     // Nivel 3 - Pagina 1
-    // txt_nivel3
-    <string name="txt_adlct_titulo_3">Como parar o sangramento?</string>
+    // texto_nivel3
+    <string name="texto_adlct_titulo_3">Como parar o sangramento?</string>
     <string name="op_adlct_certa_3">Aplicar pressão direta no corte com um pano limpo ou a roupa, levando a mão/parte ferida.</string>
     <string name="op_adlct_aceitavel_3">Cobrir o corte sem pressão e esperar o sangramento parar sozinho.</string>
     <string name="op_adlct_errada_3">Ignorar o sangramento, deixando o corte aberto.</string>
 
     // Nivel 3 - Certa1
-    // txt_nive3
-    <string name="txt_his_certa3_1">Você pressiona firmemente o ferimento com um pano limpo, tentando conter o sangue que escorre rapidamente. Ainda assustados com o ocorrido se sentem um pouco mais calmos em terminar a realização do curativo. </string>
-    <string name="txt_adlct_titulo_3_certa1">Por que o curativo ajudou Lucas?</string>
+    // texto_nive3
+    <string name="texto_his_certa3_1">Você pressiona firmemente o ferimento com um pano limpo, tentando conter o sangue que escorre rapidamente. Ainda assustados com o ocorrido se sentem um pouco mais calmos em terminar a realização do curativo. </string>
+    <string name="texto_adlct_titulo_3_certa1">Por que o curativo ajudou Lucas?</string>
     <string name="op_adlct_certa_3_certa1">Porque ajudou a estancar o sangue e evitar a perda excessiva.</string>
     <string name="op_adlct_aceitavel_3_certa1">Porque incomodou, mas parece que funciona.</string>
     <string name="op_adlct_errada_3_certa1">Porque piorou a dor.</string>
 
     // Nivel 3 - Errada1
-    // txt_nivel3
-    <string name="txt_his_errada3_1">Você não age, e o sangue continua escorrendo sem controle.</string>
-    <string name="txt_adlct_titulo_3_errada1">Como corrigir?</string>
+    // texto_nivel3
+    <string name="texto_his_errada3_1">Você não age, e o sangue continua escorrendo sem controle.</string>
+    <string name="texto_adlct_titulo_3_errada1">Como corrigir?</string>
     <string name="op_adlct_certa_3_errada1">Aplicar pressão com auxilio de um tecido limpo imediatamente, para evitar a perda de sangue.</string>
     <string name="op_adlct_aceitavel_3_errada1">Pedir ajuda aos amigos, mas não agir diretamente.</string>
     <string name="op_adlct_errada_3_errada1">Entrar em pânico e fugir.</string>
 
     // Nivel 3 - Aceitavel1
-    // txt_nivel3
-    <string name="txt_his_aceitavel3_1">Você cobre o ferimento, mas sem aplicar pressão. O sangue continua escorrendo.</string>
-    <string name="txt_adlct_titulo_3_aceitavel1">O que fazer?</string>
+    // texto_nivel3
+    <string name="texto_his_aceitavel3_1">Você cobre o ferimento, mas sem aplicar pressão. O sangue continua escorrendo.</string>
+    <string name="texto_adlct_titulo_3_aceitavel1">O que fazer?</string>
     <string name="op_adlct_certa_3_aceitavel1">Aumentar a pressão e usar mais tecido limpo para ajudar a estancar.</string>
     <string name="op_adlct_aceitavel_3_aceitavel1">Ficar esperando sem agir muito.</string>
     <string name="op_adlct_errada_3_aceitavel1">Tentar tirar o tecido para ver se melhorou.</string>
 
     // Nivel 3 - Certa2
-    // txt_nive3
-    <string name="txt_his_certa3_2">O sangue começa a diminuir e vocês finalmente veem uma luz vindo do lado de fora, o silêncio é interrompido pelo barulho das sirenes da ambulância. A ajuda chegou!!</string>
-    <string name="txt_adlct_titulo_3_certa2">O que você faz?</string>
+    // texto_nive3
+    <string name="texto_his_certa3_2">O sangue começa a diminuir e vocês finalmente veem uma luz vindo do lado de fora, o silêncio é interrompido pelo barulho das sirenes da ambulância. A ajuda chegou!!</string>
+    <string name="texto_adlct_titulo_3_certa2">O que você faz?</string>
     <string name="op_adlct_certa_3_certa2">Fica junto de Lucas e Mariana, ajuda passando as informações do ocorrido e aprende com os profissionais da saúde.</string>
     <string name="op_adlct_aceitavel_3_certa2">Fica ao lado, mas não participa mais.</string>
     <string name="op_adlct_errada_3_certa2">Se afasta.</string>
 
     // Nivel 3 - Errada2
-    // txt_nivel3
-    <string name="txt_his_errada3_2">Você retira o curativo para ajudar seu amigo com a dor, porém o sangue volta a escorrer intensamente, sem sucesso decide olhar em volta como se fosse encontrar uma saída, quando de repente avista os profissionais da saúde chegando.</string>
-    <string name="txt_adlct_titulo_3_errada2">O que pode ajudar?</string>
+    // texto_nivel3
+    <string name="texto_his_errada3_2">Você retira o curativo para ajudar seu amigo com a dor, porém o sangue volta a escorrer intensamente, sem sucesso decide olhar em volta como se fosse encontrar uma saída, quando de repente avista os profissionais da saúde chegando.</string>
+    <string name="texto_adlct_titulo_3_errada2">O que pode ajudar?</string>
     <string name="op_adlct_certa_3_errada2">procurar aprender as técnicas básicas com os profissionais e manter a calma para agir melhor da próxima vez.</string>
     <string name="op_adlct_aceitavel_3_errada2">Ficar nervoso e deixa os profissionais cuidarem da situação.</string>
     <string name="op_adlct_errada_3_errada2">Desistir de ajudar.</string>
 
     // Nivel 3 - Aceitavel2
-    // txt_nivel3
-    <string name="txt_his_aceitavel3_2">Você ainda se sente um pouco inseguro(a). Porém de repente quando fixa seu olhar a frente pode perceber os profissionais chegando.</string>
-    <string name="txt_adlct_titulo_3_aceitavel2">O que fazer?</string>
+    // texto_nivel3
+    <string name="texto_his_aceitavel3_2">Você ainda se sente um pouco inseguro(a). Porém de repente quando fixa seu olhar a frente pode perceber os profissionais chegando.</string>
+    <string name="texto_adlct_titulo_3_aceitavel2">O que fazer?</string>
     <string name="op_adlct_certa_3_aceitavel2">Perceber que fez errado e ajudar os profissionais com as informações necessárias.</string>
     <string name="op_adlct_aceitavel_3_aceitavel2">Ficar isolado e apenas observar.</string>
     <string name="op_adlct_errada_3_aceitavel2">Abandonar o grupo.</string>
@@ -216,149 +217,149 @@
     // Criança
 
     // Nivel 1 - Pagina 1
-    // txt_nivel1
-    <string name="txt_crc_titulo_1">Ok, vamos lá -----</string>
+    // texto_nivel1
+    <string name="texto_crc_titulo_1">Ok, vamos lá -----</string>
     <string name="op_crc_certa_1">Opção Certa</string>
     <string name="op_crc_aceitavel_1">Opção Aceitável</string>
     <string name="op_crc_errada_1">Opção Errada</string>
 
     // Nivel 1 - Certa1
-    // txt_nivel1
-    <string name="txt_crc_titulo_1_certa1">Ok, vamos lá -----</string>
+    // texto_nivel1
+    <string name="texto_crc_titulo_1_certa1">Ok, vamos lá -----</string>
     <string name="op_crc_certa_1_certa1">Opção Certa</string>
     <string name="op_crc_aceitavel_1_certa1">Opção Aceitável</string>
     <string name="op_crc_errada_1_certa1">Opção Errada</string>
 
     // Nivel 1 - Errada1
-    // txt_nivel1
-    <string name="txt_crc_titulo_1_errada1">Ok, vamos lá -----</string>
+    // texto_nivel1
+    <string name="texto_crc_titulo_1_errada1">Ok, vamos lá -----</string>
     <string name="op_crc_certa_1_errada1">Opção Certa</string>
     <string name="op_crc_aceitavel_1_errada1">Opção Aceitável</string>
     <string name="op_crc_errada_1_errada1">Opção Errada</string>
 
     // Nivel 1 - Aceitavel1
-    // txt_nivel1
-    <string name="txt_crc_titulo_1_aceitavel1">Ok, vamos lá -----</string>
+    // texto_nivel1
+    <string name="texto_crc_titulo_1_aceitavel1">Ok, vamos lá -----</string>
     <string name="op_crc_certa_1_aceitavel1">Opção Certa</string>
     <string name="op_crc_aceitavel_1_aceitavel1">Opção Aceitável</string>
     <string name="op_crc_errada_1_aceitavel1">Opção Errada</string>
 
     // Nivel 1 - Certa2
-    // txt_nivel1
-    <string name="txt_crc_titulo_1_certa2">Ok, vamos lá -----</string>
+    // texto_nivel1
+    <string name="texto_crc_titulo_1_certa2">Ok, vamos lá -----</string>
     <string name="op_crc_certa_1_certa2">Opção Certa</string>
     <string name="op_crc_aceitavel_1_certa2">Opção Aceitável</string>
     <string name="op_crc_errada_1_certa2">Opção Errada</string>
 
     // Nivel 1 - Errada2
-    // txt_nivel1
-    <string name="txt_crc_titulo_1_errada2">Ok, vamos lá -----</string>
+    // texto_nivel1
+    <string name="texto_crc_titulo_1_errada2">Ok, vamos lá -----</string>
     <string name="op_crc_certa_1_errada2">Opção Certa</string>
     <string name="op_crc_aceitavel_1_errada2">Opção Aceitável</string>
     <string name="op_crc_errada_1_errada2">Opção Errada</string>
 
     // Nivel 1 - Aceitavel2
-    // txt_nivel1
-    <string name="txt_crc_titulo_1_aceitavel2">Ok, vamos lá -----</string>
+    // texto_nivel1
+    <string name="texto_crc_titulo_1_aceitavel2">Ok, vamos lá -----</string>
     <string name="op_crc_certa_1_aceitavel2">Opção Certa</string>
     <string name="op_crc_aceitavel_1_aceitavel2">Opção Aceitável</string>
     <string name="op_crc_errada_1_aceitavel2">Opção Errada</string>
 
 
     // Nivel 2
-    // txt_nivel2
-    <string name="txt_crc_titulo_2">Ok, vamos lá -----</string>
+    // texto_nivel2
+    <string name="texto_crc_titulo_2">Ok, vamos lá -----</string>
     <string name="op_crc_certa_2">Opção Certa</string>
     <string name="op_crc_aceitavel_2">Opção Aceitável</string>
     <string name="op_crc_errada_2">Opção Errada</string>
 
     // Nivel 2 - Certa1
-    // txt_nive2
-    <string name="txt_crc_titulo_2_certa1">Ok, vamos lá -----</string>
+    // texto_nive2
+    <string name="texto_crc_titulo_2_certa1">Ok, vamos lá -----</string>
     <string name="op_crc_certa_2_certa1">Opção Certa</string>
     <string name="op_crc_aceitavel_2_certa1">Opção Aceitável</string>
     <string name="op_crc_errada_2_certa1">Opção Errada</string>
 
     // Nivel 2 - Errada1
-    // txt_nivel2
-    <string name="txt_crc_titulo_2_errada1">Ok, vamos lá -----</string>
+    // texto_nivel2
+    <string name="texto_crc_titulo_2_errada1">Ok, vamos lá -----</string>
     <string name="op_crc_certa_2_errada1">Opção Certa</string>
     <string name="op_crc_aceitavel_2_errada1">Opção Aceitável</string>
     <string name="op_crc_errada_2_errada1">Opção Errada</string>
 
     // Nivel 2 - Aceitavel1
-    // txt_nivel2
-    <string name="txt_crc_titulo_2_aceitavel1">Ok, vamos lá -----</string>
+    // texto_nivel2
+    <string name="texto_crc_titulo_2_aceitavel1">Ok, vamos lá -----</string>
     <string name="op_crc_certa_2_aceitavel1">Opção Certa</string>
     <string name="op_crc_aceitavel_2_aceitavel1">Opção Aceitável</string>
     <string name="op_crc_errada_2_aceitavel1">Opção Errada</string>
 
     // Nivel 2 - Certa2
-    // txt_nive2
-    <string name="txt_crc_titulo_2_certa2">Ok, vamos lá -----</string>
+    // texto_nive2
+    <string name="texto_crc_titulo_2_certa2">Ok, vamos lá -----</string>
     <string name="op_crc_certa_2_certa2">Opção Certa</string>
     <string name="op_crc_aceitavel_2_certa2">Opção Aceitável</string>
     <string name="op_crc_errada_2_certa2">Opção Errada</string>
 
     // Nivel 2 - Errada2
-    // txt_nivel2
-    <string name="txt_crc_titulo_2_errada2">Ok, vamos lá -----</string>
+    // texto_nivel2
+    <string name="texto_crc_titulo_2_errada2">Ok, vamos lá -----</string>
     <string name="op_crc_certa_2_errada2">Opção Certa</string>
     <string name="op_crc_aceitavel_2_errada2">Opção Aceitável</string>
     <string name="op_crc_errada_2_errada2">Opção Errada</string>
 
     // Nivel 2 - Aceitavel2
-    // txt_nivel2
-    <string name="txt_crc_titulo_2_aceitavel2">Ok, vamos lá -----</string>
+    // texto_nivel2
+    <string name="texto_crc_titulo_2_aceitavel2">Ok, vamos lá -----</string>
     <string name="op_crc_certa_2_aceitavel2">Opção Certa</string>
     <string name="op_crc_aceitavel_2_aceitavel2">Opção Aceitável</string>
     <string name="op_crc_errada_2_aceitavel2">Opção Errada</string>
 
     // Nivel 3
-    // txt_nivel3
-    <string name="txt_crc_titulo_3">Ok, vamos lá -----</string>
+    // texto_nivel3
+    <string name="texto_crc_titulo_3">Ok, vamos lá -----</string>
     <string name="op_crc_certa_3">Opção Certa</string>
     <string name="op_crc_aceitavel_3">Opção Aceitável</string>
     <string name="op_crc_errada_3">Opção Errada</string>
 
     // Nivel 3 - Certa1
-    // txt_nive3
-    <string name="txt_crc_titulo_3_certa1">Ok, vamos lá -----</string>
+    // texto_nive3
+    <string name="texto_crc_titulo_3_certa1">Ok, vamos lá -----</string>
     <string name="op_crc_certa_3_certa1">Opção Certa</string>
     <string name="op_crc_aceitavel_3_certa1">Opção Aceitável</string>
     <string name="op_crc_errada_3_certa1">Opção Errada</string>
 
     // Nivel 3 - Errada1
-    // txt_nivel3
-    <string name="txt_crc_titulo_3_errada1">Ok, vamos lá -----</string>
+    // texto_nivel3
+    <string name="texto_crc_titulo_3_errada1">Ok, vamos lá -----</string>
     <string name="op_crc_certa_3_errada1">Opção Certa</string>
     <string name="op_crc_aceitavel_3_errada1">Opção Aceitável</string>
     <string name="op_crc_errada_3_errada1">Opção Errada</string>
 
     // Nivel 3 - Aceitavel1
-    // txt_nivel3
-    <string name="txt_crc_titulo_3_aceitavel1">Ok, vamos lá -----</string>
+    // texto_nivel3
+    <string name="texto_crc_titulo_3_aceitavel1">Ok, vamos lá -----</string>
     <string name="op_crc_certa_3_aceitavel1">Opção Certa</string>
     <string name="op_crc_aceitavel_3_aceitavel1">Opção Aceitável</string>
     <string name="op_crc_errada_3_aceitavel1">Opção Errada</string>
 
     // Nivel 3 - Certa2
-    // txt_nive3
-    <string name="txt_crc_titulo_3_certa2">Ok, vamos lá -----</string>
+    // texto_nive3
+    <string name="texto_crc_titulo_3_certa2">Ok, vamos lá -----</string>
     <string name="op_crc_certa_3_certa2">Opção Certa</string>
     <string name="op_crc_aceitavel_3_certa2">Opção Aceitável</string>
     <string name="op_crc_errada_3_certa2">Opção Errada</string>
 
     // Nivel 3 - Errada2
-    // txt_nivel3
-    <string name="txt_crc_titulo_3_errada2">Ok, vamos lá -----</string>
+    // texto_nivel3
+    <string name="texto_crc_titulo_3_errada2">Ok, vamos lá -----</string>
     <string name="op_crc_certa_3_errada2">Opção Certa</string>
     <string name="op_crc_aceitavel_3_errada2">Opção Aceitável</string>
     <string name="op_crc_errada_3_errada2">Opção Errada</string>
 
     // Nivel 3 - Aceitavel2
-    // txt_nivel3
-    <string name="txt_crc_titulo_3_aceitavel2">Ok, vamos lá -----</string>
+    // texto_nivel3
+    <string name="texto_crc_titulo_3_aceitavel2">Ok, vamos lá -----</string>
     <string name="op_crc_certa_3_aceitavel2">Opção Certa</string>
     <string name="op_crc_aceitavel_3_aceitavel2">Opção Aceitável</string>
     <string name="op_crc_errada_3_aceitavel2">Opção Errada</string>

@@ -10,26 +10,26 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class ATelaInicial extends AppCompatActivity {
+public class BTelaIdade extends AppCompatActivity {
 
-    Button botao_iniciar;
+    Button botao_voltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.a_tela_inicial);
+        setContentView(R.layout.b_tela_idade);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
-        botao_iniciar = findViewById(R.id.btn_iniciar);
+        botao_voltar = findViewById(R.id.btn_voltar);
 
-        botao_iniciar.setOnClickListener(v -> {
+        botao_voltar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    ATelaInicial.this, BTelaIdade.class
+                    BTelaIdade.this, ATelaInicial.class
             );
             startActivity(nova_tela);
         });
