@@ -22,6 +22,8 @@
     // texto_nomeapp
     <string name="texto_continuar">Continuar</string>
     <string name="texto_começar">Começar</string>
+    <string name="texto_inicial_crianca">Missão Socorro para Crianças</string>
+    <string name="texto_inicial_adolescente">Missão Socorro para Adolescentes</string>
 
     //Niveis
     <string name="texto_niveis">Níveis</string>
