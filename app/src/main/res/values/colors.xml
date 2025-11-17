@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="cor_preta_1">#FF000000</color>
+    <color name="cor_branca_1">#FFFFFFFF</color>
+    <color name="cor_rosa_1">#B3DF79A0</color>
+    <color name="cor_rosa_2">#F2A8C4</color>
+    <color name="cor_roxo_1">#A17975BB</color>
+    <color name="cor_cinza_1">#A2000000</color>
 </resources>
