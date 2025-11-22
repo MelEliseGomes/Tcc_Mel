@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/criancainicial"
-    tools:context=".D1TelaNivelCrianca">
+    tools:context=".D1LogicaNivelCrianca">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -52,7 +52,7 @@
             android:textSize="30sp" />
 
         <Button
-            android:id="@+id/btn_nivel1"
+            android:id="@+id/btn_resposta_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"

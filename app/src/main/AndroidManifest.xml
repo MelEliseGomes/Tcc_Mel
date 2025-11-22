@@ -11,25 +11,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MissaoSocorroAPP">
         <activity
-            android:name=".EDescricaoNiveis"
+            android:name=".FLogicaQuestoes"
             android:exported="false" />
         <activity
-            android:name=".D2TelaNivelAdolescente"
+            android:name=".ELogicaDescricaoNiveis"
             android:exported="false" />
         <activity
-            android:name=".D1TelaNivelCrianca"
+            android:name=".D2LogicaNivelAdolescente"
             android:exported="false" />
         <activity
-            android:name=".C2TelaAdolescente"
+            android:name=".D1LogicaNivelCrianca"
             android:exported="false" />
         <activity
-            android:name=".C1TelaCrianca"
+            android:name=".C2LogicaAdolescente"
             android:exported="false" />
         <activity
-            android:name=".BTelaIdade"
+            android:name=".C1LogicaCrianca"
             android:exported="false" />
         <activity
-            android:name=".ATelaInicial"
+            android:name=".BLogicaIdade"
+            android:exported="false" />
+        <activity
+            android:name=".ALogicaInicial"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
