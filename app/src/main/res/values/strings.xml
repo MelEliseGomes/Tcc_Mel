@@ -5,6 +5,10 @@
     // Textos níveis
     <string name="texto_nivel_1">Blá blá  blá  blá  blá  blá  blá  blá  blá  blá  blá</string>
     <string name="texto_nivel_2">Lorem Ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum</string>
+    <string name="texto_nivel_3">Ad eternum, ad eternum, ad eternum, ad eternum, ad eternum, ad eternum, ad eternum</string>
+    <string name="texto_nivel_4">2 Blá blá  blá  blá  blá  blá  blá  blá  blá  blá  blá</string>
+    <string name="texto_nivel_5">2 Lorem Ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum</string>
+    <string name="texto_nivel_6">2 Ad eternum, ad eternum, ad eternum, ad eternum, ad eternum, ad eternum, ad eternum</string>
 
     // Pagina inicial
     <string name="texto_img_fundo_neutro">Fundo da página com uma cidade em um pôr do sol</string>

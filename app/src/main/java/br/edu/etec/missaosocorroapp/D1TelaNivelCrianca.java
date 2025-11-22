@@ -12,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class D1TelaNivelCrianca extends AppCompatActivity {
 
-    Button botao_voltar;
+    Button botao_voltar, botao_nivel_1, botao_nivel_2, botao_nivel_3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,13 +26,25 @@ public class D1TelaNivelCrianca extends AppCompatActivity {
         });
 
         botao_voltar = findViewById(R.id.btn_voltar);
+        botao_nivel_1 = findViewById(R.id.btn_nivel1);
+        botao_nivel_2 = findViewById(R.id.btn_nivel2);
+        botao_nivel_3 = findViewById(R.id.btn_nivel3);
 
         botao_voltar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    D1TelaNivelCrianca.this, BTelaIdade.class
+                    D1TelaNivelCrianca.this, C1TelaCrianca.class
             );
             startActivity(nova_tela);
         });
 
+        botao_nivel_1.setOnClickListener(v -> abrirTelaNivel(1));
+        botao_nivel_2.setOnClickListener(v -> abrirTelaNivel(2));
+        botao_nivel_3.setOnClickListener(v -> abrirTelaNivel(3));
+    }
+
+    private void abrirTelaNivel(int nivel) {
+        Intent intent = new Intent(D1TelaNivelCrianca.this, EDescricaoNiveis.class);
+        intent.putExtra("nivel", nivel);
+        startActivity(intent);
     }
 }

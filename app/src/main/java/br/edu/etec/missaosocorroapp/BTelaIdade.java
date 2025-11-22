@@ -12,9 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class BTelaIdade extends AppCompatActivity {
 
-    Button botao_voltar;
-    Button botao_crianca;
-    Button botao_adolescente;
+    Button botao_voltar, botao_crianca, botao_adolescente;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,8 +26,8 @@ public class BTelaIdade extends AppCompatActivity {
         });
 
         botao_voltar = findViewById(R.id.btn_voltar);
-        botao_crianca = findViewById(R.id.btn_crianca);
-        botao_adolescente = findViewById(R.id.btn_adolescente);
+        botao_crianca = findViewById(R.id.btn_5_a_11);
+        botao_adolescente = findViewById(R.id.btn_12_a_15);
 
         botao_voltar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
