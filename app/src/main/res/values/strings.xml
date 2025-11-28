@@ -45,7 +45,7 @@
     <string name="op_B_niv1">Ajuda ele a se levantar com cuidado e tenta fazer ele andar devagar.</string>
     <string name="op_C_niv1">Puxa João pelo braço para levantar logo e continuar andando.</string>
 
-    // Nivel  - 2a
+    // Nivel - 2a
     <string name="titulo_2a_niv1">João continua sentado. Vocês colocam a mochila como apoio para o pé dele e tentam deixar ele mais confortável. O inchaço está ali, mas ele não está sangrando nem desmaiado.</string>
     <string name="pergunta_2a_niv1">Qual é o próximo passo?</string>
     <string name="op_A_p.2a_niv1">Ficar com João, observar se ele está bem e esperar um pouco para que ele se recupere.</string>
@@ -303,7 +303,6 @@
     <string name="op_C_p.3c_niv5">Sair do hospital.</string>
 
 
-
     // Nivel 6
     <string name="his_niv6">Mariana parece se recuperar enquanto isso decidem caminhar pelos corredores sombrios em busca da saída para evitar mais problemas, porém quando menos esperam Lucas, distraído e um pouco atordoado pelo desmaio, acaba esbarrando e cortando a mão em um pedaço de vidro quebrado. O sangue começa a escorrer rápido e o ambiente parece girar com a urgência da situação. A tensão cresce, e o medo de que algo pior aconteça invade todos.\n
     Vocês são a única ajuda de Lucas novamente naquele momento, e não há previsão para a chegada dos profissionais. É hora de agir.</string>
@@ -355,7 +354,6 @@
     <string name="op_A_p.3c_niv6">procurar aprender as técnicas básicas com os profissionais e manter a calma para agir melhor da próxima vez.</string>
     <string name="op_B_p.3c_niv6">Ficar nervoso e deixa os profissionais cuidarem da situação.</string>
     <string name="op_C_p.3c_niv6">Desistir de ajudar.</string>
-
 
 
 </resources>

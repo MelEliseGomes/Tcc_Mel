@@ -12,11 +12,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class FLogicaQuestoes extends AppCompatActivity {
+public class FLogicaQuestoesN1C extends AppCompatActivity {
 
     Button botao_voltar, btnA, btnB, btnC;
     TextView textoPergunta;
-    
+
     int indice = 0;
 
     int acertos = 0;
@@ -37,7 +37,7 @@ public class FLogicaQuestoes extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.f_tela_questoes);
+        setContentView(R.layout.f_tela_questoes_n1_c);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -54,7 +54,7 @@ public class FLogicaQuestoes extends AppCompatActivity {
         atualizarPergunta();
 
         botao_voltar.setOnClickListener(v -> {
-            Intent voltar = new Intent(FLogicaQuestoes.this, BLogicaIdade.class);
+            Intent voltar = new Intent(FLogicaQuestoesN1C.this, BLogicaIdade.class);
             startActivity(voltar);
             finish();
         });

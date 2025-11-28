@@ -47,4 +47,6 @@ public class D1LogicaNivelCrianca extends AppCompatActivity {
         intent.putExtra("nivel", nivel);
         startActivity(intent);
     }
+
+
 }

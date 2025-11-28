@@ -11,7 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MissaoSocorroAPP">
         <activity
-            android:name=".FLogicaQuestoes"
+            android:name=".GLogicaQuestoesN2C"
+            android:exported="false" />
+        <activity
+            android:name=".FLogicaQuestoesN1C"
             android:exported="false" />
         <activity
             android:name=".ELogicaDescricaoNiveis"

@@ -83,7 +83,7 @@ public class ELogicaDescricaoNiveis extends AppCompatActivity {
         botao_continuar.setOnClickListener(v -> {
             Intent voltar = new Intent(
                     ELogicaDescricaoNiveis.this,
-                    FLogicaQuestoes.class
+                    FLogicaQuestoesN1C.class
             );
             startActivity(voltar);
             finish();
