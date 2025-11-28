@@ -34,7 +34,7 @@ public class ELogicaDescricaoNiveis extends AppCompatActivity {
         tituloNivel = findViewById(R.id.txt_nivel1);
         textoNivel = findViewById(R.id.txv_descricao_niveis);
         botao_voltar = findViewById(R.id.btn_voltar);
-        botao_continuar = findViewById(R.id.btn_resposta_1);
+        botao_continuar = findViewById(R.id.btn_nivel1);
 
         // Recebe nível da outra tela
         int nivel = getIntent().getIntExtra("nivel", 1);
@@ -42,32 +42,32 @@ public class ELogicaDescricaoNiveis extends AppCompatActivity {
         switch (nivel) {
             case 1:
                 tituloNivel.setText("Nível 1");
-                textoNivel.setText(getString(R.string.texto_nivel_1));
+                textoNivel.setText(getString(R.string.his_niv1));
                 break;
 
             case 2:
                 tituloNivel.setText("Nível 2");
-                textoNivel.setText(getString(R.string.texto_nivel_2));
+                textoNivel.setText(getString(R.string.his_niv2));
                 break;
 
             case 3:
                 tituloNivel.setText("Nível 3");
-                textoNivel.setText(getString(R.string.texto_nivel_3));
+                textoNivel.setText(getString(R.string.his_niv3));
                 break;
 
             case 4:
                 tituloNivel.setText("Nível 4");
-                textoNivel.setText(getString(R.string.texto_nivel_4));
+                textoNivel.setText(getString(R.string.his_niv4));
                 break;
 
             case 5:
                 tituloNivel.setText("Nível 5");
-                textoNivel.setText(getString(R.string.texto_nivel_5));
+                textoNivel.setText(getString(R.string.his_niv5));
                 break;
 
             case 6:
                 tituloNivel.setText("Nível 6");
-                textoNivel.setText(getString(R.string.texto_nivel_6));
+                textoNivel.setText(getString(R.string.his_niv6));
                 break;
         }
 

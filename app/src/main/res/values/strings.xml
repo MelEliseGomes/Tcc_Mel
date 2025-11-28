@@ -2,13 +2,7 @@
 
     <string name="app_name">My Application - Java</string>
 
-    // Textos níveis
-    <string name="texto_nivel_1">Blá blá  blá  blá  blá  blá  blá  blá  blá  blá  blá</string>
-    <string name="texto_nivel_2">Lorem Ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum</string>
-    <string name="texto_nivel_3">Ad eternum, ad eternum, ad eternum, ad eternum, ad eternum, ad eternum, ad eternum</string>
-    <string name="texto_nivel_4">2 Blá blá  blá  blá  blá  blá  blá  blá  blá  blá  blá</string>
-    <string name="texto_nivel_5">2 Lorem Ipsum, lorem ipsum, lorem ipsum, lorem ipsum, lorem ipsum</string>
-    <string name="texto_nivel_6">2 Ad eternum, ad eternum, ad eternum, ad eternum, ad eternum, ad eternum, ad eternum</string>
+
 
     // Pagina inicial
     <string name="texto_img_fundo_neutro">Fundo da página com uma cidade em um pôr do sol</string>
@@ -38,339 +32,328 @@
     <string name="texto_nivel2">Nível 2</string>
     <string name="texto_nivel3">Nível 3</string>
 
-    // Adolescente
-
-    //Nivel 1
-    // texto_nivel1
-    <string name="his_niv1_in">Vocês são quatro amigos inseparáveis — Clara, João, Mariana e Lucas. Em um certo dia decidem visitar um hospital onde sua fama na cidade causa arrepios entre os cidadãos. Ao entrar no hospital sombrio logo se deparam com um corredor onde as luzes piscam estranhamente, a falta de luz do sol dentro do ambiente os deixam um tanto curiosos para explorar. Um silêncio desconfortável toma conta do corredor vazio. De repente, Lucas cai no chão, desacordado. O coração dispara, a adrenalina sobe, e o pior acontece: somente Clara está com seu celular, embora prestes a descarregar. Ela liga para o resgate, mas sem previsão de chegada dos profissionais. Diante dessa situação, vocês precisam agir rápido, com apenas o que sabem. </string>
-    <string name="his_niv1_fim">O hospital parece um labirinto escuro, os passos ao longe soam como ecos, e o tempo está contra vocês. Cada decisão pode salvar Lucas — ou piorar a situação. O medo tenta tomar conta, mas a coragem fala mais alto. </string>
-
-    // Nivel 1 - Pagina 1
-    // texto_nivel1
-    <string name="texto_adlct_titulo_1">Lucas está desacordado no chão. O que você faz primeiro?</string>
-    <string name="op_adlct_certa_1">Checar a respiração de Lucas e colocar ele numa posição lateral.</string>
-    <string name="op_adlct_aceitavel_1">Tentar acordá-lo chamando pelo nome, sem verificar se ele está respirando.</string>
-    <string name="op_adlct_errada_1"> Levantar Lucas rapidamente para levá-lo até uma cadeira ou outro lugar.</string>
-
-    // Nivel 1 - Certa1
-    // texto_nivel1
-    <string name="texto_his_certa1_1">Você se aproxima devagar, sente o pulso, observa o movimento do peito e percebe que Lucas ainda respira, mas está inconsciente. O ambiente parece ficar ainda mais pesado. As luzes continuam piscando, e o silêncio é interrompido apenas pelo som fraco da respiração dele.</string>
-    <string name="texto_adlct_titulo_1_certa1">Qual é o próximo passo?</string>
-    <string name="op_adlct_certa_1_certa1">Ficar ao lado dele, observando se a respiração continua, enquanto um dos amigos procura ajuda.</string>
-    <string name="op_adlct_aceitavel_1_certa1">Continuar tentando acordá-lo, mexendo nele para ver se responde.</string>
-    <string name="op_adlct_errada_1_certa1">Deixar Lucas sozinho para ir buscar ajuda.</string>
-
-
-    // Nivel 1 - Errada1
-    // texto_nivel1
-    <string name="texto_his_errada1_1">No desespero, você tenta levantar Lucas às pressas, sentindo seu corpo mole e pesado. De repente, ele começa a tossir e gemer, indicando que algo pior pode acontecer. O medo começa a invadir seu peito.</string>
-    <string name="texto_adlct_titulo_1_errada1">Qual o risco dessa atitude e o que fazer para corrigir?</string>
-    <string name="op_adlct_certa_1_errada1">Deitar Lucas de novo, tentando colocá-lo de lado e evitando que se machuque.</string>
-    <string name="op_adlct_aceitavel_1_errada1">Deitar Lucas de novo e mandar os amigos procurarem ajuda.</string>
-    <string name="op_adlct_errada_1_errada1">Deitar Lucas de novo e sair com os amigos para procurar ajuda.</string>
-
-    // Nivel 1 - Aceitavel1
-    // texto_nivel1
-    <string name="texto_his_aceitavel1_1">Você sacode Lucas com calma, chama seu nome repetidamente, tentando tirá-lo do desmaio. O coração acelera, e você nota que ele ainda não responde direito, mas ao menos a respiração parece estável. A tensão no ar é palpável, e vocês sabem que não podem esperar muito.</string>
-    <string name="texto_adlct_titulo_1_aceitavel1">O que fazer enquanto espera ajuda?</string>
-    <string name="op_adlct_certa_1_aceitavel1">Colocar Lucas de lado para não engasgar e pedir para um dos amigos procurar ajuda.</string>
-    <string name="op_adlct_aceitavel_1_aceitavel1">Ficar chamando ele e chacoalha-lo suavemente para acorda-lo.</string>
-    <string name="op_adlct_errada_1_aceitavel1">Levar os amigos para procurar ajuda e deixa-lo sozinho.</string>
-
-    // Nivel 1 - Certa2
-    // texto_nivel1
-    <string name="texto_his_certa1_2">Vocês decidem que alguém deve ir atrás de ajuda imediatamente — as portas do hospital parecem distantes, mas não há tempo a perder. Enquanto isso, vocês ficam ao lado de Lucas, atentos a cada suspiro. O silêncio volta a reinar, só interrompido pelo som da respiração e a luz oscilante.</string>
-    <string name="texto_adlct_titulo_1_certa2">Por que é importante ficar com ele e o que deve observar?</string>
-    <string name="op_adlct_certa_1_certa2">Porque ele pode parar de respirar a qualquer momento, então devo observar a respiração e pulso.</string>
-    <string name="op_adlct_aceitavel_1_certa2">Por que você pode precisar carrega-lo, devo observar se ele acordar.</string>
-    <string name="op_adlct_errada_1_certa2">Não é necessário, é melhor ir buscar ajuda.</string>
-
-    // Nivel 1 - Errada2
-    // texto_nivel1
-    <string name="texto_his_errada1_2">Você deixa Lucas sozinho no chão naquela situação e parte para buscar ajuda junto aos amigos — mas a sensação de culpa corrói vocês. O silêncio do hospital parece esmagador, e cada segundo sem cuidado piora a situação.</string>
-    <string name="texto_adlct_titulo_1_errada2">O que é melhor fazer agora?</string>
-    <string name="op_adlct_certa_1_errada2">Parar de mexer muito, colocar ele de lado para que ele possa respirar melhor.</string>
-    <string name="op_adlct_aceitavel_1_errada2">Vira-lo de lado e bater de leve nas costas.</string>
-    <string name="op_adlct_errada_1_errada2">Deixar ele deitado e esperar.</string>
-
-    // Nivel 1 - Aceitavel2
-    // texto_nivel1
-    <string name="texto_his_aceitavel1_2">Você continua tentando acordar Lucas, mas o ambiente parece pesado e você sente o cansaço chegar. Ele fica mais fraco, e um frio na espinha toma conta do grupo.</string>
-    <string name="texto_adlct_titulo_1_aceitavel2">Como corrigir?</string>
-    <string name="op_adlct_certa_1_aceitavel2">Voltar e colocar Lucas na posição lateral de segurança.</string>
-    <string name="op_adlct_aceitavel_1_aceitavel2">Pedir para outro amigo cuidar, mas não participar.</string>
-    <string name="op_adlct_errada_1_aceitavel2">Sair do hospital.</string>
-
-
-    // Nivel 2
-    <string name="his_niv2_in">Após a situação assustadora com Lucas, ele acorda um pouco atordoado, o clima entre vocês está tenso e cada som ecoa pelos corredores do hospital. De repente Mariana sai de uma das salas do corredor tossindo com força, o rosto vermelho, olhos arregalados, ela comeu algo que a fez engasgar. O pânico ameaça dominar, vocês sabem que precisam tomar providencias urgentes! cada minuto conta. </string>
-    <string name="his_niv2_fim">A multidão parece distante, o silencio continua a ecoar e o foco é apenas em Mariana. Algo está bloqueando a respiração dela.</string>
-
-    // Nivel 2 - Pagina 1
-    // texto_nivel2
-    <string name="texto_adlct_titulo_2">O que fazer para ajudar Mariana a desengasgar?</string>
-    <string name="op_adlct_certa_2">Incentivar Mariana a tossir forte, e se não conseguir, realizar a manobra de Heimlich (apertar o abdômen) com cuidado.</string>
-    <string name="op_adlct_aceitavel_2">Ficar ao lado dela, tentando acalmá-la, sem mexer nela.</string>
-    <string name="op_adlct_errada_2">Dar tapas nas costas dela com força.</string>
-
-
-    // Nivel 2 - Certa1
-    // texto_nive2
-    <string name="texto_his_certa2_1">Você explica calmamente o que vai fazer, posiciona as mãos logo acima do umbigo, e com cuidado, aplica pressão para cima. Mariana tosse forte, o objeto parece sair, e a respiração dela começa a normalizar. Um suspiro de alívio atravessa o grupo.</string>
-    <string name="texto_adlct_titulo_2_certa1">Por que essa manobra é eficaz?</string>
-    <string name="op_adlct_certa_2_certa1">Porque ajuda a expulsar o objeto que está preso nas vias aéreas, liberando a respiração.</string>
-    <string name="op_adlct_aceitavel_2_certa1">Porque dói e assusta, então ajuda.</string>
-    <string name="op_adlct_errada_2_certa1">Porque é uma técnica perigosa, mas deve-se evitar.</string>
-
-    // Nivel 2 - Errada1
-    // texto_nivel2
-    <string name="texto_his_errada2_1">No desespero, você tenta levantar Lucas às pressas, sentindo seu corpo mole e pesado. De repente, ele começa a tossir e gemer, indicando que algo pior pode acontecer. O medo começa a invadir seu peito.</string>
-    <string name="texto_adlct_titulo_2_errada1">O que é melhor fazer agora?</string>
-    <string name="op_adlct_certa_2_errada1">Parar e aplicar a manobra de Heimlich.</string>
-    <string name="op_adlct_aceitavel_2_errada1">Continuar batendo nas costas, mais fracamente.</string>
-    <string name="op_adlct_errada_2_errada1">Parar de ajudar e se afastar.</string>
-
-    // Nivel 2 - Aceitavel1
-    // texto_nivel2
-    <string name="texto_his_aceitavel2_1">Você sacode Lucas com calma, chama seu nome repetidamente, tentando tirá-lo do desmaio. O coração acelera, e você nota que ele ainda não responde direito, mas ao menos a respiração parece estável. A tensão no ar é palpável, e vocês sabem que não podem esperar muito.</string>
-    <string name="texto_adlct_titulo_2_aceitavel1">O que você deve fazer?</string>
-    <string name="op_adlct_certa_2_aceitavel1">Manter a calma, incentivar a respirar devagar, e ficar atento a qualquer sinal de piora.</string>
-    <string name="op_adlct_aceitavel_2_aceitavel1">Perguntar se ela quer água ou sair para tomar ar.</string>
-    <string name="op_adlct_errada_2_aceitavel1">Esperar até ela estar melhor.</string>
-
-    // Nivel 2 - Certa2
-    // texto_nive2
-    <string name="texto_his_certa2_2">Vocês decidem que alguém deve ir atrás de ajuda imediatamente — as portas do hospital parecem distantes, mas não há tempo a perder. Enquanto isso, vocês ficam ao lado de Lucas, atentos a cada suspiro. O silêncio volta a reinar, só interrompido pelo som da respiração e a luz oscilante.</string>
-    <string name="texto_adlct_titulo_2_certa2">Por que é importante ficar com ele e o que deve observar?</string>
-    <string name="op_adlct_certa_2_certa2">Porque ele pode parar de respirar a qualquer momento; observe o peito se movimentando e o pulso na garganta ou no pulso.</string>
-    <string name="op_adlct_aceitavel_2_certa2">Porque alguém pode precisar de você para carregar; observe se ele pisca os olhos.</string>
-    <string name="op_adlct_errada_2_certa2">Porque ele pode não acordar nunca mais; melhor ir buscar ajuda sozinho.</string>
-
-    // Nivel 2 - Errada2
-    // texto_nivel2
-    <string name="texto_his_errada2_2">Você deixa Lucas sozinho no chão naquela situação e parte para buscar ajuda junto aos amigos — mas a sensação de culpa corrói vocês. O silêncio do hospital parece esmagador, e cada segundo sem cuidado piora a situação.</string>
-    <string name="texto_adlct_titulo_2_errada2">Como corrigir?</string>
-    <string name="op_adlct_certa_2_errada2">Voltar imediatamente e colocar Lucas na posição lateral de segurança.</string>
-    <string name="op_adlct_aceitavel_2_errada2">Pedir para outro amigo cuidar, mas não participar.</string>
-    <string name="op_adlct_errada_2_errada2">Sair do hospital.</string>
-
-    // Nivel 2 - Aceitavel2
-    // texto_nivel2
-    <string name="texto_his_aceitavel2_2">Você continua tentando acordar Lucas, mas o ambiente parece pesado e você sente o cansaço chegar. Ele fica mais fraco, e um frio na espinha toma conta do grupo.</string>
-    <string name="texto_adlct_titulo_2_aceitavel2">O que é melhor fazer agora?</string>
-    <string name="op_adlct_certa_2_aceitavel2"> Parar de mexer muito, colocar na lateral de segurança para que ele possa respirar melhor.</string>
-    <string name="op_adlct_aceitavel_2_aceitavel2">vira-lo de lado e bater de leve nas costas.</string>
-    <string name="op_adlct_errada_2_aceitavel2">Desistir e ir embora.</string>
-
-
-    // Nivel 3
-    <string name="his_niv3_in">Mariana parece se recuperar enquanto isso decidem caminhar pelos corredores sombrios em busca da saída para evitar mais problemas, porém quando menos esperam Lucas, distraído e um pouco atordoado pelo desmaio, acaba esbarrando e cortando a mão em um pedaço de vidro quebrado. O sangue começa a escorrer rápido e o ambiente parece girar com a urgência da situação. A tensão cresce, e o medo de que algo pior aconteça invade todos.</string>
-    <string name="his_niv3_fim">Vocês são a única ajuda de Lucas novamente naquele momento, e não há previsão para a chegada dos profissionais. É hora de agir.</string>
-
-    // Nivel 3 - Pagina 1
-    // texto_nivel3
-    <string name="texto_adlct_titulo_3">Como parar o sangramento?</string>
-    <string name="op_adlct_certa_3">Aplicar pressão direta no corte com um pano limpo ou a roupa, levando a mão/parte ferida.</string>
-    <string name="op_adlct_aceitavel_3">Cobrir o corte sem pressão e esperar o sangramento parar sozinho.</string>
-    <string name="op_adlct_errada_3">Ignorar o sangramento, deixando o corte aberto.</string>
-
-    // Nivel 3 - Certa1
-    // texto_nive3
-    <string name="texto_his_certa3_1">Você pressiona firmemente o ferimento com um pano limpo, tentando conter o sangue que escorre rapidamente. Ainda assustados com o ocorrido se sentem um pouco mais calmos em terminar a realização do curativo. </string>
-    <string name="texto_adlct_titulo_3_certa1">Por que o curativo ajudou Lucas?</string>
-    <string name="op_adlct_certa_3_certa1">Porque ajudou a estancar o sangue e evitar a perda excessiva.</string>
-    <string name="op_adlct_aceitavel_3_certa1">Porque incomodou, mas parece que funciona.</string>
-    <string name="op_adlct_errada_3_certa1">Porque piorou a dor.</string>
-
-    // Nivel 3 - Errada1
-    // texto_nivel3
-    <string name="texto_his_errada3_1">Você não age, e o sangue continua escorrendo sem controle.</string>
-    <string name="texto_adlct_titulo_3_errada1">Como corrigir?</string>
-    <string name="op_adlct_certa_3_errada1">Aplicar pressão com auxilio de um tecido limpo imediatamente, para evitar a perda de sangue.</string>
-    <string name="op_adlct_aceitavel_3_errada1">Pedir ajuda aos amigos, mas não agir diretamente.</string>
-    <string name="op_adlct_errada_3_errada1">Entrar em pânico e fugir.</string>
-
-    // Nivel 3 - Aceitavel1
-    // texto_nivel3
-    <string name="texto_his_aceitavel3_1">Você cobre o ferimento, mas sem aplicar pressão. O sangue continua escorrendo.</string>
-    <string name="texto_adlct_titulo_3_aceitavel1">O que fazer?</string>
-    <string name="op_adlct_certa_3_aceitavel1">Aumentar a pressão e usar mais tecido limpo para ajudar a estancar.</string>
-    <string name="op_adlct_aceitavel_3_aceitavel1">Ficar esperando sem agir muito.</string>
-    <string name="op_adlct_errada_3_aceitavel1">Tentar tirar o tecido para ver se melhorou.</string>
-
-    // Nivel 3 - Certa2
-    // texto_nive3
-    <string name="texto_his_certa3_2">O sangue começa a diminuir e vocês finalmente veem uma luz vindo do lado de fora, o silêncio é interrompido pelo barulho das sirenes da ambulância. A ajuda chegou!!</string>
-    <string name="texto_adlct_titulo_3_certa2">O que você faz?</string>
-    <string name="op_adlct_certa_3_certa2">Fica junto de Lucas e Mariana, ajuda passando as informações do ocorrido e aprende com os profissionais da saúde.</string>
-    <string name="op_adlct_aceitavel_3_certa2">Fica ao lado, mas não participa mais.</string>
-    <string name="op_adlct_errada_3_certa2">Se afasta.</string>
-
-    // Nivel 3 - Errada2
-    // texto_nivel3
-    <string name="texto_his_errada3_2">Você retira o curativo para ajudar seu amigo com a dor, porém o sangue volta a escorrer intensamente, sem sucesso decide olhar em volta como se fosse encontrar uma saída, quando de repente avista os profissionais da saúde chegando.</string>
-    <string name="texto_adlct_titulo_3_errada2">O que pode ajudar?</string>
-    <string name="op_adlct_certa_3_errada2">procurar aprender as técnicas básicas com os profissionais e manter a calma para agir melhor da próxima vez.</string>
-    <string name="op_adlct_aceitavel_3_errada2">Ficar nervoso e deixa os profissionais cuidarem da situação.</string>
-    <string name="op_adlct_errada_3_errada2">Desistir de ajudar.</string>
-
-    // Nivel 3 - Aceitavel2
-    // texto_nivel3
-    <string name="texto_his_aceitavel3_2">Você ainda se sente um pouco inseguro(a). Porém de repente quando fixa seu olhar a frente pode perceber os profissionais chegando.</string>
-    <string name="texto_adlct_titulo_3_aceitavel2">O que fazer?</string>
-    <string name="op_adlct_certa_3_aceitavel2">Perceber que fez errado e ajudar os profissionais com as informações necessárias.</string>
-    <string name="op_adlct_aceitavel_3_aceitavel2">Ficar isolado e apenas observar.</string>
-    <string name="op_adlct_errada_3_aceitavel2">Abandonar o grupo.</string>
-
-
     // Criança
 
-    // Nivel 1 - Pagina 1
-    // texto_nivel1
-    <string name="texto_crc_titulo_1">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_1">Opção Certa</string>
-    <string name="op_crc_aceitavel_1">Opção Aceitável</string>
-    <string name="op_crc_errada_1">Opção Errada</string>
+    //Nivel 1
+    <string name="his_niv1">Vocês são quatro amigos inseparáveis - Clara, João, Mariana e Lucas. Certo dia você e seus amigos juntamente a escola realizam uma trilha em uma floresta onde aprenderiam um pouco mais sobre ciências através de plantas e insetos. Em suas bolsas carregam lanches, água, caderno para a pesquisa, um mapa, um kit simples de primeiros socorros e somente Clara tem um celular a disposição. Ao longo da trilha vocês se deparam com uma lagarta tanto quanto curiosa e decidem a ver por um curto período de tempo, quando de repente uma de suas amigas olha para frente e assustada diz que vocês se perderam dos colegas e professores.\nCada decisão importa e o tempo é essencial para se ajudar um amigo. Estão prontos para serem os heróis dessa aventura?</string>
 
-    // Nivel 1 - Certa1
-    // texto_nivel1
-    <string name="texto_crc_titulo_1_certa1">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_1_certa1">Opção Certa</string>
-    <string name="op_crc_aceitavel_1_certa1">Opção Aceitável</string>
-    <string name="op_crc_errada_1_certa1">Opção Errada</string>
+    // Nivel 1 - 1
+    <string name="titulo_niv1">João caiu e está com dor no tornozelo. O que você faz primeiro?</string>
+    <string name="op_A_niv1">Pede para ele ficar parado, verifica se o pé está inchado e coloca algo embaixo para deixar o pé elevado.</string>
+    <string name="op_B_niv1">Ajuda ele a se levantar com cuidado e tenta fazer ele andar devagar.</string>
+    <string name="op_C_niv1">Puxa João pelo braço para levantar logo e continuar andando.</string>
 
-    // Nivel 1 - Errada1
-    // texto_nivel1
-    <string name="texto_crc_titulo_1_errada1">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_1_errada1">Opção Certa</string>
-    <string name="op_crc_aceitavel_1_errada1">Opção Aceitável</string>
-    <string name="op_crc_errada_1_errada1">Opção Errada</string>
+    // Nivel  - 2a
+    <string name="titulo_2a_niv1">João continua sentado. Vocês colocam a mochila como apoio para o pé dele e tentam deixar ele mais confortável. O inchaço está ali, mas ele não está sangrando nem desmaiado.</string>
+    <string name="pergunta_2a_niv1">Qual é o próximo passo?</string>
+    <string name="op_A_p.2a_niv1">Ficar com João, observar se ele está bem e esperar um pouco para que ele se recupere.</string>
+    <string name="op_B_p.2a_niv1">Ficar mexendo no pé dele para ver se melhora.</string>
+    <string name="op_C_p.2a_niv1">Deixar João sozinho e seguir em frente.</string>
 
-    // Nivel 1 - Aceitavel1
-    // texto_nivel1
-    <string name="texto_crc_titulo_1_aceitavel1">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_1_aceitavel1">Opção Certa</string>
-    <string name="op_crc_aceitavel_1_aceitavel1">Opção Aceitável</string>
-    <string name="op_crc_errada_1_aceitavel1">Opção Errada</string>
+    // Nivel 1 - 2b
+    <string name="titulo_2b_niv1">João consegue levantar com ajuda, mas começa a mancar e sente muita dor. O pé dele está inchando rápido, e ele quase cai de novo. Vocês percebem que foi arriscado.</string>
+    <string name="pergunta_2b_niv1">O que é melhor fazer agora?</string>
+    <string name="op_A_p.2b_niv1">Ajudar ele a se sentar novamente e colocar algo para apoiar o pé.</string>
+    <string name="op_B_p.2b_niv1">Tentar fazer ele continuar andando mesmo com dor.</string>
+    <string name="op_C_p.2b_niv1">Deixar ele sentado e ir embora.</string>
 
-    // Nivel 1 - Certa2
-    // texto_nivel1
-    <string name="texto_crc_titulo_1_certa2">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_1_certa2">Opção Certa</string>
-    <string name="op_crc_aceitavel_1_certa2">Opção Aceitável</string>
-    <string name="op_crc_errada_1_certa2">Opção Errada</string>
+    // Nivel 1 - 2c
+    <string name="titulo_2c_niv1">João grita de dor ao ser puxado. O tornozelo parece machucado de verdade. Ele cai no chão de novo, ainda pior.</string>
+    <string name="pergunta_2c_niv1">O que você faz para corrigir?</string>
+    <string name="op_A_p.2c_niv1">Parar tudo, ajudar ele a se deitar, levantar o pé com a mochila e ficar ao lado dele.</string>
+    <string name="op_B_p.2c_niv1">Ficar parado, refletindo sobre o que deveria fazer.</string>
+    <string name="op_C_p.2c_niv1">Dizer para ele “aguentar firme” e seguir andando.</string>
 
-    // Nivel 1 - Errada2
-    // texto_nivel1
-    <string name="texto_crc_titulo_1_errada2">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_1_errada2">Opção Certa</string>
-    <string name="op_crc_aceitavel_1_errada2">Opção Aceitável</string>
-    <string name="op_crc_errada_1_errada2">Opção Errada</string>
+    // Nivel 1 - 3a
+    <string name="titulo_3a_niv1">Vocês decidem esperar para que seu amigo consiga se recuperar, oferecendo água e observando o inchaço. João está mais calmo e agradece a ajuda.</string>
+    <string name="pergunta_3a_niv1">Por que foi importante ficar com ele?</string>
+    <string name="op_A_p.3a_niv1">Porque ele pode piorar, e alguém precisa observar se ele está bem.</string>
+    <string name="op_B_p.3a_niv1">Porque ele pode querer conversar.</string>
+    <string name="op_C_p.3a_niv1">Porque é feio deixar amigo sozinho, mas não importa muito.</string>
 
-    // Nivel 1 - Aceitavel2
-    // texto_nivel1
-    <string name="texto_crc_titulo_1_aceitavel2">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_1_aceitavel2">Opção Certa</string>
-    <string name="op_crc_aceitavel_1_aceitavel2">Opção Aceitável</string>
-    <string name="op_crc_errada_1_aceitavel2">Opção Errada</string>
 
+    // Nivel 1 - 3b
+    <string name="titulo_3b_niv1">Vocês tentam fazer o melhor, mas ainda estão um pouco confusos. João continua com dor, e o tempo vai passando...</string>
+    <string name="pergunta_3b_niv1">O que é melhor fazer agora?</string>
+    <string name="op_A_p.3b_niv1">Parar tudo, observar o ferimento e deixar o pé elevado.</string>
+    <string name="op_B_p.3b_niv1">Tentar colocar gelo das folhas (mesmo sem gelo de verdade).</string>
+    <string name="op_C_p.3b_niv1">Deixar João sozinho e correr.</string>
+
+    // Nivel 1 - 3c
+    <string name="titulo_3c_niv1">Vocês deixaram João sozinho para procurar os professores. No meio do caminho, percebem que ele pode estar piorando sozinho lá atrás.</string>
+    <string name="pergunta_3c_niv1">Como corrigir isso?</string>
+    <string name="op_A_p.3c_niv1">Voltar imediatamente e cuidar de João.</string>
+    <string name="op_B_p.3c_niv1">voltar andando devagar e observando.</string>
+    <string name="op_C_p.3c_niv1">Seguir sem pensar.</string>
 
     // Nivel 2
-    // texto_nivel2
-    <string name="texto_crc_titulo_2">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_2">Opção Certa</string>
-    <string name="op_crc_aceitavel_2">Opção Aceitável</string>
-    <string name="op_crc_errada_2">Opção Errada</string>
+    <string name="his_niv2">Após cuidarem de João, o grupo decide fazer uma pequena pausa perto de um tronco caído. Mariana decide sentar para procurar em sua mochila algo para comer e ao abaixar e usar sua mão como apoio para se sentar, acaba encostando a mão em um galho seco com ponta afiada escondido entre as folhas. Ela acaba se arranhando e faz um corte na palma da mão. Ela sente uma dor repentina, o machucado não é muito profundo, mas está sangrando.\nVocês têm o kit de primeiros socorros na mochila. O que fazer agora?</string>
 
-    // Nivel 2 - Certa1
-    // texto_nive2
-    <string name="texto_crc_titulo_2_certa1">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_2_certa1">Opção Certa</string>
-    <string name="op_crc_aceitavel_2_certa1">Opção Aceitável</string>
-    <string name="op_crc_errada_2_certa1">Opção Errada</string>
+    // Nivel 2 - 1
+    <string name="titulo_niv2">Mariana cortou a mão e está sangrando um pouco. O que você faz primeiro?</string>
+    <string name="op_A_niv2">Lava o corte com água limpa, usa um lenço limpo do kit para estancar o sangue e mantém a calma.</string>
+    <string name="op_B_niv2">Pede para ela colocar a mão na camiseta para estancar o sangue.</string>
+    <string name="op_C_niv2">Fica nervoso, sai correndo e grita para ela não mexer a mão.</string>
 
-    // Nivel 2 - Errada1
-    // texto_nivel2
-    <string name="texto_crc_titulo_2_errada1">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_2_errada1">Opção Certa</string>
-    <string name="op_crc_aceitavel_2_errada1">Opção Aceitável</string>
-    <string name="op_crc_errada_2_errada1">Opção Errada</string>
+    // Nivel 2 - 2a
+    <string name="ttitulo_2a_niv2">Você pega a garrafinha de água, lava o corte com cuidado e usa uma gaze limpa do kit para cobrir o ferimento. Mariana se sente melhor e sorri, mesmo ainda com dor.</string>
+    <string name="pergunta_2a_niv2">O que mais vocês podem fazer para ajudar?</string>
+    <string name="op_A_p.2a_niv2">Ficar de olho se o sangramento para, manter o curativo e acalmar Mariana.</string>
+    <string name="op_B_p.2a_niv2">Falar para ela ficar calma.</string>
+    <string name="op_C_p.2a_niv2">Tirar o curativo toda hora para ver como está o machucado.</string>
 
-    // Nivel 2 - Aceitavel1
-    // texto_nivel2
-    <string name="texto_crc_titulo_2_aceitavel1">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_2_aceitavel1">Opção Certa</string>
-    <string name="op_crc_aceitavel_2_aceitavel1">Opção Aceitável</string>
-    <string name="op_crc_errada_2_aceitavel1">Opção Errada</string>
+    // Nivel 2 - 2b
+    <string name="titulo_2b_niv2">Mariana pressiona a mão contra a camiseta, e o sangramento diminui. Mas vocês percebem que a mão está suja, e que isso pode causar uma infecção e fazer doer mais.</string>
+    <string name="pergunta_2b_niv2">O que fazer agora?</string>
+    <string name="op_A_p.2b_niv2">Lavar a mão com água limpa e usar o kit de primeiros socorros.</string>
+    <string name="op_B_p.2b_niv2">Esperar mais um pouco para ver se melhora.</string>
+    <string name="op_C_p.2b_niv2">Dizer que é só um machucadinho e seguir em frente.</string>
 
-    // Nivel 2 - Certa2
-    // texto_nive2
-    <string name="texto_crc_titulo_2_certa2">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_2_certa2">Opção Certa</string>
-    <string name="op_crc_aceitavel_2_certa2">Opção Aceitável</string>
-    <string name="op_crc_errada_2_certa2">Opção Errada</string>
+    // Nivel 2 - 2c
+    <string name="titulo_2c_niv2">Você se desespera e não consegue ajudar Mariana. Ela também fica assustada e o grupo começa a entrar em pânico.</string>
+    <string name="pergunta_2c_niv2">Como corrigir a situação?</string>
+    <string name="op_A_p.2c_niv2">Respirar fundo, usar o kit com calma e lavar a ferida com água.</string>
+    <string name="op_B_p.2c_niv2">Pedir para outra pessoa fazer tudo enquanto você só observa e diz pra ela se acalmar.</string>
+    <string name="op_C_p.2c_niv2">Ficar reclamando do acidente e não ajudar.</string>
 
-    // Nivel 2 - Errada2
-    // texto_nivel2
-    <string name="texto_crc_titulo_2_errada2">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_2_errada2">Opção Certa</string>
-    <string name="op_crc_aceitavel_2_errada2">Opção Aceitável</string>
-    <string name="op_crc_errada_2_errada2">Opção Errada</string>
+    // Nivel 2 - 3a
+    <string name="titulo_3a_niv2">Vocês cuidam do corte de forma calma e correta. Mariana está mais tranquila, e todos aprendem que um machucado pequeno também precisa de atenção.</string>
+    <string name="pergunta_3a_niv2">Por que foi importante cuidar direitinho do corte?</string>
+    <string name="op_A_p.3a_niv2">Porque um corte pode infeccionar e causar problemas e dor se não for limpo.</string>
+    <string name="op_B_p.3a_niv2">Porque ela ficou triste e precisava de carinho.</string>
+    <string name="op_C_p.3a_niv2">Porque se ela chorar muito, os professores vão brigar.</string>
 
-    // Nivel 2 - Aceitavel2
-    // texto_nivel2
-    <string name="texto_crc_titulo_2_aceitavel2">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_2_aceitavel2">Opção Certa</string>
-    <string name="op_crc_aceitavel_2_aceitavel2">Opção Aceitável</string>
-    <string name="op_crc_errada_2_aceitavel2">Opção Errada</string>
+    // Nivel 2 - 3b
+    <string name="titulo_3b_niv2">Você tentou ajudar a acalma-la, mas sabemos que nesses momentos devemos ajudar nossos amigos a resolver o problema. Mariana fica com um pouco de dor, vocês aprenderam algo.</string>
+    <string name="pergunta_3b_niv2">O que é melhor fazer na próxima vez?</string>
+    <string name="op_A_p.3b_niv2">Usar o kit com calma e sempre limpar bem a ferida.</string>
+    <string name="op_B_p.3b_niv2">Pedir para alguém fazer tudo.</string>
+    <string name="op_C_p.3b_niv2">Deixar o machucado como está.</string>
+
+    // Nivel 2 - 3c
+    <string name="titulo_3c_niv2">Vocês não cuidaram do corte corretamente. Mariana está com a mão suja e agora ela sente mais dor.</string>
+    <string name="pergunta_3c_niv2">Como corrigir isso antes que piore?</string>
+    <string name="op_A_p.3c_niv2">Refazer o curativo com calma, usando o kit de forma limpa e segura.</string>
+    <string name="op_B_p.3c_niv2">Pedir ajuda, mas sem explicar o que aconteceu.</string>
+    <string name="op_C_p.3c_niv2">Ignorar o problema e continuar andando.</string>
+
 
     // Nivel 3
-    // texto_nivel3
-    <string name="texto_crc_titulo_3">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_3">Opção Certa</string>
-    <string name="op_crc_aceitavel_3">Opção Aceitável</string>
-    <string name="op_crc_errada_3">Opção Errada</string>
+    <string name="his_niv3">O grupo segue pela trilha e, após algum tempo caminhando, começam a se sentir cansados. O clima está quente e o caminho é um tanto quanto desafiador. Durante a trilha Lucas diz estar se sentindo tonto, começa a suar muito e, de repente quando menos esperavam, ele desmaia. Ele cai no chão, mas ao checa-lo percebem que ele ainda está respirando. O grupo precisa agir rápido para garantir que ele recupere a consciência e se mantenha seguro.</string>
 
-    // Nivel 3 - Certa1
-    // texto_nive3
-    <string name="texto_crc_titulo_3_certa1">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_3_certa1">Opção Certa</string>
-    <string name="op_crc_aceitavel_3_certa1">Opção Aceitável</string>
-    <string name="op_crc_errada_3_certa1">Opção Errada</string>
+    // Nivel 3 - 1
+    <string name="titulo_niv3">Lucas desmaiou e está deitado no chão. O que você faz primeiro?</string>
+    <string name="op_A_niv3">Deitar Lucas de lado, levantar as pernas dele com ajuda da mochila e garantir que ele está respirar.</string>
+    <string name="op_B_niv3">Tentar acordá-lo imediatamente, sacudindo seu ombro com força.</string>
+    <string name="op_C_niv3">Deixar Lucas deitado e continuar procurando ajuda sem prestar atenção na situação.</string>
 
-    // Nivel 3 - Errada1
-    // texto_nivel3
-    <string name="texto_crc_titulo_3_errada1">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_3_errada1">Opção Certa</string>
-    <string name="op_crc_aceitavel_3_errada1">Opção Aceitável</string>
-    <string name="op_crc_errada_3_errada1">Opção Errada</string>
+    // Nivel 3 - 2a
+    <string name="titulo_2a_niv3">Você ajuda a deitar Lucas de lado, elevando as pernas dele para melhorar a circulação e garantir que ele possa respirar melhor. O grupo se mantém calmo e observa Lucas atentamente enquanto ele começa a recuperar a consciência.\nLucas começa a mexer os dedos e logo abre os olhos. Ele parece confuso, mas consegue falar.</string>
+    <string name="pergunta_2a_niv3">O que fazer agora?</string>
+    <string name="op_A_p.2a_niv3">Dar um pouco de água para Lucas, mantê-lo calmo e esperar até que ele se recupere completamente.</string>
+    <string name="op_B_p.2a_niv3">Tentar fazer Lucas se levantar de imediato, já que ele parece estar acordando.</string>
+    <string name="op_C_p.2a_niv3">Deixar Lucas deitado e sair para procurar os professores sem garantir que ele está bem.</string>
 
-    // Nivel 3 - Aceitavel1
-    // texto_nivel3
-    <string name="texto_crc_titulo_3_aceitavel1">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_3_aceitavel1">Opção Certa</string>
-    <string name="op_crc_aceitavel_3_aceitavel1">Opção Aceitável</string>
-    <string name="op_crc_errada_3_aceitavel1">Opção Errada</string>
 
-    // Nivel 3 - Certa2
-    // texto_nive3
-    <string name="texto_crc_titulo_3_certa2">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_3_certa2">Opção Certa</string>
-    <string name="op_crc_aceitavel_3_certa2">Opção Aceitável</string>
-    <string name="op_crc_errada_3_certa2">Opção Errada</string>
+    // Nivel 3 - 2b
+    <string name="titulo_2b_niv3">Você tenta acordar Lucas sacudindo seu ombro, mas ele ainda está tonto e não consegue reagir direito. Ele começa a mexer a cabeça lentamente, mas não está totalmente consciente.</string>
+    <string name="pergunta_2b_niv3">O que fazer agora?</string>
+    <string name="op_A_p.2b_niv3">Colocar Lucas de lado, elevar as pernas dele e esperar pacientemente até que ele recupere a consciência.</string>
+    <string name="op_B_p.2b_niv3">Levantar Lucas rapidamente para tentar fazer ele voltar para a trilha.</string>
+    <string name="op_C_p.2b_niv3">Deixar Lucas sozinho enquanto procura os professores com mais calma.</string>
 
-    // Nivel 3 - Errada2
-    // texto_nivel3
-    <string name="texto_crc_titulo_3_errada2">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_3_errada2">Opção Certa</string>
-    <string name="op_crc_aceitavel_3_errada2">Opção Aceitável</string>
-    <string name="op_crc_errada_3_errada2">Opção Errada</string>
+    // Nivel 3 - 2c
+    <string name="titulo_2c_niv3">Você não age de forma rápida, deixando Lucas deitado sem prestar os primeiros cuidados necessários. Ele começa a ter dificuldades respiratórias e não melhora.</string>
+    <string name="pergunta_2c_niv3">O que fazer agora?</string>
+    <string name="op_A_p.2c_niv3">Agir rapidamente: deitar Lucas corretamente, elevar as pernas dele e garantir que ele respire bem.</string>
+    <string name="op_B_p.2c_niv3">Ficar parado, e pedir para alguém levantar Lucas.</string>
+    <string name="op_C_P.2c_niv3">Deixar Lucas deitado sem fazer nada e sair procurando ajuda.</string>
 
-    // Nivel 3 - Aceitavel2
-    // texto_nivel3
-    <string name="texto_crc_titulo_3_aceitavel2">Ok, vamos lá -----</string>
-    <string name="op_crc_certa_3_aceitavel2">Opção Certa</string>
-    <string name="op_crc_aceitavel_3_aceitavel2">Opção Aceitável</string>
-    <string name="op_crc_errada_3_aceitavel2">Opção Errada</string>
+    // Nivel 3 - 3a
+    <string name="titulo_3a_niv3">Lucas já acordou, está mais calmo e se sente melhor após alguns minutos descansando. Ele se recupera e agradece a ajuda, e de repente quando vocês olham a frente veem finalmente os professores, enfim uma luz no fim do túnel. Agora os adultos podem os ajudar!!!.</string>
+    <string name="pergunta_3a_niv3">Por que foi importante deitar Lucas de lado e elevar as pernas dele?</string>
+    <string name="op_A_p.3a_niv3">Porque essa posição ajuda a melhorar a circulação sanguínea e a oxigenação do cérebro.</string>
+    <string name="op_B_p.3a_niv3">Porque deitar Lucas fez ele ficar mais confortável.</string>
+    <string name="op_C_p.3a_niv3">Porque você sabia que ele ficaria bem em qualquer situação.</string>
+
+    // Nivel 3 - 3b
+    <string name="titulo_3b_niv3">Vocês tentam fazer Lucas se levantar logo, mas ele sente tontura e quase cai de novo. Ele está ainda um pouco fraco.</string>
+    <string name="pergunta_3b_niv3">O que é melhor fazer agora?</string>
+    <string name="op_A_p.3b_niv3">Deitar Lucas novamente, oferecer água e dar tempo para ele se recuperar completamente.</string>
+    <string name="op_B_p.3b_niv3">Forçar Lucas a seguir em frente, mesmo ele ainda se sentindo tonto.</string>
+    <string name="op_C_p.3b_niv3">Deixar Lucas em pé, sem oferecer ajuda.</string>
+
+    // Nivel 3 - 3c
+    <string name="titulo_3c_niv3">Você deixou Lucas sozinho para procurar os professores e ele piora ainda mais enquanto você está longe.</string>
+    <string name="pergunta_3c_niv3">O que fazer agora para corrigir?</string>
+    <string name="op_A_p.3c_niv3">Voltar imediatamente, garantir que Lucas se recupere e prestar mais atenção nele.</string>
+    <string name="op_B_p.3c_niv3">Esperar mais um pouco e tentar que ele melhore sozinho.</string>
+    <string name="op_C_p.3c_niv3">Seguir sem mais cuidados e esperar que outra pessoa o ajude.</string>
+
+
+    // Adolescente
+
+    //Nivel 4
+    <string name="his_niv4">Vocês são quatro amigos inseparáveis — Clara, João, Mariana e Lucas. Em um certo dia decidem visitar um hospital onde sua fama na cidade causa arrepios entre os cidadãos. Ao entrar no hospital sombrio logo se deparam com um corredor onde as luzes piscam estranhamente, a falta de luz do sol dentro do ambiente os deixam um tanto curiosos para explorar. Um silêncio desconfortável toma conta do corredor vazio. De repente, Lucas cai no chão, desacordado. O coração dispara, a adrenalina sobe, e o pior acontece: somente Clara está com seu celular, embora prestes a descarregar. Ela liga para o resgate, mas sem previsão de chegada dos profissionais. Diante dessa situação, vocês precisam agir rápido, com apenas o que sabem.\nO hospital parece um labirinto escuro, os passos ao longe soam como ecos, e o tempo está contra vocês. Cada decisão pode salvar Lucas — ou piorar a situação. O medo tenta tomar conta, mas a coragem fala mais alto.</string>
+
+    // Nivel 4 - 1
+    <string name="titulo_niv4">Lucas está desacordado no chão. O que você faz primeiro?</string>
+    <string name="op_A_niv4">Checar a respiração de Lucas e colocar ele numa posição lateral.</string>
+    <string name="op_B_niv4">Tentar acordá-lo chamando pelo nome, sem verificar se ele está respirando.</string>
+    <string name="op_C_niv4"> Levantar Lucas rapidamente para levá-lo até uma cadeira ou outro lugar.</string>
+
+    // Nivel 4 - 2a
+    <string name="titulo_2a_niv4">Você se aproxima devagar, sente o pulso, observa o movimento do peito e percebe que Lucas ainda respira, mas está inconsciente. O ambiente parece ficar ainda mais pesado. As luzes continuam piscando, e o silêncio é interrompido apenas pelo som fraco da respiração dele.</string>
+    <string name="pergunta_2a_niv4">Qual é o próximo passo?</string>
+    <string name="op_A_p.2a_niv4">Ficar ao lado dele, observando se a respiração continua, enquanto um dos amigos procura ajuda.</string>
+    <string name="op_B_p.2a_niv4">Continuar tentando acordá-lo, mexendo nele para ver se responde.</string>
+    <string name="op_C_p.2a_niv4">Deixar Lucas sozinho para ir buscar ajuda.</string>
+
+    // Nivel 4 - 2b
+    <string name="titulo_2b_niv4">Você sacode Lucas com calma, chama seu nome repetidamente, tentando tirá-lo do desmaio. O coração acelera, e você nota que ele ainda não responde direito, mas ao menos a respiração parece estável. A tensão no ar é palpável, e vocês sabem que não podem esperar muito.</string>
+    <string name="pergunta_2b_niv4">O que fazer enquanto espera ajuda?</string>
+    <string name="op_A_p.2b_niv4">Colocar Lucas de lado para não engasgar e pedir para um dos amigos procurar ajuda.</string>
+    <string name="op_B_p.2b_niv4">Ficar chamando ele e chacoalha-lo suavemente para acorda-lo.</string>
+    <string name="op_C_p.2b_niv4">Levar os amigos para procurar ajuda e deixa-lo sozinho.</string>
+
+    // Nivel 4 - 2c
+    <string name="titulo_2c_niv4">No desespero, você tenta levantar Lucas às pressas, sentindo seu corpo mole e pesado. De repente, ele começa a tossir e gemer, indicando que algo pior pode acontecer. O medo começa a invadir seu peito.</string>
+    <string name="pergunta_2c_niv4">Qual o risco dessa atitude e o que fazer para corrigir?</string>
+    <string name="op_A_p.2c_niv4">Deitar Lucas de novo, tentando colocá-lo de lado e evitando que se machuque.</string>
+    <string name="op_B_p.2c_niv4">Deitar Lucas de novo e mandar os amigos procurarem ajuda.</string>
+    <string name="op_C_p.2c_niv4">Deitar Lucas de novo e sair com os amigos para procurar ajuda.</string>
+
+
+    // Nivel 4 - 3a
+    <string name="titulo_3a_niv4">Vocês decidem que alguém deve ir atrás de ajuda imediatamente — as portas do hospital parecem distantes, mas não há tempo a perder. Enquanto isso, vocês ficam ao lado de Lucas, atentos a cada suspiro. O silêncio volta a reinar, só interrompido pelo som da respiração e a luz oscilante.</string>
+    <string name="pergunta_3a_niv4">Por que é importante ficar com ele e o que deve observar?</string>
+    <string name="op_A_p.3a_niv4">Porque ele pode parar de respirar a qualquer momento, então devo observar a respiração e pulso.</string>
+    <string name="op_B_p.3a_niv4">Por que você pode precisar carrega-lo, devo observar se ele acordar.</string>
+    <string name="op_C_p.3a_niv4">Não é necessário, é melhor ir buscar ajuda.</string>
+
+    // Nivel 4 - 3b
+    <string name="titulo_3b_niv4">Você continua tentando acordar Lucas, mas o ambiente parece pesado e você sente o cansaço chegar. Ele fica mais fraco, e um frio na espinha toma conta do grupo.</string>
+    <string name="pergunta_3b_niv4">Como corrigir?</string>
+    <string name="op_A_p.3b_niv4">Voltar e colocar Lucas na posição lateral de segurança.</string>
+    <string name="op_B_p.3b_niv4">Pedir para outro amigo cuidar, mas não participar.</string>
+    <string name="op_C_p.3b_niv4">Sair do hospital.</string>
+
+    // Nivel 4 - 3c
+    <string name="titulo_3c_niv4">Você deixa Lucas sozinho no chão naquela situação e parte para buscar ajuda junto aos amigos — mas a sensação de culpa corrói vocês. O silêncio do hospital parece esmagador, e cada segundo sem cuidado piora a situação.</string>
+    <string name="pergunta_3c_niv4">O que é melhor fazer agora?</string>
+    <string name="op_A_p.3c_niv4">Parar de mexer muito, colocar ele de lado para que ele possa respirar melhor.</string>
+    <string name="op_B_p.3c_niv4">Vira-lo de lado e bater de leve nas costas.</string>
+    <string name="op_C_p.3c_niv4">Deixar ele deitado e esperar.</string>
+
+
+    // Nivel 5
+    <string name="his_niv5">Após a situação assustadora com Lucas, ele acorda um pouco atordoado, o clima entre vocês está tenso e cada som ecoa pelos corredores do hospital. De repente Mariana sai de uma das salas do corredor tossindo com força, o rosto vermelho, olhos arregalados, ela comeu algo que a fez engasgar. O pânico ameaça dominar, vocês sabem que precisam tomar providencias urgentes! cada minuto conta.\n
+    A multidão parece distante, o silencio continua a ecoar e o foco é apenas em Mariana. Algo está bloqueando a respiração dela.</string>
+
+    // Nivel 5 - 1
+    <string name="titulo_niv5">O que fazer para ajudar Mariana a desengasgar?</string>
+    <string name="op_A_niv5">Incentivar Mariana a tossir forte, e se não conseguir, realizar a manobra de Heimlich (apertar o abdômen) com cuidado.</string>
+    <string name="op_B_niv5">Ficar ao lado dela, tentando acalmá-la, sem mexer nela.</string>
+    <string name="op_C_niv5">Dar tapas nas costas dela com força.</string>
+
+
+    // Nivel 5 - 2a
+    <string name="ttitulo_2a_niv5">Você explica calmamente o que vai fazer, posiciona as mãos logo acima do umbigo, e com cuidado, aplica pressão para cima. Mariana tosse forte, o objeto parece sair, e a respiração dela começa a normalizar. Um suspiro de alívio atravessa o grupo.</string>
+    <string name="pergunta_2a_niv5">Por que essa manobra é eficaz?</string>
+    <string name="op_A_p.2a_niv5">Porque ajuda a expulsar o objeto que está preso nas vias aéreas, liberando a respiração.</string>
+    <string name="op_B_p.2a_niv5">Porque dói e assusta, então ajuda.</string>
+    <string name="op_C_p.2a_niv5">Porque é uma técnica perigosa, mas deve-se evitar.</string>
+
+    // Nivel 5 - 2b
+    <string name="titulo_2b_niv5">Você sacode Lucas com calma, chama seu nome repetidamente, tentando tirá-lo do desmaio. O coração acelera, e você nota que ele ainda não responde direito, mas ao menos a respiração parece estável. A tensão no ar é palpável, e vocês sabem que não podem esperar muito.</string>
+    <string name="pergunta_2b_niv5">O que você deve fazer?</string>
+    <string name="op_A_p.2b_niv5">Manter a calma, incentivar a respirar devagar, e ficar atento a qualquer sinal de piora.</string>
+    <string name="op_B_p.2b_niv5">Perguntar se ela quer água ou sair para tomar ar.</string>
+    <string name="op_C_p.2b_niv5">Esperar até ela estar melhor.</string>
+
+    // Nivel 5 - 2c
+    <string name="titulo_2c_niv5">No desespero, você tenta levantar Lucas às pressas, sentindo seu corpo mole e pesado. De repente, ele começa a tossir e gemer, indicando que algo pior pode acontecer. O medo começa a invadir seu peito.</string>
+    <string name="pergunta_2c_niv5">O que é melhor fazer agora?</string>
+    <string name="op_A_p.2c_niv5">Parar e aplicar a manobra de Heimlich.</string>
+    <string name="op_B_p.2c_niv5">Continuar batendo nas costas, mais fracamente.</string>
+    <string name="op_C_p.2c_niv5">Parar de ajudar e se afastar.</string>
+
+
+    // Nivel 5 - 3a
+    <string name="titulo_3a_niv5">Vocês decidem que alguém deve ir atrás de ajuda imediatamente — as portas do hospital parecem distantes, mas não há tempo a perder. Enquanto isso, vocês ficam ao lado de Lucas, atentos a cada suspiro. O silêncio volta a reinar, só interrompido pelo som da respiração e a luz oscilante.</string>
+    <string name="pergunta_3a_niv5">Por que é importante ficar com ele e o que deve observar?</string>
+    <string name="op_A_p.3a_niv5">Porque ele pode parar de respirar a qualquer momento; observe o peito se movimentando e o pulso na garganta ou no pulso.</string>
+    <string name="op_B_p.3a_niv5">Porque alguém pode precisar de você para carregar; observe se ele pisca os olhos.</string>
+    <string name="op_C_p.3a_niv5">Porque ele pode não acordar nunca mais; melhor ir buscar ajuda sozinho.</string>
+
+    // Nivel 5 - 3b
+    <string name="titulo_3b_niv5">Você continua tentando acordar Lucas, mas o ambiente parece pesado e você sente o cansaço chegar. Ele fica mais fraco, e um frio na espinha toma conta do grupo.</string>
+    <string name="pergunta_3b_niv5">O que é melhor fazer agora?</string>
+    <string name="op_A_p.3b_niv5"> Parar de mexer muito, colocar na lateral de segurança para que ele possa respirar melhor.</string>
+    <string name="op_B_p.3b_niv5">vira-lo de lado e bater de leve nas costas.</string>
+    <string name="op_C_p.3b_niv5">Desistir e ir embora.</string>
+
+    // Nivel 5 - 3c
+    <string name="titulo_3c_niv5">Você deixa Lucas sozinho no chão naquela situação e parte para buscar ajuda junto aos amigos — mas a sensação de culpa corrói vocês. O silêncio do hospital parece esmagador, e cada segundo sem cuidado piora a situação.</string>
+    <string name="pergunta_3c_niv5">Como corrigir?</string>
+    <string name="op_A_p.3c_niv5">Voltar imediatamente e colocar Lucas na posição lateral de segurança.</string>
+    <string name="op_B_p.3c_niv5">Pedir para outro amigo cuidar, mas não participar.</string>
+    <string name="op_C_p.3c_niv5">Sair do hospital.</string>
+
+
+
+    // Nivel 6
+    <string name="his_niv6">Mariana parece se recuperar enquanto isso decidem caminhar pelos corredores sombrios em busca da saída para evitar mais problemas, porém quando menos esperam Lucas, distraído e um pouco atordoado pelo desmaio, acaba esbarrando e cortando a mão em um pedaço de vidro quebrado. O sangue começa a escorrer rápido e o ambiente parece girar com a urgência da situação. A tensão cresce, e o medo de que algo pior aconteça invade todos.\n
+    Vocês são a única ajuda de Lucas novamente naquele momento, e não há previsão para a chegada dos profissionais. É hora de agir.</string>
+
+    // Nivel 6 - 1
+    <string name="titulo_niv6">Como parar o sangramento?</string>
+    <string name="op_A_niv6">Aplicar pressão direta no corte com um pano limpo ou a roupa, levando a mão/parte ferida.</string>
+    <string name="op_B_niv6">Cobrir o corte sem pressão e esperar o sangramento parar sozinho.</string>
+    <string name="op_C_niv6">Ignorar o sangramento, deixando o corte aberto.</string>
+
+    // Nivel 6 - 2a
+    <string name="titulo_2a_niv6">Você pressiona firmemente o ferimento com um pano limpo, tentando conter o sangue que escorre rapidamente. Ainda assustados com o ocorrido se sentem um pouco mais calmos em terminar a realização do curativo. </string>
+    <string name="pergunta_2a_niv6">Por que o curativo ajudou Lucas?</string>
+    <string name="op_A_p.2a_niv6">Porque ajudou a estancar o sangue e evitar a perda excessiva.</string>
+    <string name="op_B_p.2a_niv6">Porque incomodou, mas parece que funciona.</string>
+    <string name="op_C_p.2a_niv6">Porque piorou a dor.</string>
+
+    // Nivel 6 - 2b
+    <string name="titulo_2b_niv6">Você cobre o ferimento, mas sem aplicar pressão. O sangue continua escorrendo.</string>
+    <string name="pergunta_2b_niv6">O que fazer?</string>
+    <string name="op_A_p.2b_niv6">Aumentar a pressão e usar mais tecido limpo para ajudar a estancar.</string>
+    <string name="op_B_p.2b_niv6">Ficar esperando sem agir muito.</string>
+    <string name="op_C_p.2b_niv6">Tentar tirar o tecido para ver se melhorou.</string>
+
+    // Nivel 6 - 2c
+    <string name="titulo_2c_niv6">Você não age, e o sangue continua escorrendo sem controle.</string>
+    <string name="pergunta_2c_niv6">Como corrigir?</string>
+    <string name="op_A_p.2c_niv6">Aplicar pressão com auxilio de um tecido limpo imediatamente, para evitar a perda de sangue.</string>
+    <string name="op_B_p.2c_niv6">Pedir ajuda aos amigos, mas não agir diretamente.</string>
+    <string name="op_C_P.2c_niv6">Entrar em pânico e fugir.</string>
+
+    // Nivel 6 - 3a
+    <string name="titulo_3a_niv6">O sangue começa a diminuir e vocês finalmente veem uma luz vindo do lado de fora, o silêncio é interrompido pelo barulho das sirenes da ambulância. A ajuda chegou!!</string>
+    <string name="pergunta_3a_niv6">O que você faz?</string>
+    <string name="op_A_p.3a_niv6">Fica junto de Lucas e Mariana, ajuda passando as informações do ocorrido e aprende com os profissionais da saúde.</string>
+    <string name="op_B_p.3a_niv6">Fica ao lado, mas não participa mais.</string>
+    <string name="op_C_p.3a_niv6">Se afasta.</string>
+
+    // Nivel 6 - 3b
+    <string name="titulo_3b_niv6">Você ainda se sente um pouco inseguro(a). Porém de repente quando fixa seu olhar a frente pode perceber os profissionais chegando.</string>
+    <string name="pergunta_3b_niv6">O que fazer?</string>
+    <string name="op_A_p.3b_niv6">Perceber que fez errado e ajudar os profissionais com as informações necessárias.</string>
+    <string name="op_B_p.3b_niv6">Ficar isolado e apenas observar.</string>
+    <string name="op_C_p.3b_niv6">Abandonar o grupo.</string>
+
+    // Nivel 6 - 3c
+    <string name="titulo_3c_niv6">Você retira o curativo para ajudar seu amigo com a dor, porém o sangue volta a escorrer intensamente, sem sucesso decide olhar em volta como se fosse encontrar uma saída, quando de repente avista os profissionais da saúde chegando.</string>
+    <string name="pergunta_3c_niv6">O que pode ajudar?</string>
+    <string name="op_A_p.3c_niv6">procurar aprender as técnicas básicas com os profissionais e manter a calma para agir melhor da próxima vez.</string>
+    <string name="op_B_p.3c_niv6">Ficar nervoso e deixa os profissionais cuidarem da situação.</string>
+    <string name="op_C_p.3c_niv6">Desistir de ajudar.</string>
+
+
 
 </resources>
