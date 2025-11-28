@@ -2,7 +2,9 @@
 
     <string name="app_name">My Application - Java</string>
 
-
+    <string name="texto_alternativa_a">Resposta A</string>
+    <string name="texto_alternativa_b">Resposta B</string>
+    <string name="texto_alternativa_c">Resposta C</string>
 
     // Pagina inicial
     <string name="texto_img_fundo_neutro">Fundo da página com uma cidade em um pôr do sol</string>

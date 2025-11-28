@@ -57,7 +57,7 @@
         <TextView
             android:id="@+id/txv_descricao_niveis"
             android:layout_width="match_parent"
-            android:layout_height="450dp"
+            android:layout_height="350dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
@@ -68,25 +68,36 @@
             tools:ignore="HardcodedText" />
 
         <Button
-            android:id="@+id/btn_resposta_1"
+            android:id="@+id/btn_alternativa_a"
             android:layout_width="wrap_content"
             android:layout_height="56dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
             android:backgroundTint="@color/cor_branca_1"
-            android:text="@string/texto_continuar"
+            android:text="@string/texto_alternativa_a"
             android:textColor="@color/cor_preta_1"
             android:textSize="25sp"
             tools:ignore="DuplicateSpeakableTextCheck" />
 
         <Button
-            android:id="@+id/btn_resposta_2"
+            android:id="@+id/btn_alternativa_b"
             android:layout_width="wrap_content"
             android:layout_height="56dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
             android:backgroundTint="@color/cor_branca_1"
-            android:text="@string/texto_continuar"
+            android:text="@string/texto_alternativa_b"
+            android:textColor="@color/cor_preta_1"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_alternativa_c"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/forma_botao_retangular_arredondado_branco"
+            android:backgroundTint="@color/cor_branca_1"
+            android:text="@string/texto_alternativa_c"
             android:textColor="@color/cor_preta_1"
             android:textSize="25sp" />
     </LinearLayout>
