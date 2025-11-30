@@ -34,6 +34,10 @@ public class BLogicaIdade extends AppCompatActivity {
                     BLogicaIdade.this, ALogicaInicial.class
             );
             startActivity(nova_tela);
+
+            overridePendingTransition(android.R.anim.slide_in_left,
+                    android.R.anim.slide_out_right);
+
         });
 
         botao_crianca.setOnClickListener(v -> {
@@ -41,6 +45,10 @@ public class BLogicaIdade extends AppCompatActivity {
                     BLogicaIdade.this, C1LogicaCrianca.class
             );
             startActivity(nova_tela);
+
+
+
+
         });
 
         botao_adolescente.setOnClickListener(v -> {
@@ -48,6 +56,9 @@ public class BLogicaIdade extends AppCompatActivity {
                     BLogicaIdade.this, C2LogicaAdolescente.class
             );
             startActivity(nova_tela);
+
+            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+
         });
 
 

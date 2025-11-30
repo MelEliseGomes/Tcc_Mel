@@ -32,7 +32,12 @@ public class ALogicaInicial extends AppCompatActivity {
                     ALogicaInicial.this, BLogicaIdade.class
             );
             startActivity(nova_tela);
+
+
+
         });
+
+
 
     }
 }

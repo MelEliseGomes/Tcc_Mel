@@ -35,6 +35,10 @@ public class D2LogicaNivelAdolescente extends AppCompatActivity {
                     D2LogicaNivelAdolescente.this, C2LogicaAdolescente.class
             );
             startActivity(nova_tela);
+
+            overridePendingTransition(android.R.anim.slide_in_left,
+                    android.R.anim.slide_out_right);
+
         });
 
         botao_nivel_1.setOnClickListener(v -> abrirTelaNivel(4));

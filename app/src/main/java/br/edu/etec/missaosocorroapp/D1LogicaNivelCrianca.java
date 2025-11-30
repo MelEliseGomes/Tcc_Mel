@@ -35,6 +35,10 @@ public class D1LogicaNivelCrianca extends AppCompatActivity {
                     D1LogicaNivelCrianca.this, C1LogicaCrianca.class
             );
             startActivity(nova_tela);
+
+            overridePendingTransition(android.R.anim.slide_in_left,
+                    android.R.anim.slide_out_right);
+
         });
 
         botao_nivel_1.setOnClickListener(v -> abrirTelaNivel(1));

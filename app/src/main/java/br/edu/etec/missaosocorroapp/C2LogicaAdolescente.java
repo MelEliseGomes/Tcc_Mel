@@ -35,6 +35,10 @@ public class C2LogicaAdolescente extends AppCompatActivity {
                     C2LogicaAdolescente.this, BLogicaIdade.class
             );
             startActivity(nova_tela);
+
+            overridePendingTransition(android.R.anim.slide_in_left,
+                    android.R.anim.slide_out_right);
+
         });
 
         botao_comecar.setOnClickListener(v -> {

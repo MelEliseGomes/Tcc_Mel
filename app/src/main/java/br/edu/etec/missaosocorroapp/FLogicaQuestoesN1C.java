@@ -56,6 +56,10 @@ public class FLogicaQuestoesN1C extends AppCompatActivity {
         botao_voltar.setOnClickListener(v -> {
             Intent voltar = new Intent(FLogicaQuestoesN1C.this, BLogicaIdade.class);
             startActivity(voltar);
+
+            overridePendingTransition(android.R.anim.slide_in_left,
+                    android.R.anim.slide_out_right);
+
             finish();
         });
 

@@ -56,6 +56,10 @@ public class GLogicaQuestoesN2C extends AppCompatActivity {
         botao_voltar.setOnClickListener(v -> {
             Intent voltar = new Intent(GLogicaQuestoesN2C.this, BLogicaIdade.class);
             startActivity(voltar);
+
+            overridePendingTransition(android.R.anim.slide_in_left,
+                    android.R.anim.slide_out_right);
+
             finish();
         });
 

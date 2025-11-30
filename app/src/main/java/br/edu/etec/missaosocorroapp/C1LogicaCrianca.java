@@ -34,6 +34,10 @@ public class C1LogicaCrianca extends AppCompatActivity {
                     C1LogicaCrianca.this, BLogicaIdade.class
             );
             startActivity(nova_tela);
+
+            overridePendingTransition(android.R.anim.slide_in_left,
+                    android.R.anim.slide_out_right);
+
         });
 
         botao_comecar.setOnClickListener(v -> {
