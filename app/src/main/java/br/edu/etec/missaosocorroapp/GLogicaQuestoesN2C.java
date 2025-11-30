@@ -29,9 +29,9 @@ public class GLogicaQuestoesN2C extends AppCompatActivity {
     };
 
     int[] respostas = {
-            3,
             1,
-            3
+            1,
+            1
     };
 
     @Override
@@ -46,7 +46,7 @@ public class GLogicaQuestoesN2C extends AppCompatActivity {
         });
 
         botao_voltar = findViewById(R.id.btn_voltar);
-        textoPergunta = findViewById(R.id.txv_descricao_niveis);
+        textoPergunta = findViewById(R.id.txt_pergunta);
         btnA = findViewById(R.id.btn_alternativa_a);
         btnB = findViewById(R.id.btn_alternativa_b);
         btnC = findViewById(R.id.btn_alternativa_c);

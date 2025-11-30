@@ -17,6 +17,8 @@ public class ELogicaDescricaoNiveis extends AppCompatActivity {
     TextView tituloNivel, textoNivel;
     Button botao_voltar, botao_continuar;
 
+    int nivel;  // <-- Agora armazenamos o nível aqui
+
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,13 +34,14 @@ public class ELogicaDescricaoNiveis extends AppCompatActivity {
 
         // Pegando IDs
         tituloNivel = findViewById(R.id.txt_nivel1);
-        textoNivel = findViewById(R.id.txv_descricao_niveis);
+        textoNivel = findViewById(R.id.txt_pergunta);
         botao_voltar = findViewById(R.id.btn_voltar);
         botao_continuar = findViewById(R.id.btn_nivel1);
 
-        // Recebe nível da outra tela
-        int nivel = getIntent().getIntExtra("nivel", 1);
+        // Recebe nível da tela anterior
+        nivel = getIntent().getIntExtra("nivel", 1);
 
+        // Define o título e texto conforme o nível
         switch (nivel) {
             case 1:
                 tituloNivel.setText("Nível 1");
@@ -71,25 +74,52 @@ public class ELogicaDescricaoNiveis extends AppCompatActivity {
                 break;
         }
 
+        // BOTÃO VOLTAR
         botao_voltar.setOnClickListener(v -> {
             Intent voltar = new Intent(
                     ELogicaDescricaoNiveis.this,
                     BLogicaIdade.class
             );
-            startActivity(voltar);
 
+            startActivity(voltar);
             overridePendingTransition(android.R.anim.slide_in_left,
                     android.R.anim.slide_out_right);
-
             finish();
         });
 
+        // BOTÃO CONTINUAR → abre Activity conforme o nível
         botao_continuar.setOnClickListener(v -> {
-            Intent voltar = new Intent(
-                    ELogicaDescricaoNiveis.this,
-                    FLogicaQuestoesN1C.class
-            );
-            startActivity(voltar);
+
+            Intent intent;
+
+            switch (nivel) {
+                case 1:
+                    intent = new Intent(this, FLogicaQuestoesN1C.class);
+                    break;
+
+                case 2:
+                    intent = new Intent(this, GLogicaQuestoesN2C.class);
+                    break;
+
+                case 3:
+                    // adicione aqui quando existir:
+                    // intent = new Intent(this, HLogicaQuestoesN3C.class);
+                    intent = new Intent(this, BLogicaIdade.class);
+                    break;
+
+                case 4:
+                case 5:
+                case 6:
+                    // coloque as telas de níveis 4,5,6 quando existirem
+                    intent = new Intent(this, BLogicaIdade.class);
+                    break;
+
+                default:
+                    intent = new Intent(this, BLogicaIdade.class);
+                    break;
+            }
+
+            startActivity(intent);
             finish();
         });
 

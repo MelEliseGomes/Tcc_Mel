@@ -28,9 +28,9 @@ public class FLogicaQuestoesN1C extends AppCompatActivity {
     };
 
     int[] respostas = {
-            1,
-            2,
-            2
+            0,
+            0,
+            0
     };
 
     @Override
@@ -46,7 +46,7 @@ public class FLogicaQuestoesN1C extends AppCompatActivity {
         });
 
         botao_voltar = findViewById(R.id.btn_voltar);
-        textoPergunta = findViewById(R.id.txv_descricao_niveis);
+        textoPergunta = findViewById(R.id.txt_pergunta);
         btnA = findViewById(R.id.btn_alternativa_a);
         btnB = findViewById(R.id.btn_alternativa_b);
         btnC = findViewById(R.id.btn_alternativa_c);
