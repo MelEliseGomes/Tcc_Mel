@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/inicial"
-    tools:context=".JLogicaPergunta2B">
+    tools:context=".LLogicaPergunta3A">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@color/cor_preta_2"
-            android:text="PERGUNTA 2B"
+            android:text="PERGUNTA 3A"
             android:textColor="@color/cor_branca_1"
             android:textSize="28sp"
             android:paddingLeft="20dp"
@@ -64,7 +64,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:background="@color/cor_preta_2"
-            android:text="@string/texto_pergunta_2b_crianca_nivel_1"
+            android:text="@string/texto_pergunta_3a_crianca_nivel_1"
             android:textColor="@color/cor_branca_1"
             android:textSize="17sp"
             android:gravity="center_horizontal"
@@ -78,10 +78,11 @@
             android:layout_height="80dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
-            android:text="@string/texto_opcao_p2b_n1_a"
+            android:padding="10dp"
+            android:text="@string/texto_opcao_p3a_n1_a"
             android:textColor="@color/cor_preta_1"
             android:textSize="15sp"
-            android:padding="10dp" />
+            tools:ignore="TextSizeCheck" />
 
         <Button
             android:id="@+id/btn_b"
@@ -89,10 +90,11 @@
             android:layout_height="80dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
-            android:text="@string/texto_opcao_p2b_n1_b"
+            android:padding="10dp"
+            android:text="@string/texto_opcao_p3a_n1_b"
             android:textColor="@color/cor_preta_1"
             android:textSize="15sp"
-            android:padding="10dp" />
+            tools:ignore="TextSizeCheck" />
 
         <Button
             android:id="@+id/btn_c"
@@ -100,10 +102,11 @@
             android:layout_height="80dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
-            android:text="@string/texto_opcao_p2b_n1_c"
+            android:padding="10dp"
+            android:text="@string/texto_opcao_p3a_n1_c"
             android:textColor="@color/cor_preta_1"
             android:textSize="15sp"
-            android:padding="10dp" />
+            tools:ignore="TextSizeCheck" />
 
     </LinearLayout>
 

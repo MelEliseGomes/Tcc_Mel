@@ -78,10 +78,11 @@
             android:layout_height="80dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
+            android:padding="10dp"
             android:text="@string/texto_opcao_p3b_n2_a"
             android:textColor="@color/cor_preta_1"
             android:textSize="15sp"
-            android:padding="10dp" />
+            tools:ignore="TextSizeCheck" />
 
         <Button
             android:id="@+id/btn_b"
@@ -89,10 +90,11 @@
             android:layout_height="80dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
+            android:padding="10dp"
             android:text="@string/texto_opcao_p3b_n2_b"
             android:textColor="@color/cor_preta_1"
             android:textSize="15sp"
-            android:padding="10dp" />
+            tools:ignore="TextSizeCheck" />
 
         <Button
             android:id="@+id/btn_c"
@@ -100,10 +102,11 @@
             android:layout_height="80dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
+            android:padding="10dp"
             android:text="@string/texto_opcao_p3b_n2_c"
             android:textColor="@color/cor_preta_1"
             android:textSize="15sp"
-            android:padding="10dp" />
+            tools:ignore="TextSizeCheck" />
 
     </LinearLayout>
 
