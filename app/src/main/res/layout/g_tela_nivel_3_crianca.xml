@@ -5,8 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/adolescenteinicial"
-    tools:context=".C2LogicaAdolescente">
+    android:background="@drawable/inicial"
+    tools:context=".GLogicaNivel3Crianca">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -31,41 +31,54 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="412dp"
-        android:layout_height="564dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
         android:gravity="center|top"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
-        tools:ignore="VisualLintBounds">
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
 
         <TextView
-            android:layout_width="300dp"
+            android:id="@+id/txt_nivel1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:background="@color/cor_preta_2"
-            android:text="@string/texto_inicial_adolescente"
-            android:textAlignment="center"
+            android:text="@string/texto_nivel3"
             android:textColor="@color/cor_branca_1"
-            android:textSize="40sp"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/txv_pergunta"
+            android:layout_width="380dp"
+            android:layout_height="450dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/cor_preta_2"
+            android:gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:textSize="17sp"
+            android:padding="10dp"
+            android:text="@string/texto_descricao_nivel_3"
+            android:textColor="@color/cor_branca_1"
             tools:ignore="TextSizeCheck" />
 
         <Button
-            android:id="@+id/btn_comecar"
+            android:id="@+id/btn_iniciar"
             android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_marginTop="100dp"
-            android:background="@drawable/forma_botao_retangular_final"
-            android:text="@string/texto_começar"
-            android:textAlignment="center"
+            android:layout_height="56dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/forma_botao_retangular_arredondado_branco"
+            android:backgroundTint="@color/cor_branca_1"
+            android:text="@string/texto_continuar"
             android:textColor="@color/cor_preta_1"
-            android:textSize="30sp" />
+            android:textSize="25sp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -37,111 +37,100 @@
     // Criança
 
     //Nivel 1
-    <string name="his_niv1">Vocês são quatro amigos inseparáveis - Clara, João, Mariana e Lucas. Certo dia você e seus amigos juntamente a escola realizam uma trilha em uma floresta onde aprenderiam um pouco mais sobre ciências através de plantas e insetos. Em suas bolsas carregam lanches, água, caderno para a pesquisa, um mapa, um kit simples de primeiros socorros e somente Clara tem um celular a disposição. Ao longo da trilha vocês se deparam com uma lagarta tanto quanto curiosa e decidem a ver por um curto período de tempo, quando de repente uma de suas amigas olha para frente e assustada diz que vocês se perderam dos colegas e professores.\nCada decisão importa e o tempo é essencial para se ajudar um amigo. Estão prontos para serem os heróis dessa aventura?</string>
+    <string name="texto_descricao_nivel_1">Vocês são quatro amigos inseparáveis - Clara, João, Mariana e Lucas. Certo dia você e seus amigos juntamente a escola realizam uma trilha em uma floresta onde aprenderiam um pouco mais sobre ciências através de plantas e insetos. Em suas bolsas carregam lanches, água, caderno para a pesquisa, um mapa, um kit simples de primeiros socorros e somente Clara tem um celular a disposição. Ao longo da trilha vocês se deparam com uma lagarta tanto quanto curiosa e decidem a ver por um curto período de tempo, quando de repente uma de suas amigas olha para frente e assustada diz que vocês se perderam dos colegas e professores. Cada decisão importa e o tempo é essencial para se ajudar um amigo. Estão prontos para serem os heróis dessa aventura?</string>
 
-    // Nivel 1 - 1
-    <string name="titulo_niv1">João caiu e está com dor no tornozelo. O que você faz primeiro?</string>
-    <string name="op_A_niv1">Pede para ele ficar parado, verifica se o pé está inchado e coloca algo embaixo para deixar o pé elevado.</string>
-    <string name="op_B_niv1">Ajuda ele a se levantar com cuidado e tenta fazer ele andar devagar.</string>
-    <string name="op_C_niv1">Puxa João pelo braço para levantar logo e continuar andando.</string>
+    // Pergunta 1 Nível 1
+    <string name="texto_pergunta_1_crianca_nivel_1">João caiu e está com dor no tornozelo.\nO que você faz primeiro?</string>
+    <string name="texto_opcao_p1_n1_a">Pede para ele ficar parado, verifica se o pé está inchado e coloca algo embaixo para deixar o pé elevado.</string>
+    <string name="texto_opcao_p1_n1_b">Ajuda ele a se levantar com cuidado e tenta fazer ele andar devagar.</string>
+    <string name="texto_opcao_p1_n1_c">Puxa João pelo braço para levantar logo e continuar andando.</string>
 
-    // Nivel - 2a
-    <string name="titulo_2a_niv1">João continua sentado. Vocês colocam a mochila como apoio para o pé dele e tentam deixar ele mais confortável. O inchaço está ali, mas ele não está sangrando nem desmaiado.</string>
-    <string name="pergunta_2a_niv1">Qual é o próximo passo?</string>
-    <string name="op_A_p.2a_niv1">Ficar com João, observar se ele está bem e esperar um pouco para que ele se recupere.</string>
-    <string name="op_B_p.2a_niv1">Ficar mexendo no pé dele para ver se melhora.</string>
-    <string name="op_C_p.2a_niv1">Deixar João sozinho e seguir em frente.</string>
+    // Pergunta 2A Nível 1
+    <string name="texto_pergunta_2a_crianca_nivel_1">João continua sentado. Vocês colocam a mochila como apoio para o pé dele e tentam deixar ele mais confortável. O inchaço está ali, mas ele não está sangrando nem desmaiado.\nQual é o próximo passo?</string>
+    <string name="texto_opcao_p2a_n1_a">Ficar com João, observar se ele está bem e esperar um pouco para que ele se recupere.</string>
+    <string name="texto_opcao_p2a_n1_b">Ficar mexendo no pé dele para ver se melhora.</string>
+    <string name="texto_opcao_p2a_n1_c">Deixar João sozinho e seguir em frente.</string>
 
-    // Nivel 1 - 2b
-    <string name="titulo_2b_niv1">João consegue levantar com ajuda, mas começa a mancar e sente muita dor. O pé dele está inchando rápido, e ele quase cai de novo. Vocês percebem que foi arriscado.</string>
-    <string name="pergunta_2b_niv1">O que é melhor fazer agora?</string>
-    <string name="op_A_p.2b_niv1">Ajudar ele a se sentar novamente e colocar algo para apoiar o pé.</string>
-    <string name="op_B_p.2b_niv1">Tentar fazer ele continuar andando mesmo com dor.</string>
-    <string name="op_C_p.2b_niv1">Deixar ele sentado e ir embora.</string>
+    // Pergunta 2B Nível 1
+    <string name="texto_pergunta_2b_crianca_nivel_1">João consegue levantar com ajuda, mas começa a mancar e sente muita dor. O pé dele está inchando rápido, e ele quase cai de novo. Vocês percebem que foi arriscado.\nO que é melhor fazer agora?</string>
+    <string name="texto_opcao_p2b_n1_a">Ajudar ele a se sentar novamente e colocar algo para apoiar o pé.</string>
+    <string name="texto_opcao_p2b_n1_b">Tentar fazer ele continuar andando mesmo com dor.</string>
+    <string name="texto_opcao_p2b_n1_c">Deixar ele sentado e ir embora.</string>
 
-    // Nivel 1 - 2c
-    <string name="titulo_2c_niv1">João grita de dor ao ser puxado. O tornozelo parece machucado de verdade. Ele cai no chão de novo, ainda pior.</string>
-    <string name="pergunta_2c_niv1">O que você faz para corrigir?</string>
-    <string name="op_A_p.2c_niv1">Parar tudo, ajudar ele a se deitar, levantar o pé com a mochila e ficar ao lado dele.</string>
-    <string name="op_B_p.2c_niv1">Ficar parado, refletindo sobre o que deveria fazer.</string>
-    <string name="op_C_p.2c_niv1">Dizer para ele “aguentar firme” e seguir andando.</string>
+    Pergunta 2C Nível 1
+    <string name="texto_pergunta_2c_crianca_nivel_1">João grita de dor ao ser puxado. O tornozelo parece machucado de verdade. Ele cai no chão de novo, ainda pior.\nO que você faz para corrigir?</string>
+    <string name="texto_opcao_p2c_n1_a">Parar tudo, ajudar ele a se deitar, levantar o pé com a mochila e ficar ao lado dele.</string>
+    <string name="texto_opcao_p2c_n1_b">Ficar parado, refletindo sobre o que deveria fazer.</string>
+    <string name="texto_opcao_p2c_n1_c">Dizer para ele “aguentar firme” e seguir andando.</string>
 
-    // Nivel 1 - 3a
-    <string name="titulo_3a_niv1">Vocês decidem esperar para que seu amigo consiga se recuperar, oferecendo água e observando o inchaço. João está mais calmo e agradece a ajuda.</string>
-    <string name="pergunta_3a_niv1">Por que foi importante ficar com ele?</string>
-    <string name="op_A_p.3a_niv1">Porque ele pode piorar, e alguém precisa observar se ele está bem.</string>
-    <string name="op_B_p.3a_niv1">Porque ele pode querer conversar.</string>
-    <string name="op_C_p.3a_niv1">Porque é feio deixar amigo sozinho, mas não importa muito.</string>
+    // Pergunta 3A Nível 1
+    <string name="texto_pergunta_3a_crianca_nivel_1">Vocês decidem esperar para que seu amigo consiga se recuperar, oferecendo água e observando o inchaço. João está mais calmo e agradece a ajuda.\nPor que foi importante ficar com ele?</string>
+    <string name="texto_opcao_p3a_n1_a">Porque ele pode piorar, e alguém precisa observar se ele está bem.</string>
+    <string name="texto_opcao_p3a_n1_b">Porque ele pode querer conversar.</string>
+    <string name="texto_opcao_p3a_n1_c">Porque é feio deixar amigo sozinho, mas não importa muito.</string>
 
+    // Pergunta 3B Nível 1
+    <string name="texto_pergunta_3b_crianca_nivel_1">Vocês tentam fazer o melhor, mas ainda estão um pouco confusos. João continua com dor, e o tempo vai passando...\nO que é melhor fazer agora?</string>
+    <string name="texto_opcao_p3b_n1_a">Parar tudo, observar o ferimento e deixar o pé elevado.</string>
+    <string name="texto_opcao_p3b_n1_b">Tentar colocar gelo das folhas (mesmo sem gelo de verdade).</string>
+    <string name="texto_opcao_p3b_n1_c">Deixar João sozinho e correr.</string>
 
-    // Nivel 1 - 3b
-    <string name="titulo_3b_niv1">Vocês tentam fazer o melhor, mas ainda estão um pouco confusos. João continua com dor, e o tempo vai passando...</string>
-    <string name="pergunta_3b_niv1">O que é melhor fazer agora?</string>
-    <string name="op_A_p.3b_niv1">Parar tudo, observar o ferimento e deixar o pé elevado.</string>
-    <string name="op_B_p.3b_niv1">Tentar colocar gelo das folhas (mesmo sem gelo de verdade).</string>
-    <string name="op_C_p.3b_niv1">Deixar João sozinho e correr.</string>
+    Pergunta 3C Nível 1
+    <string name="texto_pergunta_3c_crianca_nivel_1">Vocês deixaram João sozinho para procurar os professores.\nComo corrigir isso?No meio do caminho, percebem que ele pode estar piorando sozinho lá atrás.</string>
+    <string name="texto_opcao_p3c_n1_a">Voltar imediatamente e cuidar de João.</string>
+    <string name="texto_opcao_p3c_n1_b">voltar andando devagar e observando.</string>
+    <string name="texto_opcao_p3c_n1_c">Seguir sem pensar.</string>
 
-    // Nivel 1 - 3c
-    <string name="titulo_3c_niv1">Vocês deixaram João sozinho para procurar os professores. No meio do caminho, percebem que ele pode estar piorando sozinho lá atrás.</string>
-    <string name="pergunta_3c_niv1">Como corrigir isso?</string>
-    <string name="op_A_p.3c_niv1">Voltar imediatamente e cuidar de João.</string>
-    <string name="op_B_p.3c_niv1">voltar andando devagar e observando.</string>
-    <string name="op_C_p.3c_niv1">Seguir sem pensar.</string>
-
+    // ---------------------------------------------------------------------------
     // Nivel 2
-    <string name="his_niv2">Após cuidarem de João, o grupo decide fazer uma pequena pausa perto de um tronco caído. Mariana decide sentar para procurar em sua mochila algo para comer e ao abaixar e usar sua mão como apoio para se sentar, acaba encostando a mão em um galho seco com ponta afiada escondido entre as folhas. Ela acaba se arranhando e faz um corte na palma da mão. Ela sente uma dor repentina, o machucado não é muito profundo, mas está sangrando.\nVocês têm o kit de primeiros socorros na mochila. O que fazer agora?</string>
+    <string name="texto_descricao_nivel_2">Após cuidarem de João, o grupo decide fazer uma pequena pausa perto de um tronco caído. Mariana decide sentar para procurar em sua mochila algo para comer e ao abaixar e usar sua mão como apoio para se sentar, acaba encostando a mão em um galho seco com ponta afiada escondido entre as folhas. Ela acaba se arranhando e faz um corte na palma da mão. Ela sente uma dor repentina, o machucado não é muito profundo, mas está sangrando. Vocês têm o kit de primeiros socorros na mochila. O que fazer agora?</string>
 
     // Nivel 2 - 1
-    <string name="titulo_niv2">Mariana cortou a mão e está sangrando um pouco. O que você faz primeiro?</string>
-    <string name="op_A_niv2">Lava o corte com água limpa, usa um lenço limpo do kit para estancar o sangue e mantém a calma.</string>
-    <string name="op_B_niv2">Pede para ela colocar a mão na camiseta para estancar o sangue.</string>
-    <string name="op_C_niv2">Fica nervoso, sai correndo e grita para ela não mexer a mão.</string>
+    <string name="texto_pergunta_1_crianca_nivel_2">Mariana cortou a mão e está sangrando um pouco. O que você faz primeiro?</string>
+    <string name="texto_opcao_p1_n2_a">Lava o corte com água limpa, usa um lenço limpo do kit para estancar o sangue e mantém a calma.</string>
+    <string name="texto_opcao_p1_n2_b">Pede para ela colocar a mão na camiseta para estancar o sangue.</string>
+    <string name="texto_opcao_p1_n2_c">Fica nervoso, sai correndo e grita para ela não mexer a mão.</string>
 
     // Nivel 2 - 2a
-    <string name="ttitulo_2a_niv2">Você pega a garrafinha de água, lava o corte com cuidado e usa uma gaze limpa do kit para cobrir o ferimento. Mariana se sente melhor e sorri, mesmo ainda com dor.</string>
-    <string name="pergunta_2a_niv2">O que mais vocês podem fazer para ajudar?</string>
+    <string name="texto_pergunta_2a_crianca_nivel_2">Você pega a garrafinha de água, lava o corte com cuidado e usa uma gaze limpa do kit para cobrir o ferimento. Mariana se sente melhor e sorri, mesmo ainda com dor. O que mais vocês podem fazer para ajudar?</string>
     <string name="op_A_p.2a_niv2">Ficar de olho se o sangramento para, manter o curativo e acalmar Mariana.</string>
     <string name="op_B_p.2a_niv2">Falar para ela ficar calma.</string>
     <string name="op_C_p.2a_niv2">Tirar o curativo toda hora para ver como está o machucado.</string>
 
     // Nivel 2 - 2b
-    <string name="titulo_2b_niv2">Mariana pressiona a mão contra a camiseta, e o sangramento diminui. Mas vocês percebem que a mão está suja, e que isso pode causar uma infecção e fazer doer mais.</string>
-    <string name="pergunta_2b_niv2">O que fazer agora?</string>
+    <string name="texto_pergunta_2b_crianca_nivel_2">Mariana pressiona a mão contra a camiseta, e o sangramento diminui. Mas vocês percebem que a mão está suja, e que isso pode causar uma infecção e fazer doer mais. O que fazer agora?</string>
     <string name="op_A_p.2b_niv2">Lavar a mão com água limpa e usar o kit de primeiros socorros.</string>
     <string name="op_B_p.2b_niv2">Esperar mais um pouco para ver se melhora.</string>
     <string name="op_C_p.2b_niv2">Dizer que é só um machucadinho e seguir em frente.</string>
 
     // Nivel 2 - 2c
-    <string name="titulo_2c_niv2">Você se desespera e não consegue ajudar Mariana. Ela também fica assustada e o grupo começa a entrar em pânico.</string>
-    <string name="pergunta_2c_niv2">Como corrigir a situação?</string>
+    <string name="texto_pergunta_2c_crianca_nivel_2">Você se desespera e não consegue ajudar Mariana. Ela também fica assustada e o grupo começa a entrar em pânico. Como corrigir a situação?</string>
     <string name="op_A_p.2c_niv2">Respirar fundo, usar o kit com calma e lavar a ferida com água.</string>
     <string name="op_B_p.2c_niv2">Pedir para outra pessoa fazer tudo enquanto você só observa e diz pra ela se acalmar.</string>
     <string name="op_C_p.2c_niv2">Ficar reclamando do acidente e não ajudar.</string>
 
     // Nivel 2 - 3a
-    <string name="titulo_3a_niv2">Vocês cuidam do corte de forma calma e correta. Mariana está mais tranquila, e todos aprendem que um machucado pequeno também precisa de atenção.</string>
-    <string name="pergunta_3a_niv2">Por que foi importante cuidar direitinho do corte?</string>
+    <string name="titulo_3a_niv2">Vocês cuidam do corte de forma calma e correta. Mariana está mais tranquila, e todos aprendem que um machucado pequeno também precisa de atenção. Por que foi importante cuidar direitinho do corte?</string>
     <string name="op_A_p.3a_niv2">Porque um corte pode infeccionar e causar problemas e dor se não for limpo.</string>
     <string name="op_B_p.3a_niv2">Porque ela ficou triste e precisava de carinho.</string>
     <string name="op_C_p.3a_niv2">Porque se ela chorar muito, os professores vão brigar.</string>
 
     // Nivel 2 - 3b
-    <string name="titulo_3b_niv2">Você tentou ajudar a acalma-la, mas sabemos que nesses momentos devemos ajudar nossos amigos a resolver o problema. Mariana fica com um pouco de dor, vocês aprenderam algo.</string>
-    <string name="pergunta_3b_niv2">O que é melhor fazer na próxima vez?</string>
+    <string name="titulo_3b_niv2">Você tentou ajudar a acalma-la, mas sabemos que nesses momentos devemos ajudar nossos amigos a resolver o problema. Mariana fica com um pouco de dor, vocês aprenderam algo. O que é melhor fazer na próxima vez?</string>
     <string name="op_A_p.3b_niv2">Usar o kit com calma e sempre limpar bem a ferida.</string>
     <string name="op_B_p.3b_niv2">Pedir para alguém fazer tudo.</string>
     <string name="op_C_p.3b_niv2">Deixar o machucado como está.</string>
 
     // Nivel 2 - 3c
-    <string name="titulo_3c_niv2">Vocês não cuidaram do corte corretamente. Mariana está com a mão suja e agora ela sente mais dor.</string>
-    <string name="pergunta_3c_niv2">Como corrigir isso antes que piore?</string>
+    <string name="titulo_3c_niv2">Vocês não cuidaram do corte corretamente. Mariana está com a mão suja e agora ela sente mais dor. Como corrigir isso antes que piore?</string>
     <string name="op_A_p.3c_niv2">Refazer o curativo com calma, usando o kit de forma limpa e segura.</string>
     <string name="op_B_p.3c_niv2">Pedir ajuda, mas sem explicar o que aconteceu.</string>
     <string name="op_C_p.3c_niv2">Ignorar o problema e continuar andando.</string>
 
+    // ---------------------------------------------------------------------------
 
     // Nivel 3
-    <string name="his_niv3">O grupo segue pela trilha e, após algum tempo caminhando, começam a se sentir cansados. O clima está quente e o caminho é um tanto quanto desafiador. Durante a trilha Lucas diz estar se sentindo tonto, começa a suar muito e, de repente quando menos esperavam, ele desmaia. Ele cai no chão, mas ao checa-lo percebem que ele ainda está respirando. O grupo precisa agir rápido para garantir que ele recupere a consciência e se mantenha seguro.</string>
+    <string name="texto_descricao_nivel_3">O grupo segue pela trilha e, após algum tempo caminhando, começam a se sentir cansados. O clima está quente e o caminho é um tanto quanto desafiador. Durante a trilha Lucas diz estar se sentindo tonto, começa a suar muito e, de repente quando menos esperavam, ele desmaia. Ele cai no chão, mas ao checa-lo percebem que ele ainda está respirando. O grupo precisa agir rápido para garantir que ele recupere a consciência e se mantenha seguro.</string>
 
     // Nivel 3 - 1
     <string name="titulo_niv3">Lucas desmaiou e está deitado no chão. O que você faz primeiro?</string>

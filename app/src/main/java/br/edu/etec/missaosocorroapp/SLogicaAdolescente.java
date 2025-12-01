@@ -10,7 +10,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class C2LogicaAdolescente extends AppCompatActivity {
+public class SLogicaAdolescente extends AppCompatActivity {
 
     Button botao_voltar;
     Button botao_comecar;
@@ -20,7 +20,7 @@ public class C2LogicaAdolescente extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.c2_tela_adolescente);
+        setContentView(R.layout.s_tela_adolescente);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -32,7 +32,7 @@ public class C2LogicaAdolescente extends AppCompatActivity {
 
         botao_voltar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    C2LogicaAdolescente.this, BLogicaIdade.class
+                    SLogicaAdolescente.this, BLogicaSelecaoIdade.class
             );
             startActivity(nova_tela);
 
@@ -43,7 +43,7 @@ public class C2LogicaAdolescente extends AppCompatActivity {
 
         botao_comecar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    C2LogicaAdolescente.this, D2LogicaNivelAdolescente.class
+                    SLogicaAdolescente.this, TLogicaNivelAdolescente.class
             );
             startActivity(nova_tela);
         });

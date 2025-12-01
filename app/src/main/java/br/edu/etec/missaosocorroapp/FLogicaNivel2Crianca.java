@@ -10,15 +10,16 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class D2LogicaNivelAdolescente extends AppCompatActivity {
+public class FLogicaNivel2Crianca extends AppCompatActivity {
 
-    Button botao_voltar, botao_nivel_1, botao_nivel_2, botao_nivel_3;
+    Button botao_voltar, botao_continuar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.d2_tela_nivel_adolescente);
+        setContentView(R.layout.f_tela_nivel_2_crianca);
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -26,13 +27,11 @@ public class D2LogicaNivelAdolescente extends AppCompatActivity {
         });
 
         botao_voltar = findViewById(R.id.btn_voltar);
-        botao_nivel_1 = findViewById(R.id.btn_resposta_1);
-        botao_nivel_2 = findViewById(R.id.btn_nivel2);
-        botao_nivel_3 = findViewById(R.id.btn_nivel3);
+        botao_continuar = findViewById(R.id.btn_iniciar);
 
         botao_voltar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    D2LogicaNivelAdolescente.this, C2LogicaAdolescente.class
+                    FLogicaNivel2Crianca.this, DLogicaNiveisCrianca.class
             );
             startActivity(nova_tela);
 
@@ -41,14 +40,14 @@ public class D2LogicaNivelAdolescente extends AppCompatActivity {
 
         });
 
-        botao_nivel_1.setOnClickListener(v -> abrirTelaNivel(4));
-        botao_nivel_2.setOnClickListener(v -> abrirTelaNivel(5));
-        botao_nivel_3.setOnClickListener(v -> abrirTelaNivel(6));
-    }
+        botao_continuar.setOnClickListener(v -> {
+            Intent nova_tela = new Intent(
+                    FLogicaNivel2Crianca.this, HLogicaPergunta1.class
+            );
+            startActivity(nova_tela);
 
-    private void abrirTelaNivel(int nivel) {
-        Intent intent = new Intent(D2LogicaNivelAdolescente.this, ELogicaDescricaoNiveis.class);
-        intent.putExtra("nivel", nivel);
-        startActivity(intent);
+        });
+
+
     }
 }

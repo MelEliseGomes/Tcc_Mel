@@ -2,7 +2,9 @@ package br.edu.etec.missaosocorroapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,42 +12,38 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class C1LogicaCrianca extends AppCompatActivity {
+public class OLogicaPontuacao extends AppCompatActivity {
 
     Button botao_voltar;
-    Button botao_comecar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.c1_tela_crianca);
+        setContentView(R.layout.o_tela_pontuacao);
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
-        botao_voltar = findViewById(R.id.btn_voltar);
-        botao_comecar = findViewById(R.id.btn_comecar);
 
+        botao_voltar = findViewById(R.id.btn_voltar);
         botao_voltar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    C1LogicaCrianca.this, BLogicaIdade.class
+                    OLogicaPontuacao.this, DLogicaNiveisCrianca.class
             );
             startActivity(nova_tela);
 
             overridePendingTransition(android.R.anim.slide_in_left,
                     android.R.anim.slide_out_right);
-
         });
 
-        botao_comecar.setOnClickListener(v -> {
-            Intent nova_tela = new Intent(
-                    C1LogicaCrianca.this, D1LogicaNivelCrianca.class
-            );
-            startActivity(nova_tela);
-        });
+        TextView txtPontos = findViewById(R.id.txv_pontos);
 
+
+        double pontosFinais = Pontuacao.getTotal();
+        txtPontos.setText("Sua pontuação foi: " + pontosFinais);
     }
 }

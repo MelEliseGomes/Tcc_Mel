@@ -11,31 +11,58 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MissaoSocorroAPP">
         <activity
-            android:name=".GLogicaQuestoesN2C"
+            android:name=".PLogicaPergunta1"
             android:exported="false" />
         <activity
-            android:name=".FLogicaQuestoesN1C"
+            android:name=".OLogicaPontuacao"
             android:exported="false" />
         <activity
-            android:name=".ELogicaDescricaoNiveis"
+            android:name=".NLogicaPergunta3C"
             android:exported="false" />
         <activity
-            android:name=".D2LogicaNivelAdolescente"
+            android:name=".MLogicaPergunta3B"
             android:exported="false" />
         <activity
-            android:name=".D1LogicaNivelCrianca"
+            android:name=".LLogicaPergunta3A"
             android:exported="false" />
         <activity
-            android:name=".C2LogicaAdolescente"
+            android:name=".TLogicaNivelAdolescente"
             android:exported="false" />
         <activity
-            android:name=".C1LogicaCrianca"
+            android:name=".SLogicaAdolescente"
             android:exported="false" />
         <activity
-            android:name=".BLogicaIdade"
+            android:name=".KLogicaPergunta2C"
             android:exported="false" />
         <activity
-            android:name=".ALogicaInicial"
+            android:name=".JLogicaPergunta2B"
+            android:exported="false" />
+        <activity
+            android:name=".ILogicaPergunta2A"
+            android:exported="false" />
+        <activity
+            android:name=".HLogicaPergunta1"
+            android:exported="false" />
+        <activity
+            android:name=".GLogicaNivel3Crianca"
+            android:exported="false" />
+        <activity
+            android:name=".FLogicaNivel2Crianca"
+            android:exported="false" />
+        <activity
+            android:name=".ELogicaNivel1Crianca"
+            android:exported="false" />
+        <activity
+            android:name=".DLogicaNiveisCrianca"
+            android:exported="false" />
+        <activity
+            android:name=".CLogicaComecarCrianca"
+            android:exported="false" />
+        <activity
+            android:name=".BLogicaSelecaoIdade"
+            android:exported="false" />
+        <activity
+            android:name=".ALogicaBoasVindas"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

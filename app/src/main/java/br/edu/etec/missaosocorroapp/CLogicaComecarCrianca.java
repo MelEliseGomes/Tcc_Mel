@@ -10,15 +10,16 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class BLogicaIdade extends AppCompatActivity {
+public class CLogicaComecarCrianca extends AppCompatActivity {
 
-    Button botao_voltar, botao_crianca, botao_adolescente;
+    Button botao_voltar;
+    Button botao_comecar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.b_tela_idade);
+        setContentView(R.layout.c_tela_comecar_crianca);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -26,12 +27,11 @@ public class BLogicaIdade extends AppCompatActivity {
         });
 
         botao_voltar = findViewById(R.id.btn_voltar);
-        botao_crianca = findViewById(R.id.btn_5_a_11);
-        botao_adolescente = findViewById(R.id.btn_12_a_15);
+        botao_comecar = findViewById(R.id.btn_comecar);
 
         botao_voltar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    BLogicaIdade.this, ALogicaInicial.class
+                    CLogicaComecarCrianca.this, BLogicaSelecaoIdade.class
             );
             startActivity(nova_tela);
 
@@ -40,28 +40,12 @@ public class BLogicaIdade extends AppCompatActivity {
 
         });
 
-        botao_crianca.setOnClickListener(v -> {
+        botao_comecar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    BLogicaIdade.this, C1LogicaCrianca.class
+                    CLogicaComecarCrianca.this, DLogicaNiveisCrianca.class
             );
             startActivity(nova_tela);
-
-
-
-
         });
-
-        botao_adolescente.setOnClickListener(v -> {
-            Intent nova_tela = new Intent(
-                    BLogicaIdade.this, C2LogicaAdolescente.class
-            );
-            startActivity(nova_tela);
-
-            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-
-        });
-
-
 
     }
 }

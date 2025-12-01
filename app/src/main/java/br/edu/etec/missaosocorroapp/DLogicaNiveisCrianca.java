@@ -10,7 +10,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class D1LogicaNivelCrianca extends AppCompatActivity {
+public class DLogicaNiveisCrianca extends AppCompatActivity {
 
     Button botao_voltar, botao_nivel_1, botao_nivel_2, botao_nivel_3;
 
@@ -18,7 +18,7 @@ public class D1LogicaNivelCrianca extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.d1_tela_nivel_crianca);
+        setContentView(R.layout.d_tela_niveis_crianca);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -32,7 +32,7 @@ public class D1LogicaNivelCrianca extends AppCompatActivity {
 
         botao_voltar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    D1LogicaNivelCrianca.this, C1LogicaCrianca.class
+                    DLogicaNiveisCrianca.this, CLogicaComecarCrianca.class
             );
             startActivity(nova_tela);
 
@@ -41,15 +41,38 @@ public class D1LogicaNivelCrianca extends AppCompatActivity {
 
         });
 
-        botao_nivel_1.setOnClickListener(v -> abrirTelaNivel(1));
-        botao_nivel_2.setOnClickListener(v -> abrirTelaNivel(2));
-        botao_nivel_3.setOnClickListener(v -> abrirTelaNivel(3));
-    }
+        botao_nivel_1.setOnClickListener(view -> {
+            Intent nova_tela = new Intent(
+                    DLogicaNiveisCrianca.this, ELogicaNivel1Crianca.class
+            );
+            startActivity(nova_tela);
+        });
 
-    private void abrirTelaNivel(int nivel) {
-        Intent intent = new Intent(D1LogicaNivelCrianca.this, ELogicaDescricaoNiveis.class);
-        intent.putExtra("nivel", nivel);
-        startActivity(intent);
+        botao_nivel_2.setOnClickListener(view -> {
+            Intent nova_tela = new Intent(
+                    DLogicaNiveisCrianca.this, FLogicaNivel2Crianca.class
+            );
+            startActivity(nova_tela);
+        });
+
+        botao_nivel_3.setOnClickListener(view -> {
+            Intent nova_tela = new Intent(
+                    DLogicaNiveisCrianca.this, GLogicaNivel3Crianca.class
+            );
+            startActivity(nova_tela);
+        });
+
+        botao_voltar.setOnClickListener(v -> {
+            Intent nova_tela = new Intent(
+                    DLogicaNiveisCrianca.this, CLogicaComecarCrianca.class
+            );
+            startActivity(nova_tela);
+
+            overridePendingTransition(android.R.anim.slide_in_left,
+                    android.R.anim.slide_out_right);
+
+        });
+
     }
 
 

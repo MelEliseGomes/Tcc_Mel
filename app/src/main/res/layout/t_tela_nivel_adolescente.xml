@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/adolescenteinicial"
-    tools:context=".D2LogicaNivelAdolescente">
+    tools:context=".TLogicaNivelAdolescente">
 
     <FrameLayout
         android:id="@+id/frameLayout"

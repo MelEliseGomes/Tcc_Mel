@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/inicial"
-    tools:context=".FLogicaQuestoesN1C">
+    tools:context=".JLogicaPergunta2B">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -16,7 +16,6 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -40,66 +39,72 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout">
 
+
         <TextView
+            android:id="@+id/txt_titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@color/cor_preta_2"
-            android:text="ALTERAR"
+            android:text="PERGUNTA 2B"
             android:textColor="@color/cor_branca_1"
-            android:textSize="30sp"
+            android:textSize="28sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             tools:ignore="HardcodedText" />
 
         <TextView
-            android:id="@+id/txt_pergunta"
+            android:id="@+id/txv_pergunta"
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="300dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:background="@color/cor_preta_2"
-            android:gravity="center_horizontal"
-            android:text="adicionarei uma lista aqui"
+            android:text="@string/texto_pergunta_2b_crianca_nivel_1"
             android:textColor="@color/cor_branca_1"
-            tools:ignore="HardcodedText" />
+            android:textSize="17sp"
+            android:gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            tools:ignore="VisualLintLongText" />
 
         <Button
-            android:id="@+id/btn_alternativa_a"
-            android:layout_width="wrap_content"
-            android:layout_height="56dp"
+            android:id="@+id/btn_a"
+            android:layout_width="320dp"
+            android:layout_height="80dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
-            android:backgroundTint="@color/cor_branca_1"
-            android:text="@string/texto_alternativa_a"
+            android:text="@string/texto_opcao_p2b_n1_a"
             android:textColor="@color/cor_preta_1"
-            android:textSize="25sp"
-            tools:ignore="DuplicateSpeakableTextCheck" />
+            android:textSize="15sp"
+            android:padding="10dp" />
 
         <Button
-            android:id="@+id/btn_alternativa_b"
-            android:layout_width="wrap_content"
-            android:layout_height="56dp"
+            android:id="@+id/btn_b"
+            android:layout_width="320dp"
+            android:layout_height="80dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
-            android:backgroundTint="@color/cor_branca_1"
-            android:text="@string/texto_alternativa_b"
+            android:text="@string/texto_opcao_p2b_n1_b"
             android:textColor="@color/cor_preta_1"
-            android:textSize="25sp" />
+            android:textSize="15sp"
+            android:padding="10dp" />
 
         <Button
-            android:id="@+id/btn_alternativa_c"
-            android:layout_width="wrap_content"
-            android:layout_height="56dp"
+            android:id="@+id/btn_c"
+            android:layout_width="320dp"
+            android:layout_height="80dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
-            android:backgroundTint="@color/cor_branca_1"
-            android:text="@string/texto_alternativa_c"
+            android:text="@string/texto_opcao_p2b_n1_c"
             android:textColor="@color/cor_preta_1"
-            android:textSize="25sp" />
+            android:textSize="15sp"
+            android:padding="10dp" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
