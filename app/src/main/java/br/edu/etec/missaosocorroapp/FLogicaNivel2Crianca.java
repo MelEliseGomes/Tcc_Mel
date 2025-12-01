@@ -42,7 +42,7 @@ public class FLogicaNivel2Crianca extends AppCompatActivity {
 
         botao_continuar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    FLogicaNivel2Crianca.this, HLogicaPergunta1.class
+                    FLogicaNivel2Crianca.this, OLogicaPergunta1.class
             );
             startActivity(nova_tela);
 

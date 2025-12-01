@@ -59,6 +59,7 @@ public class HLogicaPergunta1 extends AppCompatActivity {
         botao_alternativa_c.setOnClickListener(v -> abrirProximaTela(botao_alternativa_c.getText().toString()));
 
         botao_voltar = findViewById(R.id.btn_voltar);
+
         botao_voltar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
                     HLogicaPergunta1.this, DLogicaNiveisCrianca.class
@@ -81,17 +82,17 @@ public class HLogicaPergunta1 extends AppCompatActivity {
 
         if (textoSelecionado.equals(altA)) {
 
-            Pontuacao.adicionar(1.0);
+            ZPontuacao.adicionar(1.0);
             intent = new Intent(this, ILogicaPergunta2A.class);
 
         } else if (textoSelecionado.equals(altB)) {
 
-            Pontuacao.adicionar(0.5);
+            ZPontuacao.adicionar(0.5);
             intent = new Intent(this, JLogicaPergunta2B.class);
 
         } else {
 
-            Pontuacao.adicionar(0);
+            ZPontuacao.adicionar(0);
             intent = new Intent(this, KLogicaPergunta2C.class);
         }
 

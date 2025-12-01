@@ -81,17 +81,17 @@ public class KLogicaPergunta2C extends AppCompatActivity {
 
         if (textoSelecionado.equals(altA)) {
 
-            Pontuacao.adicionar(1.0);
+            ZPontuacao.adicionar(1.0);
             intent = new Intent(this, LLogicaPergunta3A.class);
 
         } else if (textoSelecionado.equals(altB)) {
 
-            Pontuacao.adicionar(0.5);
+            ZPontuacao.adicionar(0.5);
             intent = new Intent(this, MLogicaPergunta3B.class);
 
         } else {
 
-            Pontuacao.adicionar(0);
+            ZPontuacao.adicionar(0);
             intent = new Intent(this, NLogicaPergunta3C.class);
         }
 

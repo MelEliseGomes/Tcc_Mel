@@ -53,7 +53,7 @@ public class BLogicaSelecaoIdade extends AppCompatActivity {
 
         botao_adolescente.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    BLogicaSelecaoIdade.this, SLogicaAdolescente.class
+                    BLogicaSelecaoIdade.this, WLogicaAdolescente.class
             );
             startActivity(nova_tela);
 

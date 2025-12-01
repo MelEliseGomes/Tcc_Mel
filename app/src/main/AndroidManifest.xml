@@ -11,10 +11,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MissaoSocorroAPP">
         <activity
-            android:name=".PLogicaPergunta1"
+            android:name=".ULogicaPergunta3C"
             android:exported="false" />
         <activity
-            android:name=".OLogicaPontuacao"
+            android:name=".ZLogicaPontuacao"
+            android:exported="false" />
+        <activity
+            android:name=".XLogicaNivelAdolescente"
+            android:exported="false" />
+        <activity
+            android:name=".WLogicaAdolescente"
+            android:exported="false" />
+        <activity
+            android:name=".TLogicaPergunta3B"
+            android:exported="false" />
+        <activity
+            android:name=".SLogicaPergunta3A"
+            android:exported="false" />
+        <activity
+            android:name=".RLogicaPergunta2C"
+            android:exported="false" />
+        <activity
+            android:name=".QLogicaPergunta2B"
+            android:exported="false" />
+        <activity
+            android:name=".PLogicaPergunta2A"
+            android:exported="false" />
+        <activity
+            android:name=".OLogicaPergunta1"
             android:exported="false" />
         <activity
             android:name=".NLogicaPergunta3C"
@@ -24,12 +48,6 @@
             android:exported="false" />
         <activity
             android:name=".LLogicaPergunta3A"
-            android:exported="false" />
-        <activity
-            android:name=".TLogicaNivelAdolescente"
-            android:exported="false" />
-        <activity
-            android:name=".SLogicaAdolescente"
             android:exported="false" />
         <activity
             android:name=".KLogicaPergunta2C"

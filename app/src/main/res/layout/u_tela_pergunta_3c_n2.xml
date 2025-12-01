@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inicial"
+    tools:context=".ULogicaPergunta3C">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn_voltar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/forma_botao_circular_branco"
+            android:text="@string/texto_seta"
+            android:textColor="@color/cor_preta_1" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+
+
+        <TextView
+            android:id="@+id/txt_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/cor_preta_2"
+            android:text="PERGUNTA 3C"
+            android:textColor="@color/cor_branca_1"
+            android:textSize="28sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/txv_pergunta"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/cor_preta_2"
+            android:text="@string/texto_pergunta_3c_crianca_nivel_2"
+            android:textColor="@color/cor_branca_1"
+            android:textSize="17sp"
+            android:gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            tools:ignore="VisualLintLongText" />
+
+        <Button
+            android:id="@+id/btn_a"
+            android:layout_width="320dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/forma_botao_retangular_arredondado_branco"
+            android:text="@string/texto_opcao_p3c_n2_a"
+            android:textColor="@color/cor_preta_1"
+            android:textSize="15sp"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btn_b"
+            android:layout_width="320dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/forma_botao_retangular_arredondado_branco"
+            android:text="@string/texto_opcao_p3c_n2_b"
+            android:textColor="@color/cor_preta_1"
+            android:textSize="15sp"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btn_c"
+            android:layout_width="320dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/forma_botao_retangular_arredondado_branco"
+            android:text="@string/texto_opcao_p3c_n2_c"
+            android:textColor="@color/cor_preta_1"
+            android:textSize="15sp"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

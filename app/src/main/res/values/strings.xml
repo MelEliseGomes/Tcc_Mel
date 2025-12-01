@@ -93,39 +93,39 @@
 
     // Nivel 2 - 2a
     <string name="texto_pergunta_2a_crianca_nivel_2">Você pega a garrafinha de água, lava o corte com cuidado e usa uma gaze limpa do kit para cobrir o ferimento. Mariana se sente melhor e sorri, mesmo ainda com dor. O que mais vocês podem fazer para ajudar?</string>
-    <string name="op_A_p.2a_niv2">Ficar de olho se o sangramento para, manter o curativo e acalmar Mariana.</string>
-    <string name="op_B_p.2a_niv2">Falar para ela ficar calma.</string>
-    <string name="op_C_p.2a_niv2">Tirar o curativo toda hora para ver como está o machucado.</string>
+    <string name="texto_opcao_p2a_n2_a">Ficar de olho se o sangramento para, manter o curativo e acalmar Mariana.</string>
+    <string name="texto_opcao_p2a_n2_b">Falar para ela ficar calma.</string>
+    <string name="texto_opcao_p2a_n2_c">Tirar o curativo toda hora para ver como está o machucado.</string>
 
     // Nivel 2 - 2b
     <string name="texto_pergunta_2b_crianca_nivel_2">Mariana pressiona a mão contra a camiseta, e o sangramento diminui. Mas vocês percebem que a mão está suja, e que isso pode causar uma infecção e fazer doer mais. O que fazer agora?</string>
-    <string name="op_A_p.2b_niv2">Lavar a mão com água limpa e usar o kit de primeiros socorros.</string>
-    <string name="op_B_p.2b_niv2">Esperar mais um pouco para ver se melhora.</string>
-    <string name="op_C_p.2b_niv2">Dizer que é só um machucadinho e seguir em frente.</string>
+    <string name="texto_opcao_p2b_n2_a">Lavar a mão com água limpa e usar o kit de primeiros socorros.</string>
+    <string name="texto_opcao_p2b_n2_b">Esperar mais um pouco para ver se melhora.</string>
+    <string name="texto_opcao_p2b_n2_c">Dizer que é só um machucadinho e seguir em frente.</string>
 
     // Nivel 2 - 2c
     <string name="texto_pergunta_2c_crianca_nivel_2">Você se desespera e não consegue ajudar Mariana. Ela também fica assustada e o grupo começa a entrar em pânico. Como corrigir a situação?</string>
-    <string name="op_A_p.2c_niv2">Respirar fundo, usar o kit com calma e lavar a ferida com água.</string>
-    <string name="op_B_p.2c_niv2">Pedir para outra pessoa fazer tudo enquanto você só observa e diz pra ela se acalmar.</string>
-    <string name="op_C_p.2c_niv2">Ficar reclamando do acidente e não ajudar.</string>
+    <string name="texto_opcao_p2c_n2_a">Respirar fundo, usar o kit com calma e lavar a ferida com água.</string>
+    <string name="texto_opcao_p2c_n2_b">Pedir para outra pessoa fazer tudo enquanto você só observa e diz pra ela se acalmar.</string>
+    <string name="texto_opcao_p2c_n2_c">Ficar reclamando do acidente e não ajudar.</string>
 
     // Nivel 2 - 3a
-    <string name="titulo_3a_niv2">Vocês cuidam do corte de forma calma e correta. Mariana está mais tranquila, e todos aprendem que um machucado pequeno também precisa de atenção. Por que foi importante cuidar direitinho do corte?</string>
-    <string name="op_A_p.3a_niv2">Porque um corte pode infeccionar e causar problemas e dor se não for limpo.</string>
-    <string name="op_B_p.3a_niv2">Porque ela ficou triste e precisava de carinho.</string>
-    <string name="op_C_p.3a_niv2">Porque se ela chorar muito, os professores vão brigar.</string>
+    <string name="texto_pergunta_3a_crianca_nivel_2">Vocês cuidam do corte de forma calma e correta. Mariana está mais tranquila, e todos aprendem que um machucado pequeno também precisa de atenção. Por que foi importante cuidar direitinho do corte?</string>
+    <string name="texto_opcao_p3a_n2_a">Porque um corte pode infeccionar e causar problemas e dor se não for limpo.</string>
+    <string name="texto_opcao_p3a_n2_b">Porque ela ficou triste e precisava de carinho.</string>
+    <string name="texto_opcao_p3a_n2_c">Porque se ela chorar muito, os professores vão brigar.</string>
 
     // Nivel 2 - 3b
-    <string name="titulo_3b_niv2">Você tentou ajudar a acalma-la, mas sabemos que nesses momentos devemos ajudar nossos amigos a resolver o problema. Mariana fica com um pouco de dor, vocês aprenderam algo. O que é melhor fazer na próxima vez?</string>
-    <string name="op_A_p.3b_niv2">Usar o kit com calma e sempre limpar bem a ferida.</string>
-    <string name="op_B_p.3b_niv2">Pedir para alguém fazer tudo.</string>
-    <string name="op_C_p.3b_niv2">Deixar o machucado como está.</string>
+    <string name="texto_pergunta_3b_crianca_nivel_2">Você tentou ajudar a acalma-la, mas sabemos que nesses momentos devemos ajudar nossos amigos a resolver o problema. Mariana fica com um pouco de dor, vocês aprenderam algo. O que é melhor fazer na próxima vez?</string>
+    <string name="texto_opcao_p3b_n2_a">Usar o kit com calma e sempre limpar bem a ferida.</string>
+    <string name="texto_opcao_p3b_n2_b">Pedir para alguém fazer tudo.</string>
+    <string name="texto_opcao_p3b_n2_c">Deixar o machucado como está.</string>
 
     // Nivel 2 - 3c
-    <string name="titulo_3c_niv2">Vocês não cuidaram do corte corretamente. Mariana está com a mão suja e agora ela sente mais dor. Como corrigir isso antes que piore?</string>
-    <string name="op_A_p.3c_niv2">Refazer o curativo com calma, usando o kit de forma limpa e segura.</string>
-    <string name="op_B_p.3c_niv2">Pedir ajuda, mas sem explicar o que aconteceu.</string>
-    <string name="op_C_p.3c_niv2">Ignorar o problema e continuar andando.</string>
+    <string name="texto_pergunta_3c_crianca_nivel_2">Vocês não cuidaram do corte corretamente. Mariana está com a mão suja e agora ela sente mais dor. Como corrigir isso antes que piore?</string>
+    <string name="texto_opcao_p3c_n2_a">Refazer o curativo com calma, usando o kit de forma limpa e segura.</string>
+    <string name="texto_opcao_p3c_n2_b">Pedir ajuda, mas sem explicar o que aconteceu.</string>
+    <string name="texto_opcao_p3c_n2_c">Ignorar o problema e continuar andando.</string>
 
     // ---------------------------------------------------------------------------
 
