@@ -42,7 +42,7 @@ public class CCLogicaNivel3Crianca extends AppCompatActivity {
 
         botao_continuar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    CCLogicaNivel3Crianca.this, DALogicaPergunta1N1.class
+                    CCLogicaNivel3Crianca.this, FALogicaPergunta1N3.class
             );
             startActivity(nova_tela);
 

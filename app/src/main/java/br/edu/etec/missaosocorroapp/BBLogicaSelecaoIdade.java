@@ -53,7 +53,7 @@ public class BBLogicaSelecaoIdade extends AppCompatActivity {
 
         botao_adolescente.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    BBLogicaSelecaoIdade.this, ZZLogicaAdolescente.class
+                    BBLogicaSelecaoIdade.this, BELogicaComecarAdolescente.class
             );
             startActivity(nova_tela);
 

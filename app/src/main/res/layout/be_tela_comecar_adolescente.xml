@@ -6,11 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/adolescenteinicial"
-    tools:context=".XLogicaNivelAdolescente">
+    tools:context=".BELogicaComecarAdolescente">
 
     <FrameLayout
         android:id="@+id/frameLayout"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="4dp"
@@ -30,8 +30,9 @@
     </FrameLayout>
 
     <LinearLayout
-        android:layout_width="378dp"
-        android:layout_height="630dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="412dp"
+        android:layout_height="564dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
@@ -41,49 +42,30 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        tools:ignore="VisualLintBounds">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="@string/texto_niveis"
+            android:background="@color/cor_preta_2"
+            android:text="@string/texto_inicial_adolescente"
+            android:textAlignment="center"
+            android:textColor="@color/cor_branca_1"
+            android:textSize="40sp"
+            tools:ignore="TextSizeCheck" />
+
+        <Button
+            android:id="@+id/btn_comecar"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/forma_botao_retangular_final"
+            android:text="@string/texto_começar"
+            android:textAlignment="center"
             android:textColor="@color/cor_preta_1"
             android:textSize="30sp" />
-
-        <Button
-            android:id="@+id/btn_resposta_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
-            android:background="@drawable/forma_botao_retangular_final"
-            android:backgroundTint="@color/cor_branca_1"
-            android:text="@string/texto_nivel1"
-            android:textColor="@color/cor_preta_1"
-            android:textSize="25sp" />
-
-        <Button
-            android:id="@+id/btn_nivel2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/forma_botao_retangular_final"
-            android:backgroundTint="@color/cor_branca_1"
-            android:text="@string/texto_nivel2"
-            android:textColor="@color/cor_preta_1"
-            android:textSize="25sp" />
-
-        <Button
-            android:id="@+id/btn_nivel3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/forma_botao_retangular_final"
-            android:backgroundTint="@color/cor_branca_1"
-            android:text="@string/texto_nivel3"
-            android:textColor="@color/cor_preta_1"
-            android:textSize="25sp" />
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

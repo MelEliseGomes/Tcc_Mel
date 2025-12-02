@@ -17,10 +17,10 @@
             android:name=".ABLogicaPontuacao"
             android:exported="false" />
         <activity
-            android:name=".XLogicaNivelAdolescente"
+            android:name=".BFLogicaNivelAdolescente"
             android:exported="false" />
         <activity
-            android:name=".ZZLogicaAdolescente"
+            android:name=".BELogicaComecarAdolescente"
             android:exported="false" />
 
 

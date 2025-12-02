@@ -10,7 +10,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class ZZLogicaAdolescente extends AppCompatActivity {
+public class BELogicaComecarAdolescente extends AppCompatActivity {
 
     Button botao_voltar;
     Button botao_comecar;
@@ -20,7 +20,7 @@ public class ZZLogicaAdolescente extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.zz_tela_adolescente);
+        setContentView(R.layout.be_tela_comecar_adolescente);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -32,7 +32,7 @@ public class ZZLogicaAdolescente extends AppCompatActivity {
 
         botao_voltar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    ZZLogicaAdolescente.this, BBLogicaSelecaoIdade.class
+                    BELogicaComecarAdolescente.this, BBLogicaSelecaoIdade.class
             );
             startActivity(nova_tela);
 
@@ -43,7 +43,7 @@ public class ZZLogicaAdolescente extends AppCompatActivity {
 
         botao_comecar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    ZZLogicaAdolescente.this, XLogicaNivelAdolescente.class
+                    BELogicaComecarAdolescente.this, BFLogicaNivelAdolescente.class
             );
             startActivity(nova_tela);
         });
