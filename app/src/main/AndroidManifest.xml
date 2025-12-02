@@ -11,76 +11,97 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MissaoSocorroAPP">
         <activity
-            android:name=".ULogicaPergunta3C"
+            android:name=".BBLogica"
             android:exported="false" />
         <activity
-            android:name=".ZLogicaPontuacao"
+            android:name=".AALogica"
+            android:exported="false" />
+        <activity
+            android:name=".ZLogica"
+            android:exported="false" />
+        <activity
+            android:name=".YLogica"
+            android:exported="false" />
+        <activity
+            android:name=".XLogica"
+            android:exported="false" />
+        <activity
+            android:name=".WLogica"
+            android:exported="false" />
+        <activity
+            android:name=".VLogica"
+            android:exported="false" />
+        <activity
+            android:name=".EGLogicaPergunta3CN1"
+            android:exported="false" />
+        <activity
+            android:name=".ABLogicaPontuacao"
             android:exported="false" />
         <activity
             android:name=".XLogicaNivelAdolescente"
             android:exported="false" />
         <activity
-            android:name=".WLogicaAdolescente"
+            android:name=".ZZLogicaAdolescente"
             android:exported="false" />
         <activity
-            android:name=".TLogicaPergunta3B"
+            android:name=".EFLogicaPergunta3BN1"
             android:exported="false" />
         <activity
-            android:name=".SLogicaPergunta3A"
+            android:name=".EELogicaPergunta3AN1"
             android:exported="false" />
         <activity
-            android:name=".RLogicaPergunta2C"
+            android:name=".EDLogicaPergunta2CN1"
             android:exported="false" />
         <activity
-            android:name=".QLogicaPergunta2B"
+            android:name=".ECLogicaPergunta2BN1"
             android:exported="false" />
         <activity
-            android:name=".PLogicaPergunta2A"
+            android:name=".EBLogicaPergunta2AN1"
             android:exported="false" />
         <activity
-            android:name=".OLogicaPergunta1"
+            android:name=".EALogicaPergunta1N1"
             android:exported="false" />
         <activity
-            android:name=".NLogicaPergunta3C"
+            android:name=".DGLogicaPergunta3CN1"
             android:exported="false" />
         <activity
-            android:name=".MLogicaPergunta3B"
+            android:name=".DFLogicaPergunta3BN1"
             android:exported="false" />
         <activity
-            android:name=".LLogicaPergunta3A"
+            android:name=".DELogicaPergunta3AN1"
             android:exported="false" />
         <activity
-            android:name=".KLogicaPergunta2C"
+            android:name=".DDLogicaPergunta2CN1"
             android:exported="false" />
         <activity
-            android:name=".JLogicaPergunta2B"
+            android:name=".DCLogicaPergunta2BN1"
             android:exported="false" />
         <activity
-            android:name=".ILogicaPergunta2A"
+            android:name=".DBLogicaPergunta2AN1"
             android:exported="false" />
         <activity
-            android:name=".HLogicaPergunta1"
+            android:name=".DALogicaPergunta1N1"
             android:exported="false" />
         <activity
-            android:name=".GLogicaNivel3Crianca"
+            android:name=".CCLogicaNivel3Crianca"
             android:exported="false" />
         <activity
-            android:name=".FLogicaNivel2Crianca"
+            android:name=".CBLogicaNivel2Crianca"
             android:exported="false" />
         <activity
-            android:name=".ELogicaNivel1Crianca"
+            android:name=".CALogicaNivel1Crianca"
             android:exported="false" />
         <activity
-            android:name=".DLogicaNiveisCrianca"
+            android:name=".BDLogicaNiveisCrianca"
             android:exported="false" />
         <activity
-            android:name=".CLogicaComecarCrianca"
+            android:name=".BCLogicaComecarCrianca"
             android:exported="false" />
         <activity
-            android:name=".BLogicaSelecaoIdade"
+            android:name=".BBLogicaSelecaoIdade"
             android:exported="false" />
         <activity
-            android:name=".ALogicaBoasVindas"
+            android:name=".BALogicaBoasVindas"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

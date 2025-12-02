@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/criancainicial"
+    tools:context=".BCLogicaComecarCrianca">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn_voltar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/forma_botao_circular_branco"
+            android:text="@string/texto_seta"
+            android:textColor="@color/cor_preta_1" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="412dp"
+        android:layout_height="564dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        tools:ignore="VisualLintBounds">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/cor_preta_2"
+            android:text="@string/texto_inicial_crianca"
+            android:textAlignment="center"
+            android:textColor="@color/cor_branca_1"
+            android:textSize="40sp"
+            tools:ignore="TextSizeCheck" />
+
+        <Button
+            android:id="@+id/btn_comecar"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/forma_botao_retangular_final"
+            android:text="@string/texto_começar"
+            android:textAlignment="center"
+            android:textColor="@color/cor_preta_1"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
