@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/inicial"
-    tools:context=".ECLogicaPergunta2BN2">
+    tools:context=".FGLogicaPergunta3CN3">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@color/cor_preta_2"
-            android:text="PERGUNTA 2B"
+            android:text="PERGUNTA 3C"
             android:textColor="@color/cor_branca_1"
             android:textSize="28sp"
             android:paddingLeft="20dp"
@@ -64,7 +64,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:background="@color/cor_preta_2"
-            android:text="@string/texto_pergunta_2b_crianca_nivel_2"
+            android:text="@string/texto_pergunta_3c_crianca_nivel_3"
             android:textColor="@color/cor_branca_1"
             android:textSize="17sp"
             android:gravity="center_horizontal"
@@ -79,7 +79,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
             android:padding="10dp"
-            android:text="@string/texto_opcao_p2b_n2_a"
+            android:text="@string/texto_opcao_p3c_n3_a"
             android:textColor="@color/cor_preta_1"
             android:textSize="15sp"
             tools:ignore="TextSizeCheck" />
@@ -91,7 +91,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
             android:padding="10dp"
-            android:text="@string/texto_opcao_p2b_n2_b"
+            android:text="@string/texto_opcao_p3c_n3_b"
             android:textColor="@color/cor_preta_1"
             android:textSize="15sp"
             tools:ignore="TextSizeCheck" />
@@ -103,7 +103,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
             android:padding="10dp"
-            android:text="@string/texto_opcao_p2b_n2_c"
+            android:text="@string/texto_opcao_p3c_n3_c"
             android:textColor="@color/cor_preta_1"
             android:textSize="15sp"
             tools:ignore="TextSizeCheck" />

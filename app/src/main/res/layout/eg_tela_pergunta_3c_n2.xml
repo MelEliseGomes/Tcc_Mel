@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/inicial"
-    tools:context=".EGLogicaPergunta3CN1">
+    tools:context=".EGLogicaPergunta3CN2">
 
     <FrameLayout
         android:id="@+id/frameLayout"

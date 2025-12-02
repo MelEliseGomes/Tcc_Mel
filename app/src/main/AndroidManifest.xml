@@ -32,7 +32,7 @@
             android:name=".VLogica"
             android:exported="false" />
         <activity
-            android:name=".EGLogicaPergunta3CN1"
+            android:name=".EGLogicaPergunta3CN2"
             android:exported="false" />
         <activity
             android:name=".ABLogicaPontuacao"
@@ -44,22 +44,22 @@
             android:name=".ZZLogicaAdolescente"
             android:exported="false" />
         <activity
-            android:name=".EFLogicaPergunta3BN1"
+            android:name=".EFLogicaPergunta3BN2"
             android:exported="false" />
         <activity
-            android:name=".EELogicaPergunta3AN1"
+            android:name=".EELogicaPergunta3AN2"
             android:exported="false" />
         <activity
-            android:name=".EDLogicaPergunta2CN1"
+            android:name=".EDLogicaPergunta2CN2"
             android:exported="false" />
         <activity
-            android:name=".ECLogicaPergunta2BN1"
+            android:name=".ECLogicaPergunta2BN2"
             android:exported="false" />
         <activity
-            android:name=".EBLogicaPergunta2AN1"
+            android:name=".EBLogicaPergunta2AN2"
             android:exported="false" />
         <activity
-            android:name=".EALogicaPergunta1N1"
+            android:name=".EALogicaPergunta1N2"
             android:exported="false" />
         <activity
             android:name=".DGLogicaPergunta3CN1"

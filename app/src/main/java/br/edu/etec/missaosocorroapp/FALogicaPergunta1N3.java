@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class EALogicaPergunta1N1 extends AppCompatActivity {
+public class FALogicaPergunta1N3 extends AppCompatActivity {
 
     Button botao_voltar, botao_alternativa_a, botao_alternativa_b, botao_alternativa_c;
 
@@ -23,7 +23,7 @@ public class EALogicaPergunta1N1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.ea_tela_pergunta_1_n2);
+        setContentView(R.layout.fa_tela_pergunta_1_n3);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
@@ -37,11 +37,11 @@ public class EALogicaPergunta1N1 extends AppCompatActivity {
 
 
         TextView txtPergunta = findViewById(R.id.txv_pergunta);
-        txtPergunta.setText(getString(R.string.texto_pergunta_1_crianca_nivel_2));
+        txtPergunta.setText(getString(R.string.texto_pergunta_1_crianca_nivel_3));
 
-        String altA = getString(R.string.texto_opcao_p1_n2_a); // correta → tela L
-        String altB = getString(R.string.texto_opcao_p1_n2_b); // incorreta → tela M
-        String altC = getString(R.string.texto_opcao_p1_n2_c); // incorreta → tela N
+        String altA = getString(R.string.texto_opcao_p1_n3_a); // correta → tela L
+        String altB = getString(R.string.texto_opcao_p1_n3_b); // incorreta → tela M
+        String altC = getString(R.string.texto_opcao_p1_n3_c); // incorreta → tela N
 
         List<String> alternativas = new ArrayList<>();
         alternativas.add(altA);
@@ -61,7 +61,7 @@ public class EALogicaPergunta1N1 extends AppCompatActivity {
         botao_voltar = findViewById(R.id.btn_voltar);
         botao_voltar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    EALogicaPergunta1N1.this, BDLogicaNiveisCrianca.class
+                    FALogicaPergunta1N3.this, BDLogicaNiveisCrianca.class
             );
             startActivity(nova_tela);
 
@@ -72,26 +72,26 @@ public class EALogicaPergunta1N1 extends AppCompatActivity {
 
     private void abrirProximaTela(String textoSelecionado) {
 
-        String altA = getString(R.string.texto_opcao_p1_n2_a);
-        String altB = getString(R.string.texto_opcao_p1_n2_b);
-        String altC = getString(R.string.texto_opcao_p1_n2_c);
+        String altA = getString(R.string.texto_opcao_p1_n3_a);
+        String altB = getString(R.string.texto_opcao_p1_n3_b);
+        String altC = getString(R.string.texto_opcao_p1_n3_c);
 
         Intent intent;
 
         if (textoSelecionado.equals(altA)) {
 
             AAClassePontuacao.adicionar(1.0);
-            intent = new Intent(this, EBLogicaPergunta2AN1.class);
+            intent = new Intent(this, FBLogicaPergunta2AN3.class);
 
         } else if (textoSelecionado.equals(altB)) {
 
             AAClassePontuacao.adicionar(0.5);
-            intent = new Intent(this, ECLogicaPergunta2BN1.class);
+            intent = new Intent(this, FCLogicaPergunta2BN3.class);
 
         } else {
 
             AAClassePontuacao.adicionar(0);
-            intent = new Intent(this, EDLogicaPergunta2CN1.class);
+            intent = new Intent(this, FDLogicaPergunta2CN3.class);
         }
 
         startActivity(intent);

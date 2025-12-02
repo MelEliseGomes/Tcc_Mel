@@ -133,53 +133,52 @@
     <string name="texto_descricao_nivel_3">O grupo segue pela trilha e, após algum tempo caminhando, começam a se sentir cansados. O clima está quente e o caminho é um tanto quanto desafiador. Durante a trilha Lucas diz estar se sentindo tonto, começa a suar muito e, de repente quando menos esperavam, ele desmaia. Ele cai no chão, mas ao checa-lo percebem que ele ainda está respirando. O grupo precisa agir rápido para garantir que ele recupere a consciência e se mantenha seguro.</string>
 
     // Nivel 3 - 1
-    <string name="titulo_niv3">Lucas desmaiou e está deitado no chão. O que você faz primeiro?</string>
-    <string name="op_A_niv3">Deitar Lucas de lado, levantar as pernas dele com ajuda da mochila e garantir que ele está respirar.</string>
-    <string name="op_B_niv3">Tentar acordá-lo imediatamente, sacudindo seu ombro com força.</string>
-    <string name="op_C_niv3">Deixar Lucas deitado e continuar procurando ajuda sem prestar atenção na situação.</string>
+    <string name="texto_pergunta_1_crianca_nivel_3">Lucas desmaiou e está deitado no chão. O que você faz primeiro?</string>
+    <string name="texto_opcao_p1_n3_a">Deitar Lucas de lado, levantar as pernas dele com ajuda da mochila e garantir que ele está respirar.</string>
+    <string name="texto_opcao_p1_n3_b">Tentar acordá-lo imediatamente, sacudindo seu ombro com força.</string>
+    <string name="texto_opcao_p1_n3_c">Deixar Lucas deitado e continuar procurando ajuda sem prestar atenção na situação.</string>
 
     // Nivel 3 - 2a
-    <string name="titulo_2a_niv3">Você ajuda a deitar Lucas de lado, elevando as pernas dele para melhorar a circulação e garantir que ele possa respirar melhor. O grupo se mantém calmo e observa Lucas atentamente enquanto ele começa a recuperar a consciência.\nLucas começa a mexer os dedos e logo abre os olhos. Ele parece confuso, mas consegue falar.</string>
+    <string name="texto_pergunta_2a_crianca_nivel_3">Você ajuda a deitar Lucas de lado, elevando as pernas dele para melhorar a circulação e garantir que ele possa respirar melhor. O grupo se mantém calmo e observa Lucas atentamente enquanto ele começa a recuperar a consciência.\nLucas começa a mexer os dedos e logo abre os olhos. Ele parece confuso, mas consegue falar.</string>
     <string name="pergunta_2a_niv3">O que fazer agora?</string>
-    <string name="op_A_p.2a_niv3">Dar um pouco de água para Lucas, mantê-lo calmo e esperar até que ele se recupere completamente.</string>
-    <string name="op_B_p.2a_niv3">Tentar fazer Lucas se levantar de imediato, já que ele parece estar acordando.</string>
-    <string name="op_C_p.2a_niv3">Deixar Lucas deitado e sair para procurar os professores sem garantir que ele está bem.</string>
-
+    <string name="texto_opcao_p2a_n3_a">Dar um pouco de água para Lucas, mantê-lo calmo e esperar até que ele se recupere completamente.</string>
+    <string name="texto_opcao_p2a_n3_b">Tentar fazer Lucas se levantar de imediato, já que ele parece estar acordando.</string>
+    <string name="texto_opcao_p2a_n3_c">Deixar Lucas deitado e sair para procurar os professores sem garantir que ele está bem.</string>
 
     // Nivel 3 - 2b
-    <string name="titulo_2b_niv3">Você tenta acordar Lucas sacudindo seu ombro, mas ele ainda está tonto e não consegue reagir direito. Ele começa a mexer a cabeça lentamente, mas não está totalmente consciente.</string>
+    <string name="texto_pergunta_2b_crianca_nivel_3">Você tenta acordar Lucas sacudindo seu ombro, mas ele ainda está tonto e não consegue reagir direito. Ele começa a mexer a cabeça lentamente, mas não está totalmente consciente.</string>
     <string name="pergunta_2b_niv3">O que fazer agora?</string>
-    <string name="op_A_p.2b_niv3">Colocar Lucas de lado, elevar as pernas dele e esperar pacientemente até que ele recupere a consciência.</string>
-    <string name="op_B_p.2b_niv3">Levantar Lucas rapidamente para tentar fazer ele voltar para a trilha.</string>
-    <string name="op_C_p.2b_niv3">Deixar Lucas sozinho enquanto procura os professores com mais calma.</string>
+    <string name="texto_opcao_p2b_n3_a">Colocar Lucas de lado, elevar as pernas dele e esperar pacientemente até que ele recupere a consciência.</string>
+    <string name="texto_opcao_p2b_n3_b">Levantar Lucas rapidamente para tentar fazer ele voltar para a trilha.</string>
+    <string name="texto_opcao_p2b_n3_c">Deixar Lucas sozinho enquanto procura os professores com mais calma.</string>
 
     // Nivel 3 - 2c
-    <string name="titulo_2c_niv3">Você não age de forma rápida, deixando Lucas deitado sem prestar os primeiros cuidados necessários. Ele começa a ter dificuldades respiratórias e não melhora.</string>
+    <string name="texto_pergunta_2c_crianca_nivel_3">Você não age de forma rápida, deixando Lucas deitado sem prestar os primeiros cuidados necessários. Ele começa a ter dificuldades respiratórias e não melhora.</string>
     <string name="pergunta_2c_niv3">O que fazer agora?</string>
-    <string name="op_A_p.2c_niv3">Agir rapidamente: deitar Lucas corretamente, elevar as pernas dele e garantir que ele respire bem.</string>
-    <string name="op_B_p.2c_niv3">Ficar parado, e pedir para alguém levantar Lucas.</string>
-    <string name="op_C_P.2c_niv3">Deixar Lucas deitado sem fazer nada e sair procurando ajuda.</string>
+    <string name="texto_opcao_p2c_n3_a">Agir rapidamente: deitar Lucas corretamente, elevar as pernas dele e garantir que ele respire bem.</string>
+    <string name="texto_opcao_p2c_n3_b">Ficar parado, e pedir para alguém levantar Lucas.</string>
+    <string name="texto_opcao_p2c_n3_c">Deixar Lucas deitado sem fazer nada e sair procurando ajuda.</string>
 
     // Nivel 3 - 3a
-    <string name="titulo_3a_niv3">Lucas já acordou, está mais calmo e se sente melhor após alguns minutos descansando. Ele se recupera e agradece a ajuda, e de repente quando vocês olham a frente veem finalmente os professores, enfim uma luz no fim do túnel. Agora os adultos podem os ajudar!!!.</string>
+    <string name="texto_pergunta_3a_crianca_nivel_3">Lucas já acordou, está mais calmo e se sente melhor após alguns minutos descansando. Ele se recupera e agradece a ajuda, e de repente quando vocês olham a frente veem finalmente os professores, enfim uma luz no fim do túnel. Agora os adultos podem os ajudar!!!.</string>
     <string name="pergunta_3a_niv3">Por que foi importante deitar Lucas de lado e elevar as pernas dele?</string>
-    <string name="op_A_p.3a_niv3">Porque essa posição ajuda a melhorar a circulação sanguínea e a oxigenação do cérebro.</string>
-    <string name="op_B_p.3a_niv3">Porque deitar Lucas fez ele ficar mais confortável.</string>
-    <string name="op_C_p.3a_niv3">Porque você sabia que ele ficaria bem em qualquer situação.</string>
+    <string name="texto_opcao_p3a_n3_a">Porque essa posição ajuda a melhorar a circulação sanguínea e a oxigenação do cérebro.</string>
+    <string name="texto_opcao_p3a_n3_b">Porque deitar Lucas fez ele ficar mais confortável.</string>
+    <string name="texto_opcao_p3a_n3_c">Porque você sabia que ele ficaria bem em qualquer situação.</string>
 
     // Nivel 3 - 3b
-    <string name="titulo_3b_niv3">Vocês tentam fazer Lucas se levantar logo, mas ele sente tontura e quase cai de novo. Ele está ainda um pouco fraco.</string>
+    <string name="texto_pergunta_3b_crianca_nivel_3">Vocês tentam fazer Lucas se levantar logo, mas ele sente tontura e quase cai de novo. Ele está ainda um pouco fraco.</string>
     <string name="pergunta_3b_niv3">O que é melhor fazer agora?</string>
-    <string name="op_A_p.3b_niv3">Deitar Lucas novamente, oferecer água e dar tempo para ele se recuperar completamente.</string>
-    <string name="op_B_p.3b_niv3">Forçar Lucas a seguir em frente, mesmo ele ainda se sentindo tonto.</string>
-    <string name="op_C_p.3b_niv3">Deixar Lucas em pé, sem oferecer ajuda.</string>
+    <string name="texto_opcao_p3b_n3_a">Deitar Lucas novamente, oferecer água e dar tempo para ele se recuperar completamente.</string>
+    <string name="texto_opcao_p3b_n3_b">Forçar Lucas a seguir em frente, mesmo ele ainda se sentindo tonto.</string>
+    <string name="texto_opcao_p3b_n3_c">Deixar Lucas em pé, sem oferecer ajuda.</string>
 
     // Nivel 3 - 3c
-    <string name="titulo_3c_niv3">Você deixou Lucas sozinho para procurar os professores e ele piora ainda mais enquanto você está longe.</string>
+    <string name="texto_pergunta_3c_crianca_nivel_3">Você deixou Lucas sozinho para procurar os professores e ele piora ainda mais enquanto você está longe.</string>
     <string name="pergunta_3c_niv3">O que fazer agora para corrigir?</string>
-    <string name="op_A_p.3c_niv3">Voltar imediatamente, garantir que Lucas se recupere e prestar mais atenção nele.</string>
-    <string name="op_B_p.3c_niv3">Esperar mais um pouco e tentar que ele melhore sozinho.</string>
-    <string name="op_C_p.3c_niv3">Seguir sem mais cuidados e esperar que outra pessoa o ajude.</string>
+    <string name="texto_opcao_p3c_n3_a">Voltar imediatamente, garantir que Lucas se recupere e prestar mais atenção nele.</string>
+    <string name="texto_opcao_p3c_n3_b">Esperar mais um pouco e tentar que ele melhore sozinho.</string>
+    <string name="texto_opcao_p3c_n3_c">Seguir sem mais cuidados e esperar que outra pessoa o ajude.</string>
 
 
     // Adolescente

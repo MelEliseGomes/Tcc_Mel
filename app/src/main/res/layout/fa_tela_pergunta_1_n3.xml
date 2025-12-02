@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/inicial"
-    tools:context=".ECLogicaPergunta2BN2">
+    tools:context=".FALogicaPergunta1N3">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -16,6 +16,7 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="10dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -39,21 +40,19 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout">
-
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="1.0">
 
         <TextView
-            android:id="@+id/txt_titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@color/cor_preta_2"
-            android:text="PERGUNTA 2B"
+            android:text="PERGUNTA 1"
             android:textColor="@color/cor_branca_1"
-            android:textSize="28sp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
+            android:textSize="30sp"
             tools:ignore="HardcodedText" />
 
         <TextView
@@ -64,13 +63,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp"
             android:background="@color/cor_preta_2"
-            android:text="@string/texto_pergunta_2b_crianca_nivel_2"
-            android:textColor="@color/cor_branca_1"
-            android:textSize="17sp"
             android:gravity="center_horizontal"
             android:justificationMode="inter_word"
             android:padding="10dp"
-            tools:ignore="VisualLintLongText" />
+            android:text="@string/texto_pergunta_1_crianca_nivel_3"
+            android:textColor="@color/cor_branca_1"
+            android:textSize="17sp"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/btn_a"
@@ -78,11 +77,13 @@
             android:layout_height="80dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
+            android:backgroundTint="@color/cor_branca_1"
+            android:justificationMode="inter_word"
             android:padding="10dp"
-            android:text="@string/texto_opcao_p2b_n2_a"
+            android:text="@string/texto_opcao_p1_n3_a"
             android:textColor="@color/cor_preta_1"
             android:textSize="15sp"
-            tools:ignore="TextSizeCheck" />
+            tools:ignore="DuplicateSpeakableTextCheck,TextSizeCheck" />
 
         <Button
             android:id="@+id/btn_b"
@@ -90,8 +91,10 @@
             android:layout_height="80dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
+            android:backgroundTint="@color/cor_branca_1"
+            android:justificationMode="inter_word"
             android:padding="10dp"
-            android:text="@string/texto_opcao_p2b_n2_b"
+            android:text="@string/texto_opcao_p1_n3_b"
             android:textColor="@color/cor_preta_1"
             android:textSize="15sp"
             tools:ignore="TextSizeCheck" />
@@ -102,8 +105,10 @@
             android:layout_height="80dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/forma_botao_retangular_arredondado_branco"
+            android:backgroundTint="@color/cor_branca_1"
+            android:justificationMode="inter_word"
             android:padding="10dp"
-            android:text="@string/texto_opcao_p2b_n2_c"
+            android:text="@string/texto_opcao_p1_n3_c"
             android:textColor="@color/cor_preta_1"
             android:textSize="15sp"
             tools:ignore="TextSizeCheck" />

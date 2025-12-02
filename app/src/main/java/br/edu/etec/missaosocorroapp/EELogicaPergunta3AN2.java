@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class EELogicaPergunta3AN1 extends AppCompatActivity {
+public class EELogicaPergunta3AN2 extends AppCompatActivity {
 
     Button botao_voltar, botao_alternativa_a, botao_alternativa_b, botao_alternativa_c;
 
@@ -61,7 +61,7 @@ public class EELogicaPergunta3AN1 extends AppCompatActivity {
         botao_voltar = findViewById(R.id.btn_voltar);
         botao_voltar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    EELogicaPergunta3AN1.this, BDLogicaNiveisCrianca.class
+                    EELogicaPergunta3AN2.this, BDLogicaNiveisCrianca.class
             );
             startActivity(nova_tela);
 

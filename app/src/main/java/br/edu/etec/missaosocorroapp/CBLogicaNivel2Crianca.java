@@ -42,7 +42,7 @@ public class CBLogicaNivel2Crianca extends AppCompatActivity {
 
         botao_continuar.setOnClickListener(v -> {
             Intent nova_tela = new Intent(
-                    CBLogicaNivel2Crianca.this, EALogicaPergunta1N1.class
+                    CBLogicaNivel2Crianca.this, EALogicaPergunta1N2.class
             );
             startActivity(nova_tela);
 
