@@ -10,30 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MissaoSocorroAPP">
-        <activity
-            android:name=".BBLogica"
-            android:exported="false" />
-        <activity
-            android:name=".AALogica"
-            android:exported="false" />
-        <activity
-            android:name=".ZLogica"
-            android:exported="false" />
-        <activity
-            android:name=".YLogica"
-            android:exported="false" />
-        <activity
-            android:name=".XLogica"
-            android:exported="false" />
-        <activity
-            android:name=".WLogica"
-            android:exported="false" />
-        <activity
-            android:name=".VLogica"
-            android:exported="false" />
-        <activity
-            android:name=".EGLogicaPergunta3CN2"
-            android:exported="false" />
+
+
+
         <activity
             android:name=".ABLogicaPontuacao"
             android:exported="false" />
@@ -42,6 +21,36 @@
             android:exported="false" />
         <activity
             android:name=".ZZLogicaAdolescente"
+            android:exported="false" />
+
+
+
+        <activity
+            android:name=".FGLogicaPergunta3CN3"
+            android:exported="false" />
+        <activity
+            android:name=".FFLogicaPergunta3BN3"
+            android:exported="false" />
+        <activity
+            android:name=".FELogicaPergunta3AN3"
+            android:exported="false" />
+        <activity
+            android:name=".FDLogicaPergunta2CN3"
+            android:exported="false" />
+        <activity
+            android:name=".FCLogicaPergunta2BN3"
+            android:exported="false" />
+        <activity
+            android:name=".FBLogicaPergunta2AN3"
+            android:exported="false" />
+        <activity
+            android:name=".FALogicaPergunta1N3"
+            android:exported="false" />
+
+
+
+        <activity
+            android:name=".EGLogicaPergunta3CN2"
             android:exported="false" />
         <activity
             android:name=".EFLogicaPergunta3BN2"
@@ -61,6 +70,9 @@
         <activity
             android:name=".EALogicaPergunta1N2"
             android:exported="false" />
+
+
+
         <activity
             android:name=".DGLogicaPergunta3CN1"
             android:exported="false" />
@@ -82,6 +94,9 @@
         <activity
             android:name=".DALogicaPergunta1N1"
             android:exported="false" />
+
+
+
         <activity
             android:name=".CCLogicaNivel3Crianca"
             android:exported="false" />
@@ -91,6 +106,9 @@
         <activity
             android:name=".CALogicaNivel1Crianca"
             android:exported="false" />
+
+
+
         <activity
             android:name=".BDLogicaNiveisCrianca"
             android:exported="false" />
