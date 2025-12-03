@@ -23,7 +23,7 @@ public class GFLogicaPergunta3BN1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.df_tela_pergunta_3b_n1);
+        setContentView(R.layout.gf_tela_pergunta_3b_n1);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());

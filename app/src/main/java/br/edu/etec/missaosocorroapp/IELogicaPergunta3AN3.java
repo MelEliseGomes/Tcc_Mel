@@ -23,7 +23,7 @@ public class IELogicaPergunta3AN3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.ee_tela_pergunta_3a_n2);
+        setContentView(R.layout.ie_tela_pergunta_3a_n2);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());

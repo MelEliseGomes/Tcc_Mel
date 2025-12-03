@@ -23,7 +23,7 @@ public class HCLogicaPergunta2BN2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.ec_tela_pergunta_2b_n2);
+        setContentView(R.layout.hc_tela_pergunta_2b_n2);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());

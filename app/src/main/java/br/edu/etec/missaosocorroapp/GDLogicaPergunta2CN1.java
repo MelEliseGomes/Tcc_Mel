@@ -23,7 +23,7 @@ public class GDLogicaPergunta2CN1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.dd_tela_pergunta_2c_n1);
+        setContentView(R.layout.gd_tela_pergunta_2c_n1);
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
